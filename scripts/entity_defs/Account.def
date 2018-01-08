@@ -1,0 +1,52 @@
+<root>
+	<Properties>
+		<characters>
+			<Type>	ROLE_INFO_LIST	</Type>
+			<Flags>	BASE </Flags>
+			<Persistent> true </Persistent>
+		</characters>
+	</Properties>
+
+	<ClientMethods>
+		<recRoleList>
+			<Arg> UINT8 </Arg>
+			<Arg> ROLE_INFO_LIST </Arg>
+		</recRoleList>
+
+		<recCreateRole>
+			<Arg> UINT8 </Arg>
+			<Arg> ROLE_INFO </Arg>
+		</recCreateRole>
+
+		<recRemoveRole>
+			<Arg> DBID </Arg>
+		</recRemoveRole>
+		
+	</ClientMethods>
+
+	<BaseMethods>
+		<reqRoleList>
+			<Exposed/>
+		</reqRoleList>
+
+		<reqCreateRole>
+			<Exposed/>
+			<Arg> UNICODE </Arg>
+			<Arg> UINT8 </Arg>
+		</reqCreateRole>
+
+		<reqRemoveRole>
+			<Exposed/>
+			<Arg> DBID </Arg>
+		</reqRemoveRole>
+
+		<reqEnterGame>
+			<Exposed/>
+			<Arg> DBID </Arg>
+		</reqEnterGame>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>

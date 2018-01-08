@@ -1,0 +1,31 @@
+<root>
+	<Properties>
+		<die>	
+			<Type>			BOOL					</Type>
+			<Flags>			ALL_CLIENTS				</Flags>
+			<Default>		0						</Default>
+		</die>
+
+		<run>	
+			<Type>			BOOL					</Type>
+			<Flags>			ALL_CLIENTS				</Flags>
+			<Default>		0						</Default>
+		</run>
+
+		<shot>
+			<Type>			INT32					</Type>
+			<Flags>			ALL_CLIENTS				</Flags>
+			<Default>		0						</Default>
+		</shot>
+	</Properties>
+
+	<CellMethods>
+		<reqSyncAniState>
+			<Exposed/>
+			<Arg>			ASHE_ANI_INFO			</Arg>
+		</reqSyncAniState>		
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+</root>

@@ -1,0 +1,15 @@
+<root>
+	<Properties>
+		<controllId>
+			<Type>			ENTITY_ID		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0				</Default>
+		</controllId>
+	</Properties>
+
+	<CellMethods>
+		<controllByClient>
+			<Arg>		MAILBOX		</Arg>
+		</controllByClient>
+	</CellMethods>
+</root>

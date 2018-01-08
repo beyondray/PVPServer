@@ -1,0 +1,98 @@
+<root>
+	<SHOTTYPE>     		UINT32		</SHOTTYPE>
+	<NAME>  			UNICODE		</NAME>
+	<OBJECT_ID>			INT32		</OBJECT_ID>
+	<BOOL>				UINT8		</BOOL>
+	<CONTROLLER_ID>		INT32		</CONTROLLER_ID>
+	<EXPERIENCE>		INT32		</EXPERIENCE>
+	<ITEM_ID>			INT32		</ITEM_ID>
+	<SKILLID>			INT32		</SKILLID>
+	<QUESTID>			INT32		</QUESTID>
+	<DBID>				UINT64		</DBID>
+	<UID>				UINT64		</UID>
+	<UID1>				PYTHON		</UID1>	
+	<ENTITY_ID>			INT32		</ENTITY_ID>
+	<ENTITY_NO>			UINT32		</ENTITY_NO>
+	<SPACE_ID>			UINT32		</SPACE_ID>
+	<POSITION3D>		VECTOR3		</POSITION3D>
+	<DIRECTION3D>		VECTOR3		</DIRECTION3D>
+	<ENTITY_UTYPE>		UINT32		</ENTITY_UTYPE>
+
+	<ATTACK_TYPE>		INT32		</ATTACK_TYPE>
+	<ATTACK_VALUE> 		FLOAT		</ATTACK_VALUE>
+	<CURE_TYPE> 		INT32		</CURE_TYPE>
+	<CURE_VALUE> 		FLOAT		</CURE_VALUE>
+	<HP>				FLOAT		</HP>
+	<MP>				FLOAT		</MP>
+	<SPEED> 			FLOAT		</SPEED>
+	
+	<ENTITYID_LIST> ARRAY <of> ENTITY_ID </of>	</ENTITYID_LIST>
+	<ROLE_INFO> FIXED_DICT
+		<implementedBy>RoleInfos.role_info_inst</implementedBy>	
+		<Properties>
+			<dbid>
+				<Type> DBID </Type>
+			</dbid>
+
+			<name>
+			      <Type> UNICODE </Type>
+			</name>
+				
+			<career>
+			      <Type> UINT8	</Type>
+			</career>
+
+			<level>
+				<Type> UINT16 </Type>
+			</level>
+		</Properties>
+	</ROLE_INFO>
+
+	<ROLE_INFO_LIST> FIXED_DICT
+		<implementedBy>RoleInfos.role_info_list_inst</implementedBy>
+		<Properties>
+			<value>
+				<Type> ARRAY
+				 	<of> ROLE_INFO </of>
+				</Type>
+			</value>
+		</Properties>
+	</ROLE_INFO_LIST>
+
+	<ASHE_ANI_INFO> FIXED_DICT
+		<Properties>			
+			<die>
+			     <Type> BOOL </Type>
+			</die>
+			
+			<run>
+			     <Type> BOOL </Type>
+			</run>
+
+			<shot>
+				<Type> INT32 </Type>
+			</shot>
+		</Properties>
+	</ASHE_ANI_INFO>		
+
+
+	<MOVEOBJ_INFO> FIXED_DICT
+		<Properties>
+			<name>
+			      <Type> UNICODE </Type>
+			</name>
+				
+			<pos>
+			      <Type> POSITION3D	</Type>
+			</pos>
+
+			<dir>
+				<Type> DIRECTION3D </Type>
+			</dir>
+		</Properties>
+	</MOVEOBJ_INFO>
+
+	<MOVEOBJ_INFO_LIST> ARRAY
+		<of> MOVEOBJ_INFO </of>
+	</MOVEOBJ_INFO_LIST>
+</root>

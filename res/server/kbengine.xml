@@ -1,0 +1,310 @@
+<root>
+	<!--
+		服务端配置({assets}/res/server/kbengine.xml)
+
+		如果你需要改变引擎设置, 请在({assets}/res/server/kbengine.xml)中覆盖kbe/res/server/kbengine_defs.xml的对应参数来修改, 
+		这样的好处是不会破坏引擎的默认设置，在你更新引擎时也不会产生冲突，以及在多个逻辑项目时不会影响到其他的项目设置。
+		详细说明请参考：http://kbengine.org/cn/docs/configuration/kbengine.html
+	-->
+	<gameUpdateHertz> 50 </gameUpdateHertz>
+	
+	<!-- 每秒发送到客户端的带宽限制(bit) 
+		(The data sent to the client, the second bandwidth limit (bit))
+	-->
+	<bitsPerSecondToClient> 8000000 </bitsPerSecondToClient>				<!-- Type: Integer -->
+
+	<trace_packet>
+		<debug_type> 0 </debug_type>
+	</trace_packet>
+	
+	<publish>
+		<!-- 发布状态, 可在脚本中获取该值。 KBEngine.publish()
+			(apps released state, This value can be obtained in the script. KBEngine.publish())
+			Type: Integer8
+			0 : debug
+			1 : release
+			其他自定义(Other custom)
+		-->
+		<state> 0 </state>
+
+		<!-- 脚本层发布的版本号
+			(Script layer released version number)
+		 -->
+		<script_version> 0.1.0 </script_version>
+	</publish>
+	
+	<channelCommon> 
+		<!-- 最后一次通信时间超过此时间则被认定为超时通道， 服务器将踢出该通道 
+			(If long (configurable value) no communication, channel will be kicked out of the server.)
+		-->
+		<timeout> 
+			<internal> 60.0 </internal>
+			<external> 60.0 </external>
+		</timeout>
+		
+		<!-- socket读写缓冲大小 
+			(socket send/recv buffer size)
+		-->
+		<readBufferSize> 
+			<internal>	1677721600	</internal> 			<!-- 16M -->
+			<external>	0			</external>				<!-- 系统默认(system default) -->
+		</readBufferSize>
+		<writeBufferSize> 
+			<internal>	1677721600	</internal>				<!-- 16M -->
+			<external>	0			</external>				<!-- 系统默认(system default) -->
+		</writeBufferSize>
+		
+		<!-- 发送与接收窗口溢出值，0无限制
+			(the value of the send/receive window overflow, 0 is unlimited)
+		-->
+		<windowOverflow>
+			<send>
+				<!-- 一个tick内发送的字节数溢出限制 
+					(A tick, the value of the sent window overflow, 0 is unlimited)
+				-->
+				<tickSentBytes>
+					<internal>	0			</internal>
+					<external>	0			</external>
+				</tickSentBytes>
+				<messages>
+					<critical>	0			</critical>
+					<internal>	0			</internal>
+					<external>	0			</external>
+				</messages>
+				<bytes>
+					<internal>	0			</internal>
+					<external>	0			</external>
+				</bytes>
+			</send>
+			
+			<receive>
+				<messages>
+					<critical>	0			</critical>
+					<internal> 	0			</internal>
+					<external>	0			</external>
+				</messages>
+				<bytes>
+					<internal>	0			</internal>
+					<external>	0			</external>
+				</bytes>
+			</receive>
+		</windowOverflow>
+		
+		<!-- 加密通信，只对外部通道
+			(Encrypted communication, channel-external only)
+			
+			可选择的加密方式(Optional encryption):
+				0: 无加密(No Encryption)
+				1: Blowfish
+				2: RSA (res\key\kbengine_private.key)
+		 -->
+		<encrypt_type> 1 </encrypt_type>
+	</channelCommon> 
+
+	<!-- Email服务, 提供账号验证， 密码找回等等。
+		(Email services, providing the account verification, password recovery, etc.)
+	-->
+	<email_service_config>server/email.xml</email_service_config>
+
+	<interfaces>
+		<!-- 脚本入口模块， 相当于main函数 
+			(Entry module, like the main-function)
+		-->
+		<entryScriptFile> kbemain </entryScriptFile>
+		
+		<!-- interfaces的地址，多组游戏服务端可以共用一个interfaces
+			(interfaces address, multiple gameserver can share a interfaces)
+		-->
+		<host> 127.0.0.1 </host>
+		<port> 30099 	</port>
+		
+		<!-- 订单超时(秒) 
+			(Orders timeout(seconds))
+		-->
+		<orders_timeout> 3600 	</orders_timeout>
+		
+		
+		<!-- listen监听队列最大值
+		    (listen: Maximum listen queue)
+		 -->
+		<SOMAXCONN> 128 </SOMAXCONN>
+		
+		<!-- Telnet服务, 如果端口被占用则向后尝试33001.. 
+			(Telnet service, if the port is occupied backwards to try 33001)
+		-->
+		<telnet_service>
+			<port> 33000 </port>
+			<password> kbe </password>
+			<!-- 命令默认层 
+				(layer of default the command)
+			-->
+			<default_layer> python </default_layer>
+		</telnet_service>
+	</interfaces>
+
+	<!-- defined => kbe/res/server/kbengine_defs.xml -->
+	<dbmgr>
+		<account_system>
+			<!-- 账号找回密码相关
+				(Account reset password)
+			-->
+			<account_resetPassword>
+				<!-- 是否开放重设密码
+					(Whether open reset password)
+				-->
+				<enable>	true	</enable>
+			</account_resetPassword>
+			
+			<!-- 账号注册相关
+				(Account registration)
+			-->
+			<account_registration> 
+				<!-- 是否开放注册 
+					(Whether open registration)
+				-->
+				<enable>	true	</enable>
+				
+				<!-- 登录合法时游戏数据库找不到游戏账号则自动创建 
+					(When logged in, the game database can not find the game account is automatically created)
+				-->
+				<loginAutoCreate> false </loginAutoCreate>
+			</account_registration>
+		</account_system>
+		
+		<!-- 数据库接口 
+			(database interfaces)
+		-->
+		<databaseInterfaces>
+			<!-- 数据库接口名称 （可以定义多个不同的接口，但至少存在一个default）
+				（Database interface name)
+			-->
+			<default>
+				<!-- 如果为true，则为纯净的数据库，引擎不创建实体表 
+					（If true is pure database, engine does not create the entity table)
+				-->
+				<pure> false </pure>
+
+				<!-- 数据库类型 （mysql、redis）
+					（Database type(mysql, redis))
+				-->
+				<type> mysql </type>											<!-- Type: String -->
+
+				<!-- 数据库地址 
+					（Database address)
+				-->
+				<host> 127.0.0.1 </host>										<!-- Type: String -->
+				<port> 3306 </port>												<!-- Type: Integer -->
+
+				<!-- 数据库账号验证 
+					（Database auth)
+				-->
+				<auth>  
+					<username> beyondray </username>									<!-- Type: String -->
+					<password> beyondray </password>									<!-- Type: String -->
+					
+					<!-- 为true则表示password是加密(rsa)的, 可防止明文配置 
+						(is true, password is RSA)
+					-->
+					<encrypt> true </encrypt>
+				</auth>
+
+				<!-- 数据库名称 
+					(Database name)
+				-->
+				<databaseName> new_game </databaseName> 								<!-- Type: String -->
+				
+				<!-- 数据库允许的连接数 
+					(Number of connections allowed by the database)
+				-->
+				<numConnections> 5 </numConnections>							<!-- Type: Integer -->
+				
+				<!-- 字符编码类型 
+					(Character encoding type)
+				-->
+				<unicodeString>
+					<characterSet> utf8 </characterSet> 						<!-- Type: String -->
+					<collation> utf8_bin </collation> 							<!-- Type: String -->
+				</unicodeString>
+			</default>
+		</databaseInterfaces>
+	</dbmgr>
+	
+	<baseapp>
+		<backupPeriod> 500 </backupPeriod>
+
+		<!-- 强制指定外部IP地址或者域名，在某些网络环境下，可能会使用端口映射的方式来访问局域网内部的KBE服务器，那么KBE在当前
+			的机器上获得的外部地址是局域网地址，此时某些功能将会不正常。例如：账号激活邮件中给出的回调地址, 登录baseapp。
+			注意：服务端并不会检查这个地址的可用性，因为无法检查。
+			(Forced to specify an external IP-address or Domain-name, In some server environment, May use the port mapping to access KBE,
+			So KBE on current machines on the external IP address may be a LAN IP address, Then some functions will not normal.
+			For example: account activation email address given callback.
+			Note: the availability of server does not check the address, because cannot check)
+		-->
+		<externalAddress>  112.15.173.240 </externalAddress>							<!-- Type: String -->
+	</baseapp>
+
+	<loginapp>
+		<!-- 强制指定外部IP地址或者域名，在某些网络环境下，可能会使用端口映射的方式来访问局域网内部的KBE服务器，那么KBE在当前
+			的机器上获得的外部地址是局域网地址，此时某些功能将会不正常。例如：账号激活邮件中给出的回调地址, 登录baseapp。
+			注意：服务端并不会检查这个地址的可用性，因为无法检查。
+			(Forced to specify an external IP-address or Domain-name, In some server environment, May use the port mapping to access KBE,
+			So KBE on current machines on the external IP address may be a LAN IP address, Then some functions will not normal.
+			For example: account activation email address given callback.
+			Note: the availability of server does not check the address, because cannot check)
+		-->
+		<externalAddress>  112.15.173.240 </externalAddress>							<!-- Type: String -->
+	</loginapp>		
+
+	<bots>
+		<!-- 默认启动进程后自动添加这么多个机器人 
+			(After starting the process, automatically add some robots)
+			totalCount	： 添加总数量			(Add the total-number)
+			tickTime	： 每次添加所用时间(s)	(Interval time-secs)
+			tickCount	： 每次添加数量			(Each time you add the number of)
+		-->
+		<defaultAddBots> 
+			<totalCount> 3  </totalCount>								<!-- Type: Integer -->
+			<tickTime> 0.1  </tickTime>									<!-- Type: Float -->
+			<tickCount> 3  </tickCount>									<!-- Type: Integer -->
+		</defaultAddBots>
+
+		<!-- 机器人账号相关 
+			(about bots-accounts)
+		-->
+		<account_infos>
+			<!-- 机器人账号名称的前缀 
+				(The account name prefix)
+			-->
+			<account_name_prefix>	user_	</account_name_prefix>
+			
+			<!-- 机器人账号名称的后缀递增, 0使用随机数递增， 否则按照填写的数递增 
+				注意：想让机器人每次登陆使用相同的账号请设置固定的bots程序启动时的cid参数，具体参考服务器启动脚本，机器人账号由"前缀+cid+后缀组成"。
+				(The account name suffix, 0 is the use of random number, Otherwise, use account_name_suffix_inc and increasing.)
+			-->
+			<account_name_suffix_inc>	1	</account_name_suffix_inc><!-- Type: Integer -->
+		</account_infos>
+	</bots>
+
+
+	<cellapp>
+		<coordinate_system> 
+			<enable> true </enable>
+			
+			<!-- 是否管理y轴? 注：管理y轴，则AOI、Trap等功能有了高度，当space内的实体较少时比较好用，
+				否则y轴的管理会带来一些消耗 
+				(is maintenance Y axis? Note: Management y axis, AOI、Trap and other functions with the height,
+				When the entity space within little more useful when, Otherwise, 
+				the management of the y-axis will produce some consumption
+				-->
+			<rangemgr_y> false </rangemgr_y>
+			
+			<!-- 实体位置停止发生改变后，引擎继续向客户端更新tick次的位置信息，为0则总是更新。 
+				(After stopping to change the position/direction, 
+				the engine continued to update client information(position/direction) ticks
+				If 0, then always update)
+			-->
+			<entity_posdir_additional_updates> 2 </entity_posdir_additional_updates>
+		</coordinate_system>
+	</cellapp>
+
+</root>

@@ -1,0 +1,66 @@
+<root>
+	// 易变属性同步控制
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch/>
+		<roll> 10 </roll>
+
+	</Volatile>
+	
+	<Properties>
+		<kill>
+			<Type>			BOOL			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0				</Default>
+		</kill>
+			
+		<bornTime>
+			<Type>			DOUBLE			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0.0				</Default>
+		</bornTime>
+
+		<moveSpeed>
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		20				</Default>
+		</moveSpeed>
+
+		<resName>
+			<Type>			UNICODE			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		"Default"		</Default>
+		</resName>
+
+		<shotType>
+			<Type>			SHOTTYPE		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		3				</Default>
+		</shotType>
+
+		<masterId>
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0				</Default>
+		</masterId>
+	</Properties>
+
+	<Interfaces>
+		<Interface>			ComBehavior 	</Interface>
+	</Interfaces>
+
+	<ClientMethods>
+
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<reqDestroySelf>
+			<Exposed/>
+		</reqDestroySelf>
+	</CellMethods>
+
+</root>

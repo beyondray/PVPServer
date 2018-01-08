@@ -1,0 +1,33 @@
+<root>
+	
+	<Properties>
+	</Properties>
+
+	<Interfaces>
+		<Interface>			ComBehavior 	</Interface>
+	</Interfaces>
+	
+	<ClientMethods>
+		<recMoveObjSync>
+			<Arg> MAILBOX </Arg>
+		</recMoveObjSync>
+	</ClientMethods>
+
+	<BaseMethods>
+		<reqMoveObjSync>
+			<Exposed/>
+			<Arg> NAME </Arg>
+			<Arg> POSITION3D </Arg>
+			<Arg> DIRECTION3D </Arg>
+		</reqMoveObjSync>
+
+		<reqMoveObjsSync>
+			<Exposed/>
+			<Arg> MOVEOBJ_INFO_LIST </Arg>
+		</reqMoveObjsSync>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>

@@ -1,0 +1,62 @@
+<root>
+	<Properties>
+		<moveSpeed>
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		7				</Default>
+		</moveSpeed>
+
+		<HP>
+			<Type>			FLOAT					</Type> 
+			<Flags>			ALL_CLIENTS				</Flags>
+			<Persistent>	true					</Persistent> 
+			<Default>		1000					</Default>
+		</HP>	
+
+		<HP_Max>
+			<Type>			FLOAT					</Type> 
+			<Flags>			ALL_CLIENTS				</Flags>
+			<Persistent>	true					</Persistent> 
+			<Default>		1000					</Default>
+		</HP_Max>
+	</Properties>
+
+	<ClientMethods>
+		<recAttack>
+			<Arg> ATTACK_TYPE 	</Arg>
+			<Arg> ATTACK_VALUE 	</Arg>
+		</recAttack>
+
+		<recCure>
+			<Arg> CURE_TYPE		</Arg>
+			<Arg> CURE_VALUE	</Arg>
+		</recCure>
+
+		<recSpeedUp>
+			<Arg> 	SPEED		</Arg>	
+		</recSpeedUp>
+	</ClientMethods>
+
+	<CellMethods>
+		<reqBeAttack>
+			<Exposed/>
+			<Arg> ATTACK_TYPE 	</Arg>
+			<Arg> ATTACK_VALUE 	</Arg>
+		</reqBeAttack>
+
+		<reqBeCure>
+			<Exposed/>
+			<Arg> CURE_TYPE		</Arg>
+			<Arg> CURE_VALUE	</Arg>
+		</reqBeCure>
+
+		<reqSpeedUp>
+			<Exposed/>
+			<Arg> 	SPEED		</Arg>	
+		</reqSpeedUp>
+
+		<reqRelive>
+			<Exposed/>
+		</reqRelive>
+	</CellMethods>
+</root>

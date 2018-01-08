@@ -1,0 +1,50 @@
+<root>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Interfaces>
+		<Interface>			ComBehavior		</Interface>
+	</Interfaces>
+
+	<Properties>
+
+	</Properties>
+
+	<BaseMethods>
+		<loginToSpace>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		PYTHON		</Arg>
+		</loginToSpace>
+
+		<logoutSpace>
+			<Arg>		ENTITY_ID	</Arg>
+		</logoutSpace>
+
+		<onEnter>
+			<Arg>		MAILBOX		</Arg>
+		</onEnter>
+
+		<onLeave>
+			<Arg>		ENTITY_ID	</Arg>
+		</onLeave>
+
+		<controllObjByRole>
+			<Arg>		MAILBOX		</Arg>
+			<Arg>		ENTITY_ID	</Arg>
+		</controllObjByRole>
+	</BaseMethods>
+
+	<CellMethods>
+		<onEnter>
+			<Arg>		MAILBOX		</Arg>
+		</onEnter>
+
+		<onLeave>
+			<Arg>		ENTITY_ID	</Arg>
+		</onLeave>
+	</CellMethods>
+</root>
+

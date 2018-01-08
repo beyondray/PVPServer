@@ -1,0 +1,49 @@
+<root>
+	// 易变属性同步控制
+	<Volatile>
+		// 这样设置则总是同步到客户端
+		<position/>
+		
+		<yaw/>
+
+		<pitch/>
+		
+		// 距离10米及以内同步到客户端
+		<roll> 10 </roll>
+
+	</Volatile>
+	
+	<Properties>
+		<name>
+			<Type>			UNICODE			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		name			</Default>
+		</name>
+
+		<moveSpeed>
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		7				</Default>
+		</moveSpeed>
+	</Properties>
+
+	<Interfaces>
+		<Interface>			ComBehavior		</Interface>
+	</Interfaces>
+
+	<ClientMethods>
+
+	</ClientMethods>
+
+	<BaseMethods>
+
+	</BaseMethods>
+
+	<CellMethods>
+		<reqControll>
+			<Exposed/>
+			<Arg>		ENTITY_ID		</Arg>
+		</reqControll>
+	</CellMethods>
+
+</root>

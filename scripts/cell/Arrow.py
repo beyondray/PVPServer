@@ -7,6 +7,7 @@ class Arrow(KBEngine.Entity, ComBehavior):
 	def __init__(self):
 		KBEngine.Entity.__init__(self)
 		ComBehavior.__init__(self)
+		self.addTimer(3.2, 0, TIMER_TYPE_DESTROY)
 
 	#--------------------------------------------------------------------------------------------
 	#                              Callbacks

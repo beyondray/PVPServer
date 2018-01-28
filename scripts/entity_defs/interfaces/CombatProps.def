@@ -19,6 +19,34 @@
 			<Persistent>	true					</Persistent> 
 			<Default>		1000					</Default>
 		</HP_Max>
+
+		<MP>
+			<Type>			FLOAT					</Type> 
+			<Flags>			CELL_PUBLIC_AND_OWN 	</Flags>
+			<Persistent>	true					</Persistent> 
+			<Default>		1000					</Default>
+		</MP>
+
+		<MP_Max>
+			<Type>			FLOAT					</Type> 
+			<Flags>			CELL_PUBLIC_AND_OWN 	</Flags>
+			<Persistent>	true					</Persistent> 
+			<Default>		1000					</Default>
+		</MP_Max>
+
+		<PP>
+			<Type>			FLOAT					</Type> 
+			<Flags>			CELL_PUBLIC_AND_OWN 	</Flags>
+			<Persistent>	true					</Persistent> 
+			<Default>		1000					</Default>		
+		</PP>
+
+		<PP_Max>
+			<Type>			FLOAT					</Type> 
+			<Flags>			CELL_PUBLIC_AND_OWN 	</Flags>
+			<Persistent>	true					</Persistent> 
+			<Default>		1000					</Default>		
+		</PP_Max>
 	</Properties>
 
 	<ClientMethods>
@@ -35,6 +63,14 @@
 		<recSpeedUp>
 			<Arg> 	SPEED		</Arg>	
 		</recSpeedUp>
+
+		<recRelief>
+			<Arg> 	RELIEF_TYPE </Arg>
+		</recRelief>
+
+		<recRelive>
+			<Arg> POSITION3D	</Arg>
+		</recRelive>
 	</ClientMethods>
 
 	<CellMethods>
@@ -50,9 +86,15 @@
 			<Arg> CURE_VALUE	</Arg>
 		</reqBeCure>
 
+		<reqUseMP>
+			<Exposed/>
+			<Arg> 	MP 			</Arg>
+		</reqUseMP>
+
 		<reqSpeedUp>
 			<Exposed/>
 			<Arg> 	SPEED		</Arg>	
+			<Arg> 	PP 			</Arg>
 		</reqSpeedUp>
 
 		<reqRelive>

@@ -21,6 +21,12 @@
 			<Default>		0.0				</Default>
 		</bornTime>
 
+		<damage>
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		20				</Default>		
+		</damage>
+		
 		<moveSpeed>
 			<Type>			FLOAT			</Type>
 			<Flags>			ALL_CLIENTS		</Flags>
@@ -33,11 +39,11 @@
 			<Default>		"Default"		</Default>
 		</resName>
 
-		<shotType>
-			<Type>			SHOTTYPE		</Type>
+		<attackType>
+			<Type>			ATTACK_TYPE		</Type>
 			<Flags>			ALL_CLIENTS		</Flags>
-			<Default>		3				</Default>
-		</shotType>
+			<Default>		0				</Default>
+		</attackType>
 
 		<masterId>
 			<Type>			INT32			</Type>

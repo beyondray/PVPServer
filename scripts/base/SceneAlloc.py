@@ -9,9 +9,6 @@ class SceneAlloc(KBEngine.Proxy, ComBehavior):
 		KBEngine.Proxy.__init__(self)
 		ComBehavior.__init__(self)
 
-		#KBEngine.globalData['SceneAlloc'] = self
-		#self.createCellEntity(self.spaceCell)
-
 	#--------------------------------------------------------------------------------------------
 	#                              Callbacks
 	#--------------------------------------------------------------------------------------------

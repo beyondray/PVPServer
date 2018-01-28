@@ -77,14 +77,15 @@ class Role(KBEngine.Proxy, ComBehavior):
 	#--------------------------------------------------------------------------------------------
 	#                              req and rec
 	#--------------------------------------------------------------------------------------------
-	def reqShot(self, masterId, resName, shotType, pos, dir):
+	def reqShot(self, masterId, resName, attackType, atk, pos, dir):
 		params = {
 			"position"	: 	pos,
 			"direction"	: 	dir,
 			"spaceCell"	: 	KBEngine.globalData["Space"].cell,
 			"masterId"	: 	masterId,
 			"resName"	:	resName,
-			"shotType"	:	shotType,
+			"attackType":	attackType,
+			"damage"	: 	atk,
 			"bornTime"	:	time.time(),
 			"baseRole"	: 	self,
 		}
@@ -93,9 +94,13 @@ class Role(KBEngine.Proxy, ComBehavior):
 			for i in range(5): 
 				KBEngine.createBaseLocally("Arrow", params)
 
+		def strongShot() :
+			KBEngine.createBaseLocally("Arrow", params)
+
 		result = {
-			ShotType.SHOT_SPREAD : spreadShot
-		}[shotType]()
+			AttackType.Strong : strongShot,
+			AttackType.Frozen : spreadShot,
+		}[attackType]()
 
 
 

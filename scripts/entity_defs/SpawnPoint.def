@@ -26,7 +26,6 @@
 
 	<CellMethods>
 		<onEntityDestroyed>
-			<Arg>			ENTITY_NO		</Arg>
 		</onEntityDestroyed>
 	</CellMethods>
 </root>

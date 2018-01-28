@@ -3,6 +3,7 @@ import KBEngine
 import time
 import Math, MathEx
 from KBEDebug import *
+from GlobeConst import *
 from RoleInfos import TRoleInfos
 
 class Account(KBEngine.Proxy):
@@ -71,18 +72,26 @@ class Account(KBEngine.Proxy):
 			self.client.recRoleList(0, self.characters)	
 
 	def reqCreateRole(self, name, career):
-		params = {
+		self.params = {
 			"name" : name,
 			"career" : career,
 			"level" : 1,
 		}
+		KBEngine.executeRawDatabaseCommand("select * from tbl_Role where sm_name='%s'" % name, self.sqlcallback)
 
-		role = KBEngine.createBaseLocally("Role", params)
-		center = Math.Vector3(101.4286, 0.78, 18.37545)
-		radius = 10.0
-		role.cellData["position"] = MathEx.calcRandomPos(center, radius)
-		if role :
-			role.writeToDB(self._onDatabaseSaved)
+	def sqlcallback(self, result, rows, insertid, error):
+		#success
+		if len(result) == 0:
+			role = KBEngine.createBaseLocally("Role", self.params)
+			role.cellData["position"] = MathEx.calcRandomPos(Relive_Center, Relive_Radius)
+			if role :
+				role.writeToDB(self._onDatabaseSaved)
+		#fail
+		else:
+			self.params["dbid"] = 0
+			info = TRoleInfos().createFromDict(self.params)		
+			if self.client :
+				self.client.recCreateRole(1, info)
 
 	def _onDatabaseSaved(self, success, role):
 		if success :

@@ -35,7 +35,7 @@
 	<Interfaces>
 		<Interface>			ComBehavior 	</Interface>
 		<Interface>			CombatProps 	</Interface>
-		<Interface>			AniState 	</Interface>
+		<Interface>			AniState 		</Interface>
 	</Interfaces>
 
 	<ClientMethods>
@@ -48,11 +48,12 @@
 	<BaseMethods>
 		<reqShot>
 			<Exposed/>
-			<Arg> INT32		</Arg>
-			<Arg> UNICODE	</Arg>
-			<Arg> SHOTTYPE	</Arg>
-			<Arg> POSITION3D </Arg>
-			<Arg> DIRECTION3D </Arg>
+			<Arg> INT32			</Arg>
+			<Arg> UNICODE		</Arg>
+			<Arg> ATTACK_TYPE	</Arg>
+			<Arg> FLOAT			</Arg>
+			<Arg> POSITION3D 	</Arg>
+			<Arg> DIRECTION3D 	</Arg>
 		</reqShot>
 	</BaseMethods>
 

@@ -240,7 +240,7 @@
 			For example: account activation email address given callback.
 			Note: the availability of server does not check the address, because cannot check)
 		-->
-		<externalAddress>  112.15.173.240 </externalAddress>							<!-- Type: String -->
+		<externalAddress>   </externalAddress>							<!-- Type: String -->
 	</baseapp>
 
 	<loginapp>
@@ -252,7 +252,7 @@
 			For example: account activation email address given callback.
 			Note: the availability of server does not check the address, because cannot check)
 		-->
-		<externalAddress>  112.15.173.240 </externalAddress>							<!-- Type: String -->
+		<externalAddress>   </externalAddress>							<!-- Type: String -->
 	</loginapp>		
 
 	<bots>

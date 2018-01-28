@@ -6,8 +6,8 @@ class Enum(tuple):
 	__getattr__ = tuple.index
  
 
-ShotType = Enum(['SHOT_ARC', 'SHOT_AUTO', 'SHOT_SPREAD', 'SHOT_LASER'])
-
-DamgeType = Enum(['Normal', 'Frozen'])
+AttackType = Enum(['Normal', 'Frozen', 'Strong'])
 
 CureType = Enum(['Normal', 'Bless'])
+
+ReliefType = Enum(['Frozen', 'SpeedUp', 'Sleep'])

@@ -15,7 +15,7 @@ class AniState:
 		if self.run != aniInfoDic["run"]:
 			self.run = aniInfoDic["run"]
 
-		if self.shot != aniInfoDic["shot"]:
-			self.shot = aniInfoDic["shot"]
+		if self.atk != aniInfoDic["atk"]:
+			self.atk = aniInfoDic["atk"]
 
 		DEBUG_MSG("%s[%i]::reqSyncAniState: %s" % (self.getClassName(), self.id, aniInfoDic))

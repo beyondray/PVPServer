@@ -29,7 +29,7 @@ class Role(KBEngine.Entity,
 		"""
 		CombatProps.onTimer(self, tid, userArg)
 
-		DEBUG_MSG("%s::onTimer: %i, tid:%i, arg:%i" % (self.getClassName(), self.id, tid, userArg))
+		#DEBUG_MSG("%s::onTimer: %i, tid:%i, arg:%i" % (self.getClassName(), self.id, tid, userArg))
 
 
 

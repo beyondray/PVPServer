@@ -12,11 +12,11 @@
 			<Default>		0						</Default>
 		</run>
 
-		<shot>
+		<atk>
 			<Type>			INT32					</Type>
 			<Flags>			ALL_CLIENTS				</Flags>
 			<Default>		0						</Default>
-		</shot>
+		</atk>
 	</Properties>
 
 	<CellMethods>

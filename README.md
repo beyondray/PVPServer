@@ -1,32 +1,28 @@
-这是一个KBEngine服务端资产库
-========
-
-##启动服务端
-
-使用固定参数来启动：(参数的意义:http://www.kbengine.org/cn/docs/startup_shutdown.html)
+PVPServer配置
+==========
+## 1.编译kbe源码并配置开发环境
+	http://kbengine.org/cn/docs/installation.html
 	
-	Linux:
-		start_server.sh
+## 2.mysql相关配置
+	<databaseName> new_game </databaseName> 	<!-- Type: String -->
+	<username> beyondray </username>		<!-- Type: String -->
+	<password> beyondray </password>		<!-- Type: String -->
+	
+## 3.将kbe根目录下的assets文件替换为PVPServer资产库
 
-	Windows:
-		start_server.bat
-
-
-##关闭服务端
-
-快速杀死服务端进程:
-
-	Linux:
-		kill_server.sh
-
-	Windows:
-		kill_server.bat
+## 4.启动start_server.bat/sh 运行server
 
 
-如果是正式运营环境，应该使用安全的关闭方式，这种方式能够确保数据安全的存档，安全的告诉用户下线等等。
 
-	Linux:
-		safe_kill.sh
+Support
+* `支持注册，登陆，绑定邮箱，修改密码，找回密码
 
-	Windows:
-		safe_kill.bat
+* `支持角色创建，删除，维护
+
+* `支持角色位移，旋转同步
+
+* `支持场景物体同步
+
+* `支持角色动画同步
+
+* `支持角色战斗系统

@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 PVPServer help
 ===============
 <1>.Compilation and Installation
@@ -51,5 +50,4 @@ Support
 
 * `支持角色动画同步
 
->>>>>>> Stashed changes
 * `支持角色战斗系统

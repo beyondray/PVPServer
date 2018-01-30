@@ -71,6 +71,9 @@
 		<recRelive>
 			<Arg> POSITION3D	</Arg>
 		</recRelive>
+
+		<recTeleport>
+		</recTeleport>
 	</ClientMethods>
 
 	<CellMethods>
@@ -100,5 +103,15 @@
 		<reqRelive>
 			<Exposed/>
 		</reqRelive>
+
+		<reqTeleportBeg>
+			<Exposed/>
+			<Arg> 	SPEED		</Arg>	
+			<Arg> 	MP 			</Arg>
+		</reqTeleportBeg>
+
+		<reqTeleportEnd>
+			<Exposed/>
+		</reqTeleportEnd>
 	</CellMethods>
 </root>

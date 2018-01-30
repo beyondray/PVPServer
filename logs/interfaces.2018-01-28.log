@@ -1,0 +1,36 @@
+  INFO root [2018-01-28 23:09:37,363] - 
+  INFO root [2018-01-28 23:09:37,364] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-01-28 23:09:37,365] - Resmgr::initialize: KBE_ROOT=G:/GitHub/kbengine/
+  INFO root [2018-01-28 23:09:37,366] - Resmgr::initialize: KBE_RES_PATH=G:/GitHub/kbengine/kbe/res/;G:/GitHub/kbengine/newgame-assets/;G:/GitHub/kbengine/newgame-assets/scripts/;G:/GitHub/kbengine/newgame-assets/res/
+  INFO root [2018-01-28 23:09:37,366] - Resmgr::initialize: KBE_BIN_PATH=G:/GitHub/kbengine/kbe/bin/server/
+  INFO root [2018-01-28 23:09:37,374] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 10.82.25.163 ( 10.82.25.163:30099 )
+  INFO root [2018-01-28 23:09:37,375] - NetworkInterface::initialize(INTERNAL): address 10.82.25.163:30099, SOMAXCONN=5.
+  INFO root [2018-01-28 23:09:37,388] - ---- interfaces Version: 1.1.0. ScriptVersion: 0.1.0. Protocol: 1ABB6125D8365C3720079E1D4CCC25C7. Config: Debug X86. Built: 23:59:41 Dec  1 2017. AppID: 3000. UID: 1. PID: 6344 ----
+  INFO root [2018-01-28 23:09:37,399] - Server : Intel(R) Core(TM) i5-4210H CPU @ 2.90GHz with 2097151kB RAM
+  INFO root [2018-01-28 23:09:37,399] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-01-28 23:09:37,400] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-01-28 23:09:37,602] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-01-28 23:09:37,603] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-01-28 23:09:37,603] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-01-28 23:09:37,625] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-01-28 23:09:37,630] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-01-28 23:09:37,630] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-01-28 23:09:37,632] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-01-28 23:09:37,718] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-01-28 23:09:37,812] - Script::install(): is successfully, Python=(3.4.2 (default, Dec  1 2017, 23:59:35) [MSC v.1900 32 bit (Intel)])!
+  INFO root [2018-01-28 23:09:37,812] - Script::install(): KBExtra is successfully!
+S_INFO root [2018-01-28 23:09:37,830] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2018-01-28 23:09:37,847] - TelnetServer server is running on port 33000
+  WARN root [2018-01-28 23:09:37,875] - interfaces.cpp:164: Profile scriptCall took 0.04 seconds
+  INFO root [2018-01-28 23:09:38,749] - ---- interfaces is running ----
+ DEBUG root [2018-01-28 23:09:38,750] - Components::process(): Request for the process of identity...
+  INFO root [2018-01-28 23:09:45,930] - Components::process(): Found all the components!
+S_INFO root [2018-01-28 23:10:03,270] - onRequestAccountLogin: registerName=a
+S_INFO root [2018-01-28 23:10:21,570] - onRequestAccountLogin: registerName=m
+S_INFO root [2018-01-28 23:41:19,176] - onRequestAccountLogin: registerName=a
+S_INFO root [2018-01-28 23:44:48,232] - onRequestAccountLogin: registerName=a
+S_INFO root [2018-01-28 23:46:30,291] - onRequestAccountLogin: registerName=b
+S_INFO root [2018-01-28 23:49:01,367] - onRequestAccountLogin: registerName=a
+  WARN root [2018-01-28 23:58:45,374] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds

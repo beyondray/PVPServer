@@ -1,0 +1,844 @@
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:37 520] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:37 522] - Resmgr::initialize: KBE_ROOT=G:/GitHub/kbengine/
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:37 522] - Resmgr::initialize: KBE_RES_PATH=G:/GitHub/kbengine/kbe/res/;G:/GitHub/kbengine/newgame-assets/;G:/GitHub/kbengine/newgame-assets/scripts/;G:/GitHub/kbengine/newgame-assets/res/
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:37 522] - Resmgr::initialize: KBE_BIN_PATH=G:/GitHub/kbengine/kbe/bin/server/
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:37 557] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 10.82.25.163 ( 10.82.25.163:20015 )
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:37 557] - NetworkInterface::initialize(EXTERNAL): address 10.82.25.163:20015, SOMAXCONN=128.
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:37 564] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 10.82.25.163 ( 10.82.25.163:52555 )
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:37 564] - NetworkInterface::initialize(INTERNAL): address 10.82.25.163:52555, SOMAXCONN=128.
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:37 564] - server-configs:
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:37 564] - 	gameUpdateHertz : 50
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:37 564] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:37 565] - 	internalAddr : 10.82.25.163:52555
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:37 565] - 	externalAddr : 10.82.25.163:20015
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:37 566] - 	componentID : 7001
+ WARNING    baseapp-1 1 7001  [2018-01-28 23:09:38 346] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20517, errorno=10048
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:38 353] - ---- baseapp Version: 1.1.0. ScriptVersion: 0.1.0. Protocol: B363447A744C7D8D9BBF49B8B8360068. Config: Debug X86. Built: 00:00:25 Dec  2 2017. AppID: 7001. UID: 1. PID: 10472 ----
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:38 354] - Server : Intel(R) Core(TM) i5-4210H CPU @ 2.90GHz with 2097151kB RAM
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:38 355] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:38 355] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    baseapp-1 1 7001  [2018-01-28 23:09:38 516] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    baseapp-1 1 7001  [2018-01-28 23:09:38 517] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    baseapp-1 1 7001  [2018-01-28 23:09:38 518] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    baseapp-1 1 7001  [2018-01-28 23:09:38 525] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    baseapp-1 1 7001  [2018-01-28 23:09:38 526] - Script::install_py_dlls(): PyInit_select
+   DEBUG    baseapp-1 1 7001  [2018-01-28 23:09:38 528] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    baseapp-1 1 7001  [2018-01-28 23:09:38 529] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    baseapp-1 1 7001  [2018-01-28 23:09:38 594] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:38 660] - Script::install(): is successfully, Python=(3.4.2 (default, Dec  2 2017, 00:00:06) [MSC v.1900 32 bit (Intel)])!
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:38 660] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 1 7001  [2018-01-28 23:09:38 746] - loaded script:Account(1).
+   DEBUG    baseapp-1 1 7001  [2018-01-28 23:09:38 754] - loaded script:MoveObj(2).
+   DEBUG    baseapp-1 1 7001  [2018-01-28 23:09:38 763] - loaded script:Role(3).
+   DEBUG    baseapp-1 1 7001  [2018-01-28 23:09:38 766] - loaded script:SceneAlloc(4).
+   DEBUG    baseapp-1 1 7001  [2018-01-28 23:09:38 769] - loaded script:Arrow(5).
+   DEBUG    baseapp-1 1 7001  [2018-01-28 23:09:38 771] - loaded script:Space(6).
+   DEBUG    baseapp-1 1 7001  [2018-01-28 23:09:38 776] - loaded script:SpawnPoint(7).
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:38 776] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:38 777] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:39 657] - ---- baseapp is running ----
+   DEBUG    baseapp-1 1 7001  [2018-01-28 23:09:39 660] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 1 7001  [2018-01-28 23:09:45 875] - EntityApp::checkTickPeriod: tick took 31085% (31.08 seconds)!
+ WARNING    baseapp-1 1 7001  [2018-01-28 23:09:45 931] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.06 seconds
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:46 936] - Components::findComponents: find logger(1)...
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:46 983] - Components::findComponents: found logger, addr:10.82.25.163:52554
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:46 983] - Components::addComponent: reset orderLog, uid=1!
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:46 984] - Components::addComponent[logger], uid=1, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:46 986] - Components::findComponents: find dbmgr(2)...
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:47 089] - Components::findComponents: found dbmgr, addr:10.82.25.163:52558
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:47 090] - Components::addComponent: reset orderLog, uid=1!
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:47 091] - Components::addComponent[dbmgr], uid=1, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:47 091] - Components::findComponents: found dbmgr, addr:10.82.25.163:52558
+ WARNING    baseapp-1 1 7001  [2018-01-28 23:09:48 092] - EntityApp::checkTickPeriod: tick took 5875% (5.88 seconds)!
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:49 096] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:49 165] - Components::findComponents: found baseappmgr, addr:10.82.25.163:52557
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:49 166] - Components::addComponent[baseappmgr], uid=1, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:49 167] - Components::findComponents: found baseappmgr, addr:10.82.25.163:52557
+ WARNING    baseapp-1 1 7001  [2018-01-28 23:09:50 167] - EntityApp::checkTickPeriod: tick took 5450% (5.45 seconds)!
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:51 176] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:51 234] - Components::findComponents: found cellappmgr, addr:10.82.25.163:52552
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:51 234] - Components::addComponent[cellappmgr], uid=1, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:51 235] - Components::findComponents: found cellappmgr, addr:10.82.25.163:52552
+ WARNING    baseapp-1 1 7001  [2018-01-28 23:09:52 235] - EntityApp::checkTickPeriod: tick took 5390% (5.39 seconds)!
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:53 256] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 1 7001  [2018-01-28 23:09:53 257] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:53 276] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:53 296] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:53 316] - Components::process(): Found all the components!
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:54 616] - ServerApp::onRegisterNewApp: uid:1, username:, componentType:cellapp, componentID:8001, globalorderID=5, grouporderID=1, intaddr:10.82.25.163, intport:52560, extaddr:nonsupport, extport:0,  from 10.82.25.163:52558/0/0/0.
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:54 616] - Components::addComponent[cellapp], uid=1, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    baseapp-1 1 7001  [2018-01-28 23:09:57 638] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=4, startGroupOrder=1, digest=57558DD95799B072F451BEFAE3F0B1A7.
+    INFO    baseapp01 1 7001  [2018-01-28 23:09:57 638] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+  S_INFO    baseapp01 1 7001  [2018-01-28 23:09:58 847] - onInit::isReload:0
+ WARNING    baseapp01 1 7001  [2018-01-28 23:09:58 847] - G:\GitHub\kbengine\kbe\src\lib\server/entity_app.h:764: Profile processRecvMessages took 1.21 seconds
+ WARNING    baseapp01 1 7001  [2018-01-28 23:09:58 848] - baseapp.cpp:513: Profile gameTick took 1.21 seconds
+ WARNING    baseapp01 1 7001  [2018-01-28 23:09:58 848] - event_dispatcher.cpp:171: Profile callSystemTimers took 1.21 seconds
+ WARNING    baseapp01 1 7001  [2018-01-28 23:09:58 848] - EntityApp::checkTickPeriod: tick took 6055% (6.05 seconds)!
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:09:59 316] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 1 7001  [2018-01-28 23:09:59 336] - onBaseAppReady: isBootstrap=True, appID=7001, bootstrapGroupIndex=1, bootstrapGlobalIndex=4
+    INFO    baseapp01 1 7001  [2018-01-28 23:09:59 338] - EntityApp::createEntity: new Space 1
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:09:59 345] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:09:59 356] - Space[1]::onGetCell: Cell id:1, utype:6, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:09:59 376] - onGlobalData: space_1
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:09:59 376] - onGlobalData: SpaceID
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:10:03 356] - PendingLoginMgr::add: a, size=1.
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:03 576] - ServerApp::onHello: verInfo=1.1.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:10.82.25.163:52606/0/0/0
+ WARNING    baseapp01 1 7001  [2018-01-28 23:10:03 576] - Baseapp::onHello: client is not encrypted, addr=10.82.25.163:52606/0/0/0
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:03 896] - Baseapp::loginBaseapp: new user[a], channel[10.82.25.163:52606/0/0/0].
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:10:03 936] - PendingLoginMgr::remove: a, size=0.
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:03 936] - EntityApp::createEntity: new Account 2
+  S_INFO    baseapp01 1 7001  [2018-01-28 23:10:03 937] - account[2] entities enable. mailbox:Client id:2, utype:1, component=client[0], addr: 10.82.25.163:52606.
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:03 937] - Baseapp::onQueryAccountCBFromDbmgr: user=a, uuid=6516119094939811840, entityID=2, flags=0, deadline=0.
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:08 418] - EntityApp::createEntity: new Role 3
+ WARNING    baseapp01 1 7001  [2018-01-28 23:10:08 419] - SceneAlloc::createCellData: do not create cellData, cannot find the cellapp script(SceneAlloc)!
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:08 419] - EntityApp::createEntity: new SceneAlloc 4
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:08 421] - SceneAlloc[4]::onEntitiesEnabled: Client id:4, utype:4, component=client[0], addr: 10.82.25.163:52606..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:08 597] - SceneAlloc[4]::reqMoveObjsSync: [{'pos': Vector3(-1.400001, 3.289857, -26.499979), ref=false, 'dir': Vector3(0.000062, 0.002630, 0.000018), ref=false, 'name': 'Cube (11)'}, {'pos': Vector3(12.800044, 3.289852, -31.300034), ref=false, 'dir': Vector3(-0.005100, -0.003608, -0.000026), ref=false, 'name': 'Cube (4)'}, {'pos': Vector3(-0.383570, 3.315818, -32.810333), ref=false, 'dir': Vector3(358.129242, 358.809418, 0.020982), ref=false, 'name': 'Cube (13)'}, {'pos': Vector3(1.700044, 3.289853, -33.600033), ref=false, 'dir': Vector3(-0.005096, -0.003664, -0.000044), ref=false, 'name': 'Cube (19)'}, {'pos': Vector3(13.200044, 3.289851, -27.400034), ref=false, 'dir': Vector3(-0.005100, -0.003608, -0.000026), ref=false, 'name': 'Cube (10)'}, {'pos': Vector3(-1.799955, 3.289851, -30.300034), ref=false, 'dir': Vector3(-0.005108, -0.003619, -0.000035), ref=false, 'name': 'Cube (20)'}, {'pos': Vector3(16.200045, 3.289853, -34.500034), ref=false, 'dir': Vector3(-0.005070, -0.003657, -0.000035), ref=false, 'name': 'Cube (2)'}, {'pos': Vector3(2.100171, 3.289919, -30.499985), ref=false, 'dir': Vector3(359.981232, 0.003012, 0.000664), ref=false, 'name': 'Cube (12)'}, {'pos': Vector3(15.800045, 3.289851, -28.000034), ref=false, 'dir': Vector3(-0.005124, -0.003647, 0.000012), ref=false, 'name': 'Cube (3)'}, {'pos': Vector3(16.700045, 3.289852, -31.400034), ref=false, 'dir': Vector3(-0.005112, -0.003608, -0.000056), ref=false, 'name': 'Cube (9)'}, {'pos': Vector3(1.200002, 3.289857, -27.000004), ref=false, 'dir': Vector3(0.000132, 0.000479, 0.000135), ref=false, 'name': 'Cube (18)'}, {'pos': Vector3(14.116429, 3.315818, -33.710335), ref=false, 'dir': Vector3(358.129303, 358.809387, 0.020975), ref=false, 'name': 'Cube (8)'}]
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:08 597] - EntityApp::createEntity: new MoveObj 5
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:08 598] - EntityApp::createEntity: new MoveObj 6
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:08 598] - EntityApp::createEntity: new MoveObj 7
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:08 599] - EntityApp::createEntity: new MoveObj 8
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:08 600] - EntityApp::createEntity: new MoveObj 9
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:08 601] - EntityApp::createEntity: new MoveObj 10
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:08 602] - EntityApp::createEntity: new MoveObj 11
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:08 603] - EntityApp::createEntity: new MoveObj 12
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:08 604] - EntityApp::createEntity: new MoveObj 13
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:08 604] - EntityApp::createEntity: new MoveObj 14
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:08 604] - EntityApp::createEntity: new MoveObj 15
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:08 605] - EntityApp::createEntity: new MoveObj 16
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:08 605] - Role[3]::onEntitiesEnabled: Client id:3, utype:3, component=client[0], addr: 10.82.25.163:52606..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:08 618] - MoveObj[5]::onGetCell: Cell id:5, utype:2, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:08 619] - MoveObj[6]::onGetCell: Cell id:6, utype:2, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:08 619] - MoveObj[7]::onGetCell: Cell id:7, utype:2, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:08 619] - MoveObj[8]::onGetCell: Cell id:8, utype:2, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:08 619] - MoveObj[9]::onGetCell: Cell id:9, utype:2, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:08 620] - MoveObj[10]::onGetCell: Cell id:10, utype:2, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:08 620] - MoveObj[11]::onGetCell: Cell id:11, utype:2, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:08 620] - MoveObj[12]::onGetCell: Cell id:12, utype:2, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:08 620] - MoveObj[13]::onGetCell: Cell id:13, utype:2, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:08 621] - MoveObj[14]::onGetCell: Cell id:14, utype:2, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:08 621] - MoveObj[15]::onGetCell: Cell id:15, utype:2, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:08 621] - MoveObj[16]::onGetCell: Cell id:16, utype:2, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:08 621] - Role[3]::onClientGetCell: Client id:3, utype:3, component=client[0], addr: 10.82.25.163:52606..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:08 622] - Role[3]::onGetCell: Cell id:3, utype:3, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:09 618] - MoveObj[5]::onTimer: tid:1, arg:3.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:09 618] - MoveObj[7]::onTimer: tid:1, arg:3.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:09 618] - MoveObj[11]::onTimer: tid:1, arg:3.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:09 618] - MoveObj[16]::onTimer: tid:1, arg:3.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:09 619] - MoveObj[15]::onTimer: tid:1, arg:3.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:09 619] - MoveObj[14]::onTimer: tid:1, arg:3.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:09 619] - MoveObj[13]::onTimer: tid:1, arg:3.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:09 619] - MoveObj[10]::onTimer: tid:1, arg:3.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:09 620] - MoveObj[12]::onTimer: tid:1, arg:3.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:09 620] - MoveObj[9]::onTimer: tid:1, arg:3.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:09 620] - MoveObj[6]::onTimer: tid:1, arg:3.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:09 621] - MoveObj[8]::onTimer: tid:1, arg:3.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:10:21 656] - PendingLoginMgr::add: m, size=1.
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:21 856] - ServerApp::onHello: verInfo=1.1.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:10.82.25.163:52616/0/0/0
+ WARNING    baseapp01 1 7001  [2018-01-28 23:10:21 856] - Baseapp::onHello: client is not encrypted, addr=10.82.25.163:52616/0/0/0
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:21 956] - Baseapp::loginBaseapp: new user[m], channel[10.82.25.163:52616/0/0/0].
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:10:21 997] - PendingLoginMgr::remove: m, size=0.
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:21 998] - EntityApp::createEntity: new Account 17
+  S_INFO    baseapp01 1 7001  [2018-01-28 23:10:21 998] - account[17] entities enable. mailbox:Client id:17, utype:1, component=client[0], addr: 10.82.25.163:52616.
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:21 998] - Baseapp::onQueryAccountCBFromDbmgr: user=m, uuid=6516119172249223168, entityID=17, flags=0, deadline=0.
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:24 756] - EntityApp::createEntity: new Role 18
+ WARNING    baseapp01 1 7001  [2018-01-28 23:10:24 757] - SceneAlloc::createCellData: do not create cellData, cannot find the cellapp script(SceneAlloc)!
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:24 757] - EntityApp::createEntity: new SceneAlloc 19
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:24 757] - SceneAlloc[19]::onEntitiesEnabled: Client id:19, utype:4, component=client[0], addr: 10.82.25.163:52616..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:24 980] - SceneAlloc[19]::reqMoveObjsSync: [{'pos': Vector3(-1.400000, 3.289877, -26.500004), ref=false, 'dir': Vector3(0.000041, -0.000521, -0.000046), ref=false, 'name': 'Cube (11)'}, {'pos': Vector3(12.799997, 3.289878, -31.299992), ref=false, 'dir': Vector3(0.000336, 0.000711, 0.000049), ref=false, 'name': 'Cube (4)'}, {'pos': Vector3(-0.373314, 3.328034, -32.814972), ref=false, 'dir': Vector3(357.061218, 358.366455, 0.057376), ref=false, 'name': 'Cube (13)'}, {'pos': Vector3(1.699997, 3.289879, -33.599991), ref=false, 'dir': Vector3(0.000347, 0.000719, 0.000031), ref=false, 'name': 'Cube (19)'}, {'pos': Vector3(13.199997, 3.289877, -27.399992), ref=false, 'dir': Vector3(0.000333, 0.000704, 0.000049), ref=false, 'name': 'Cube (10)'}, {'pos': Vector3(-1.800002, 3.289878, -30.299992), ref=false, 'dir': Vector3(0.000325, 0.000715, 0.000028), ref=false, 'name': 'Cube (20)'}, {'pos': Vector3(16.199999, 3.289879, -34.499992), ref=false, 'dir': Vector3(0.000361, 0.000738, 0.000010), ref=false, 'name': 'Cube (2)'}, {'pos': Vector3(2.099980, 3.289878, -30.499996), ref=false, 'dir': Vector3(0.002117, 0.000241, -0.000146), ref=false, 'name': 'Cube (12)'}, {'pos': Vector3(15.799997, 3.289877, -27.999992), ref=false, 'dir': Vector3(0.000312, 0.000700, 0.000089), ref=false, 'name': 'Cube (3)'}, {'pos': Vector3(16.699997, 3.289878, -31.399992), ref=false, 'dir': Vector3(0.000337, 0.000771, 0.000051), ref=false, 'name': 'Cube (9)'}, {'pos': Vector3(1.200001, 3.289877, -27.000004), ref=false, 'dir': Vector3(-0.000156, -0.000333, 0.000025), ref=false, 'name': 'Cube (18)'}, {'pos': Vector3(14.126685, 3.328034, -33.714973), ref=false, 'dir': Vector3(357.061340, 358.366364, 0.057382), ref=false, 'name': 'Cube (8)'}]
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:24 981] - Role[18]::onEntitiesEnabled: Client id:18, utype:3, component=client[0], addr: 10.82.25.163:52616..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:24 997] - Role[18]::onClientGetCell: Client id:18, utype:3, component=client[0], addr: 10.82.25.163:52616..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:24 997] - Role[18]::onGetCell: Cell id:18, utype:3, component=cellapp[8001], addr: 10.82.25.163:52560..
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:35 196] - EntityApp::createEntity: new Arrow 20
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:35 197] - EntityApp::createEntity: new Arrow 21
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:35 197] - EntityApp::createEntity: new Arrow 22
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:35 198] - EntityApp::createEntity: new Arrow 23
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:35 198] - EntityApp::createEntity: new Arrow 24
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:35 216] - Arrow[20]::onGetCell: Cell id:20, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:35 216] - Arrow[21]::onGetCell: Cell id:21, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:35 216] - Arrow[22]::onGetCell: Cell id:22, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:35 217] - Arrow[23]::onGetCell: Cell id:23, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:35 217] - Arrow[24]::onGetCell: Cell id:24, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:35 655] - Baseapp::onBackupEntityCellData: Arrow(20), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:35 656] - Arrow[20]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:35 656] - Arrow[20]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:10:35 656] - Arrow::~Arrow(): 20
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:35 656] - Baseapp::onBackupEntityCellData: Arrow(22), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:35 659] - Arrow[22]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:35 660] - Arrow[22]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:10:35 660] - Arrow::~Arrow(): 22
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:36 356] - Baseapp::onBackupEntityCellData: Space(1), 35 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:37 917] - EntityApp::createEntity: new Arrow 25
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:37 935] - Arrow[25]::onGetCell: Cell id:25, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:38 396] - Baseapp::onBackupEntityCellData: Arrow(25), 91 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:38 396] - Arrow[25]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:38 396] - Arrow[25]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:10:38 396] - Arrow::~Arrow(): 25
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:38 415] - Baseapp::onBackupEntityCellData: Arrow(24), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:38 416] - Arrow[24]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:38 416] - Arrow[24]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:10:38 416] - Arrow::~Arrow(): 24
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:38 416] - Baseapp::onBackupEntityCellData: Arrow(23), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:38 416] - Arrow[23]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:38 416] - Arrow[23]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:10:38 416] - Arrow::~Arrow(): 23
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:38 416] - Baseapp::onBackupEntityCellData: Arrow(21), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:38 416] - Arrow[21]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:38 417] - Arrow[21]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:10:38 417] - Arrow::~Arrow(): 21
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:41 537] - EntityApp::createEntity: new Arrow 26
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:41 537] - EntityApp::createEntity: new Arrow 27
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:41 542] - EntityApp::createEntity: new Arrow 28
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:41 542] - EntityApp::createEntity: new Arrow 29
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:41 543] - EntityApp::createEntity: new Arrow 30
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:41 558] - Arrow[26]::onGetCell: Cell id:26, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:41 559] - Arrow[27]::onGetCell: Cell id:27, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:41 559] - Arrow[28]::onGetCell: Cell id:28, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:41 559] - Arrow[29]::onGetCell: Cell id:29, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:41 560] - Arrow[30]::onGetCell: Cell id:30, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:42 115] - Baseapp::onBackupEntityCellData: Arrow(28), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:42 116] - Arrow[28]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:42 116] - Arrow[28]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:10:42 116] - Arrow::~Arrow(): 28
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:43 660] - EntityApp::createEntity: new Arrow 31
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:43 660] - EntityApp::createEntity: new Arrow 32
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:43 661] - EntityApp::createEntity: new Arrow 33
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:43 662] - EntityApp::createEntity: new Arrow 34
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:43 662] - EntityApp::createEntity: new Arrow 35
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:43 676] - Arrow[31]::onGetCell: Cell id:31, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:43 676] - Arrow[32]::onGetCell: Cell id:32, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:43 676] - Arrow[33]::onGetCell: Cell id:33, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:43 677] - Arrow[34]::onGetCell: Cell id:34, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:43 677] - Arrow[35]::onGetCell: Cell id:35, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:44 157] - Baseapp::onBackupEntityCellData: Arrow(33), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:44 158] - Arrow[33]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:44 158] - Arrow[33]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:10:44 158] - Arrow::~Arrow(): 33
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:44 196] - Baseapp::onBackupEntityCellData: Arrow(31), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:44 196] - Arrow[31]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:44 196] - Arrow[31]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:10:44 196] - Arrow::~Arrow(): 31
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:44 756] - Baseapp::onBackupEntityCellData: Arrow(29), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:44 757] - Arrow[29]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:44 757] - Arrow[29]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:10:44 757] - Arrow::~Arrow(): 29
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:44 757] - Baseapp::onBackupEntityCellData: Arrow(26), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:44 758] - Arrow[26]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:44 758] - Arrow[26]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:10:44 758] - Arrow::~Arrow(): 26
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:44 758] - Baseapp::onBackupEntityCellData: Arrow(27), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:44 758] - Arrow[27]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:44 758] - Arrow[27]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:10:44 759] - Arrow::~Arrow(): 27
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:44 759] - Baseapp::onBackupEntityCellData: Arrow(30), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:44 759] - Arrow[30]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:44 759] - Arrow[30]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:10:44 759] - Arrow::~Arrow(): 30
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:46 875] - Baseapp::onBackupEntityCellData: Arrow(34), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:46 875] - Arrow[34]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:46 875] - Arrow[34]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:10:46 876] - Arrow::~Arrow(): 34
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:46 876] - Baseapp::onBackupEntityCellData: Arrow(32), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:46 876] - Arrow[32]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:46 876] - Arrow[32]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:10:46 876] - Arrow::~Arrow(): 32
+    INFO    baseapp01 1 7001  [2018-01-28 23:10:46 876] - Baseapp::onBackupEntityCellData: Arrow(35), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:46 877] - Arrow[35]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:10:46 877] - Arrow[35]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:10:46 877] - Arrow::~Arrow(): 35
+    INFO    baseapp01 1 7001  [2018-01-28 23:11:01 035] - Baseapp::onBackupEntityCellData: Role(3), 103 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:11:14 015] - EntityApp::createEntity: new Arrow 36
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:11:14 035] - Arrow[36]::onGetCell: Cell id:36, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+    INFO    baseapp01 1 7001  [2018-01-28 23:11:16 436] - EntityApp::createEntity: new Arrow 37
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:11:16 455] - Arrow[37]::onGetCell: Cell id:37, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+    INFO    baseapp01 1 7001  [2018-01-28 23:11:16 896] - Baseapp::onBackupEntityCellData: Arrow(37), 91 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:11:16 897] - Arrow[37]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:11:16 897] - Arrow[37]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:11:16 897] - Arrow::~Arrow(): 37
+    INFO    baseapp01 1 7001  [2018-01-28 23:11:17 235] - Baseapp::onBackupEntityCellData: Arrow(36), 91 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:11:17 235] - Arrow[36]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:11:17 235] - Arrow[36]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:11:17 235] - Arrow::~Arrow(): 36
+    INFO    baseapp01 1 7001  [2018-01-28 23:11:27 155] - Baseapp::onBackupEntityCellData: MoveObj(8), 56 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:11:53 474] - Baseapp::onBackupEntityCellData: MoveObj(9), 56 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:12:19 793] - Baseapp::onBackupEntityCellData: MoveObj(11), 55 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:12:46 113] - Baseapp::onBackupEntityCellData: MoveObj(14), 55 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:13:12 412] - Baseapp::onBackupEntityCellData: MoveObj(12), 56 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:15:24 011] - Baseapp::onBackupEntityCellData: MoveObj(5), 56 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:15:50 310] - Baseapp::onBackupEntityCellData: Role(18), 104 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:16:16 629] - Baseapp::onBackupEntityCellData: Space(1), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:16:42 949] - Baseapp::onBackupEntityCellData: MoveObj(15), 56 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:17:09 248] - Baseapp::onBackupEntityCellData: MoveObj(10), 56 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:17:09 669] - Baseapp::onBackupEntityCellData: Role(3), 103 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:17:09 669] - Baseapp::onCellWriteToDBCompleted: Role(3).
+    INFO    baseapp01 1 7001  [2018-01-28 23:17:35 568] - Baseapp::onBackupEntityCellData: MoveObj(16), 55 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:18:01 888] - Baseapp::onBackupEntityCellData: MoveObj(13), 55 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:18:24 667] - Baseapp::onBackupEntityCellData: Role(18), 104 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:18:24 667] - Baseapp::onCellWriteToDBCompleted: Role(18).
+    INFO    baseapp01 1 7001  [2018-01-28 23:18:28 227] - Baseapp::onBackupEntityCellData: MoveObj(6), 55 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:18:54 527] - Baseapp::onBackupEntityCellData: MoveObj(7), 56 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:19:20 846] - Baseapp::onBackupEntityCellData: MoveObj(7), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:20:13 465] - Baseapp::onBackupEntityCellData: MoveObj(9), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:20:39 784] - Baseapp::onBackupEntityCellData: MoveObj(11), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:20:54 666] - Baseapp::onBackupEntityCellData: Role(3), 103 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:20:54 667] - Baseapp::onCellWriteToDBCompleted: Role(3).
+    INFO    baseapp01 1 7001  [2018-01-28 23:21:06 084] - Baseapp::onBackupEntityCellData: MoveObj(12), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:21:32 404] - Baseapp::onBackupEntityCellData: MoveObj(6), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:21:58 723] - Baseapp::onBackupEntityCellData: MoveObj(15), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:22:25 042] - Baseapp::onBackupEntityCellData: MoveObj(13), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:22:51 342] - Baseapp::onBackupEntityCellData: MoveObj(10), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:23:17 661] - Baseapp::onBackupEntityCellData: MoveObj(8), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:24:10 300] - Baseapp::onBackupEntityCellData: Role(3), 103 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:24:36 620] - Baseapp::onBackupEntityCellData: MoveObj(16), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:24:39 660] - Baseapp::onBackupEntityCellData: Role(18), 104 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:24:39 660] - Baseapp::onCellWriteToDBCompleted: Role(18).
+    INFO    baseapp01 1 7001  [2018-01-28 23:25:02 920] - Baseapp::onBackupEntityCellData: MoveObj(5), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:25:29 239] - Baseapp::onBackupEntityCellData: MoveObj(14), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:25:54 658] - Baseapp::onBackupEntityCellData: Role(18), 104 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:25:54 658] - Baseapp::onCellWriteToDBCompleted: Role(18).
+    INFO    baseapp01 1 7001  [2018-01-28 23:25:55 558] - Baseapp::onBackupEntityCellData: Space(1), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:26:48 178] - Baseapp::onBackupEntityCellData: Role(18), 104 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:27:09 657] - Baseapp::onBackupEntityCellData: Role(3), 103 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:27:09 657] - Baseapp::onCellWriteToDBCompleted: Role(3).
+    INFO    baseapp01 1 7001  [2018-01-28 23:27:40 817] - Baseapp::onBackupEntityCellData: MoveObj(7), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:28:07 136] - Baseapp::onBackupEntityCellData: MoveObj(12), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:28:59 755] - Baseapp::onBackupEntityCellData: MoveObj(15), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:29:26 074] - Baseapp::onBackupEntityCellData: MoveObj(5), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:29:52 394] - Baseapp::onBackupEntityCellData: MoveObj(6), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:30:18 714] - Baseapp::onBackupEntityCellData: MoveObj(10), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:30:54 653] - Baseapp::onBackupEntityCellData: Role(18), 104 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:30:54 653] - Baseapp::onCellWriteToDBCompleted: Role(18).
+    INFO    baseapp01 1 7001  [2018-01-28 23:31:11 333] - Baseapp::onBackupEntityCellData: MoveObj(8), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:31:37 652] - Baseapp::onBackupEntityCellData: Space(1), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:32:03 972] - Baseapp::onBackupEntityCellData: MoveObj(11), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:32:30 292] - Baseapp::onBackupEntityCellData: Role(3), 103 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:32:56 591] - Baseapp::onBackupEntityCellData: MoveObj(9), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:33:24 650] - Baseapp::onBackupEntityCellData: Role(3), 103 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:33:24 650] - Baseapp::onCellWriteToDBCompleted: Role(3).
+    INFO    baseapp01 1 7001  [2018-01-28 23:33:49 230] - Baseapp::onBackupEntityCellData: MoveObj(13), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:34:15 549] - Baseapp::onBackupEntityCellData: Role(18), 104 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:35:08 169] - Baseapp::onBackupEntityCellData: MoveObj(14), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:35:34 489] - Baseapp::onBackupEntityCellData: MoveObj(16), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:36:00 807] - Baseapp::onBackupEntityCellData: MoveObj(8), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:36:27 127] - Baseapp::onBackupEntityCellData: MoveObj(10), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:36:53 426] - Baseapp::onBackupEntityCellData: MoveObj(9), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:37:09 666] - Baseapp::onBackupEntityCellData: Role(18), 104 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:37:09 667] - Baseapp::onCellWriteToDBCompleted: Role(18).
+    INFO    baseapp01 1 7001  [2018-01-28 23:37:19 746] - Baseapp::onBackupEntityCellData: Role(3), 103 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:37:46 065] - Baseapp::onBackupEntityCellData: MoveObj(16), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:38:12 405] - Baseapp::onBackupEntityCellData: Space(1), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:38:38 684] - Baseapp::onBackupEntityCellData: MoveObj(6), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:39:05 004] - Baseapp::onBackupEntityCellData: Role(18), 104 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:39:39 643] - Baseapp::onBackupEntityCellData: Role(3), 103 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:39:39 643] - Baseapp::onCellWriteToDBCompleted: Role(3).
+ WARNING    baseapp01 1 7001  [2018-01-28 23:39:55 681] - TCPPacketReceiver::processPendingEvents(10.82.25.163:52606): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:39:55 691] - Role::onClientDeath: 3.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:39:55 691] - Role[3]::onClientDeath.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:39:56 663] - Role[3]::onTimer: tid:1, arg:1.
+    INFO    baseapp01 1 7001  [2018-01-28 23:39:56 683] - Baseapp::onBackupEntityCellData: Role(3), 103 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:39:56 683] - Role[3]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:39:56 683] - SceneAlloc[4]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:39:56 684] - Account::onDestroy: 2.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:39:56 684] - Account::~Account(): 2
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:39:56 684] - Role[3]::onLoseCell.
+ WARNING    baseapp01 1 7001  [2018-01-28 23:39:57 457] - TCPPacketReceiver::processPendingEvents(10.82.25.163:52616): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:39:57 457] - Role::onClientDeath: 18.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:39:57 457] - Role[18]::onClientDeath.
+    INFO    baseapp01 1 7001  [2018-01-28 23:39:57 823] - Baseapp::onBackupEntityCellData: MoveObj(5), 1 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:39:58 443] - Role[18]::onTimer: tid:1, arg:1.
+    INFO    baseapp01 1 7001  [2018-01-28 23:39:58 463] - Baseapp::onBackupEntityCellData: Role(18), 104 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:39:58 464] - Role[18]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:39:58 464] - SceneAlloc[19]::onDestroy.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:39:58 464] - SceneAlloc::~SceneAlloc(): 19
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:39:58 464] - Account::onDestroy: 17.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:39:58 466] - Account::~Account(): 17
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:39:58 466] - Role[18]::onLoseCell.
+    INFO    baseapp01 1 7001  [2018-01-28 23:40:36 122] - Baseapp::onBackupEntityCellData: MoveObj(13), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:41:14 582] - Baseapp::onBackupEntityCellData: MoveObj(14), 1 bytes.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:41:19 242] - PendingLoginMgr::add: a, size=1.
+    INFO    baseapp01 1 7001  [2018-01-28 23:41:19 461] - ServerApp::onHello: verInfo=1.1.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:10.82.25.163:53660/0/0/0
+ WARNING    baseapp01 1 7001  [2018-01-28 23:41:19 461] - Baseapp::onHello: client is not encrypted, addr=10.82.25.163:53660/0/0/0
+    INFO    baseapp01 1 7001  [2018-01-28 23:41:19 561] - Baseapp::loginBaseapp: new user[a], channel[10.82.25.163:53660/0/0/0].
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:41:19 601] - PendingLoginMgr::remove: a, size=0.
+    INFO    baseapp01 1 7001  [2018-01-28 23:41:19 601] - EntityApp::createEntity: new Account 38
+  S_INFO    baseapp01 1 7001  [2018-01-28 23:41:19 602] - account[38] entities enable. mailbox:Client id:38, utype:1, component=client[0], addr: 10.82.25.163:53660.
+    INFO    baseapp01 1 7001  [2018-01-28 23:41:19 602] - Baseapp::onQueryAccountCBFromDbmgr: user=a, uuid=6516127152298459136, entityID=38, flags=0, deadline=0.
+    INFO    baseapp01 1 7001  [2018-01-28 23:41:23 782] - EntityApp::createEntity: new Role 39
+ WARNING    baseapp01 1 7001  [2018-01-28 23:41:23 782] - SceneAlloc::createCellData: do not create cellData, cannot find the cellapp script(SceneAlloc)!
+    INFO    baseapp01 1 7001  [2018-01-28 23:41:23 782] - EntityApp::createEntity: new SceneAlloc 40
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:41:23 783] - SceneAlloc[40]::onEntitiesEnabled: Client id:40, utype:4, component=client[0], addr: 10.82.25.163:53660..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:41:23 982] - SceneAlloc[40]::reqMoveObjsSync: [{'pos': Vector3(-1.400000, 3.289876, -26.500011), ref=false, 'dir': Vector3(0.000104, -0.001143, -0.000061), ref=false, 'name': 'Cube (11)'}, {'pos': Vector3(12.799993, 3.289877, -31.299978), ref=false, 'dir': Vector3(0.000938, 0.001857, 0.000157), ref=false, 'name': 'Cube (4)'}, {'pos': Vector3(-0.375659, 3.325986, -32.814529), ref=false, 'dir': Vector3(357.302917, 358.399384, 0.049010), ref=false, 'name': 'Cube (13)'}, {'pos': Vector3(1.699992, 3.289878, -33.599976), ref=false, 'dir': Vector3(0.000966, 0.001909, 0.000182), ref=false, 'name': 'Cube (19)'}, {'pos': Vector3(13.199992, 3.289876, -27.399979), ref=false, 'dir': Vector3(0.000943, 0.001857, 0.000157), ref=false, 'name': 'Cube (10)'}, {'pos': Vector3(-1.800007, 3.289877, -30.299978), ref=false, 'dir': Vector3(0.000933, 0.001845, 0.000187), ref=false, 'name': 'Cube (20)'}, {'pos': Vector3(16.199993, 3.289878, -34.499977), ref=false, 'dir': Vector3(0.000956, 0.001922, 0.000225), ref=false, 'name': 'Cube (2)'}, {'pos': Vector3(2.099954, 3.289880, -30.499996), ref=false, 'dir': Vector3(0.004509, -0.000241, -0.000445), ref=false, 'name': 'Cube (12)'}, {'pos': Vector3(15.799993, 3.289876, -27.999979), ref=false, 'dir': Vector3(0.000946, 0.001859, 0.000162), ref=false, 'name': 'Cube (3)'}, {'pos': Vector3(16.699993, 3.289877, -31.399977), ref=false, 'dir': Vector3(0.000958, 0.001838, 0.000119), ref=false, 'name': 'Cube (9)'}, {'pos': Vector3(1.200008, 3.289877, -27.000015), ref=false, 'dir': Vector3(-0.000810, -0.001528, 0.000095), ref=false, 'name': 'Cube (18)'}, {'pos': Vector3(14.124340, 3.325986, -33.714531), ref=false, 'dir': Vector3(357.303040, 358.399323, 0.048998), ref=false, 'name': 'Cube (8)'}]
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:41:23 982] - Role[39]::onEntitiesEnabled: Client id:39, utype:3, component=client[0], addr: 10.82.25.163:53660..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:41:24 002] - Role[39]::onClientGetCell: Client id:39, utype:3, component=client[0], addr: 10.82.25.163:53660..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:41:24 002] - Role[39]::onGetCell: Cell id:39, utype:3, component=cellapp[8001], addr: 10.82.25.163:52560..
+    INFO    baseapp01 1 7001  [2018-01-28 23:41:27 702] - EntityApp::createEntity: new Arrow 41
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:41:27 721] - Arrow[41]::onGetCell: Cell id:41, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+    INFO    baseapp01 1 7001  [2018-01-28 23:41:30 921] - Baseapp::onBackupEntityCellData: Arrow(41), 91 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:41:30 922] - Arrow[41]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:41:30 922] - Arrow[41]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:41:30 922] - Arrow::~Arrow(): 41
+    INFO    baseapp01 1 7001  [2018-01-28 23:41:47 103] - Baseapp::onBackupEntityCellData: MoveObj(12), 1 bytes.
+ WARNING    baseapp01 1 7001  [2018-01-28 23:41:49 727] - TCPPacketReceiver::processPendingEvents(10.82.25.163:53660): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:41:49 727] - Role::onClientDeath: 39.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:41:49 727] - Role[39]::onClientDeath.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:41:50 721] - Role[39]::onTimer: tid:1, arg:1.
+    INFO    baseapp01 1 7001  [2018-01-28 23:41:50 741] - Baseapp::onBackupEntityCellData: Role(39), 103 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:41:50 741] - Role[39]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:41:50 742] - SceneAlloc[40]::onDestroy.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:41:50 742] - SceneAlloc::~SceneAlloc(): 40
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:41:50 742] - Account::onDestroy: 38.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:41:50 742] - Account::~Account(): 38
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:41:50 743] - Role[39]::onLoseCell.
+    INFO    baseapp01 1 7001  [2018-01-28 23:42:24 724] - Baseapp::onBackupEntityCellData: MoveObj(15), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:43:03 180] - Baseapp::onBackupEntityCellData: MoveObj(11), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:43:41 639] - Baseapp::onBackupEntityCellData: MoveObj(7), 1 bytes.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:44:48 298] - PendingLoginMgr::add: a, size=1.
+    INFO    baseapp01 1 7001  [2018-01-28 23:44:48 538] - ServerApp::onHello: verInfo=1.1.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:10.82.25.163:53708/0/0/0
+ WARNING    baseapp01 1 7001  [2018-01-28 23:44:48 540] - Baseapp::onHello: client is not encrypted, addr=10.82.25.163:53708/0/0/0
+    INFO    baseapp01 1 7001  [2018-01-28 23:44:48 637] - Baseapp::loginBaseapp: new user[a], channel[10.82.25.163:53708/0/0/0].
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:44:48 677] - PendingLoginMgr::remove: a, size=0.
+    INFO    baseapp01 1 7001  [2018-01-28 23:44:48 678] - EntityApp::createEntity: new Account 42
+  S_INFO    baseapp01 1 7001  [2018-01-28 23:44:48 678] - account[42] entities enable. mailbox:Client id:42, utype:1, component=client[0], addr: 10.82.25.163:53708.
+    INFO    baseapp01 1 7001  [2018-01-28 23:44:48 678] - Baseapp::onQueryAccountCBFromDbmgr: user=a, uuid=6516128049946624000, entityID=42, flags=0, deadline=0.
+    INFO    baseapp01 1 7001  [2018-01-28 23:44:51 458] - EntityApp::createEntity: new Role 43
+ WARNING    baseapp01 1 7001  [2018-01-28 23:44:51 458] - SceneAlloc::createCellData: do not create cellData, cannot find the cellapp script(SceneAlloc)!
+    INFO    baseapp01 1 7001  [2018-01-28 23:44:51 458] - EntityApp::createEntity: new SceneAlloc 44
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:44:51 458] - SceneAlloc[44]::onEntitiesEnabled: Client id:44, utype:4, component=client[0], addr: 10.82.25.163:53708..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:44:51 658] - SceneAlloc[44]::reqMoveObjsSync: [{'pos': Vector3(-1.400000, 3.289876, -26.500011), ref=false, 'dir': Vector3(0.000104, -0.001143, -0.000061), ref=false, 'name': 'Cube (11)'}, {'pos': Vector3(12.799993, 3.289877, -31.299978), ref=false, 'dir': Vector3(0.000938, 0.001857, 0.000157), ref=false, 'name': 'Cube (4)'}, {'pos': Vector3(-0.375659, 3.325986, -32.814529), ref=false, 'dir': Vector3(357.302917, 358.399384, 0.049010), ref=false, 'name': 'Cube (13)'}, {'pos': Vector3(1.699992, 3.289878, -33.599976), ref=false, 'dir': Vector3(0.000966, 0.001909, 0.000182), ref=false, 'name': 'Cube (19)'}, {'pos': Vector3(13.199992, 3.289876, -27.399979), ref=false, 'dir': Vector3(0.000943, 0.001857, 0.000157), ref=false, 'name': 'Cube (10)'}, {'pos': Vector3(-1.800007, 3.289877, -30.299978), ref=false, 'dir': Vector3(0.000933, 0.001845, 0.000187), ref=false, 'name': 'Cube (20)'}, {'pos': Vector3(16.199993, 3.289878, -34.499977), ref=false, 'dir': Vector3(0.000956, 0.001922, 0.000225), ref=false, 'name': 'Cube (2)'}, {'pos': Vector3(2.099954, 3.289880, -30.499996), ref=false, 'dir': Vector3(0.004509, -0.000241, -0.000445), ref=false, 'name': 'Cube (12)'}, {'pos': Vector3(15.799993, 3.289876, -27.999979), ref=false, 'dir': Vector3(0.000946, 0.001859, 0.000162), ref=false, 'name': 'Cube (3)'}, {'pos': Vector3(16.699993, 3.289877, -31.399977), ref=false, 'dir': Vector3(0.000958, 0.001838, 0.000119), ref=false, 'name': 'Cube (9)'}, {'pos': Vector3(1.200008, 3.289877, -27.000015), ref=false, 'dir': Vector3(-0.000810, -0.001528, 0.000095), ref=false, 'name': 'Cube (18)'}, {'pos': Vector3(14.124340, 3.325986, -33.714531), ref=false, 'dir': Vector3(357.303040, 358.399323, 0.048998), ref=false, 'name': 'Cube (8)'}]
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:44:51 658] - Role[43]::onEntitiesEnabled: Client id:43, utype:3, component=client[0], addr: 10.82.25.163:53708..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:44:51 678] - Role[43]::onClientGetCell: Client id:43, utype:3, component=client[0], addr: 10.82.25.163:53708..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:44:51 678] - Role[43]::onGetCell: Cell id:43, utype:3, component=cellapp[8001], addr: 10.82.25.163:52560..
+    INFO    baseapp01 1 7001  [2018-01-28 23:44:57 057] - Baseapp::onBackupEntityCellData: MoveObj(7), 1 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:45:08 397] - Space[1]::controllObjByRole: Role object at 0x066E83F8.
+    INFO    baseapp01 1 7001  [2018-01-28 23:45:11 338] - EntityApp::createEntity: new Arrow 45
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:45:11 357] - Arrow[45]::onGetCell: Cell id:45, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+    INFO    baseapp01 1 7001  [2018-01-28 23:45:14 557] - Baseapp::onBackupEntityCellData: Arrow(45), 91 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:45:14 558] - Arrow[45]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:45:14 558] - Arrow[45]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:45:14 558] - Arrow::~Arrow(): 45
+    INFO    baseapp01 1 7001  [2018-01-28 23:45:28 117] - Baseapp::onBackupEntityCellData: MoveObj(13), 1 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:45:30 398] - Space[1]::controllObjByRole: Role object at 0x066E83F8.
+    INFO    baseapp01 1 7001  [2018-01-28 23:45:51 857] - EntityApp::createEntity: new Arrow 46
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:45:51 877] - Arrow[46]::onGetCell: Cell id:46, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+    INFO    baseapp01 1 7001  [2018-01-28 23:45:55 077] - Baseapp::onBackupEntityCellData: Arrow(46), 91 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:45:55 077] - Arrow[46]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:45:55 077] - Arrow[46]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:45:55 077] - Arrow::~Arrow(): 46
+    INFO    baseapp01 1 7001  [2018-01-28 23:45:57 477] - EntityApp::createEntity: new Arrow 47
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:45:57 496] - Arrow[47]::onGetCell: Cell id:47, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+    INFO    baseapp01 1 7001  [2018-01-28 23:45:59 056] - Baseapp::onBackupEntityCellData: MoveObj(8), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:45:59 499] - EntityApp::createEntity: new Arrow 48
+    INFO    baseapp01 1 7001  [2018-01-28 23:45:59 500] - EntityApp::createEntity: new Arrow 49
+    INFO    baseapp01 1 7001  [2018-01-28 23:45:59 500] - EntityApp::createEntity: new Arrow 50
+    INFO    baseapp01 1 7001  [2018-01-28 23:45:59 501] - EntityApp::createEntity: new Arrow 51
+    INFO    baseapp01 1 7001  [2018-01-28 23:45:59 501] - EntityApp::createEntity: new Arrow 52
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:45:59 516] - Arrow[48]::onGetCell: Cell id:48, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:45:59 517] - Arrow[49]::onGetCell: Cell id:49, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:45:59 517] - Arrow[50]::onGetCell: Cell id:50, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:45:59 517] - Arrow[51]::onGetCell: Cell id:51, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:45:59 518] - Arrow[52]::onGetCell: Cell id:52, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:00 301] - Baseapp::onBackupEntityCellData: Arrow(48), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:00 302] - Arrow[48]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:00 302] - Arrow[48]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:46:00 302] - Arrow::~Arrow(): 48
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:00 436] - Baseapp::onBackupEntityCellData: Arrow(52), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:00 436] - Arrow[52]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:00 436] - Arrow[52]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:46:00 436] - Arrow::~Arrow(): 52
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:00 498] - Baseapp::onBackupEntityCellData: Arrow(50), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:00 499] - Arrow[50]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:00 499] - Arrow[50]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:46:00 499] - Arrow::~Arrow(): 50
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:00 698] - Baseapp::onBackupEntityCellData: Arrow(47), 91 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:00 698] - Arrow[47]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:00 699] - Arrow[47]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:46:00 699] - Arrow::~Arrow(): 47
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:02 716] - Baseapp::onBackupEntityCellData: Arrow(51), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:02 717] - Arrow[51]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:02 717] - Arrow[51]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:46:02 717] - Arrow::~Arrow(): 51
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:02 717] - Baseapp::onBackupEntityCellData: Arrow(49), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:02 717] - Arrow[49]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:02 718] - Arrow[49]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:46:02 718] - Arrow::~Arrow(): 49
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:29 636] - Baseapp::onBackupEntityCellData: Space(1), 1 bytes.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:46:30 376] - PendingLoginMgr::add: b, size=1.
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:30 576] - ServerApp::onHello: verInfo=1.1.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:10.82.25.163:53724/0/0/0
+ WARNING    baseapp01 1 7001  [2018-01-28 23:46:30 576] - Baseapp::onHello: client is not encrypted, addr=10.82.25.163:53724/0/0/0
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:30 676] - Baseapp::loginBaseapp: new user[b], channel[10.82.25.163:53724/0/0/0].
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:46:30 716] - PendingLoginMgr::remove: b, size=0.
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:30 716] - EntityApp::createEntity: new Account 53
+  S_INFO    baseapp01 1 7001  [2018-01-28 23:46:30 716] - account[53] entities enable. mailbox:Client id:53, utype:1, component=client[0], addr: 10.82.25.163:53724.
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:30 716] - Baseapp::onQueryAccountCBFromDbmgr: user=b, uuid=6516128488033288192, entityID=53, flags=0, deadline=0.
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:33 576] - EntityApp::createEntity: new Role 54
+ WARNING    baseapp01 1 7001  [2018-01-28 23:46:33 576] - SceneAlloc::createCellData: do not create cellData, cannot find the cellapp script(SceneAlloc)!
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:33 576] - EntityApp::createEntity: new SceneAlloc 55
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:33 577] - SceneAlloc[55]::onEntitiesEnabled: Client id:55, utype:4, component=client[0], addr: 10.82.25.163:53724..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:33 796] - SceneAlloc[55]::reqMoveObjsSync: [{'pos': Vector3(-1.400000, 3.289877, -26.500004), ref=false, 'dir': Vector3(0.000041, -0.000521, -0.000046), ref=false, 'name': 'Cube (11)'}, {'pos': Vector3(12.799997, 3.289878, -31.299992), ref=false, 'dir': Vector3(0.000336, 0.000711, 0.000049), ref=false, 'name': 'Cube (4)'}, {'pos': Vector3(-0.373314, 3.328034, -32.814972), ref=false, 'dir': Vector3(357.061218, 358.366455, 0.057376), ref=false, 'name': 'Cube (13)'}, {'pos': Vector3(1.699997, 3.289879, -33.599991), ref=false, 'dir': Vector3(0.000347, 0.000719, 0.000031), ref=false, 'name': 'Cube (19)'}, {'pos': Vector3(13.199997, 3.289877, -27.399992), ref=false, 'dir': Vector3(0.000333, 0.000704, 0.000049), ref=false, 'name': 'Cube (10)'}, {'pos': Vector3(-1.800002, 3.289878, -30.299992), ref=false, 'dir': Vector3(0.000325, 0.000715, 0.000028), ref=false, 'name': 'Cube (20)'}, {'pos': Vector3(16.199999, 3.289879, -34.499992), ref=false, 'dir': Vector3(0.000361, 0.000738, 0.000010), ref=false, 'name': 'Cube (2)'}, {'pos': Vector3(2.099980, 3.289878, -30.499996), ref=false, 'dir': Vector3(0.002117, 0.000241, -0.000146), ref=false, 'name': 'Cube (12)'}, {'pos': Vector3(15.799997, 3.289877, -27.999992), ref=false, 'dir': Vector3(0.000312, 0.000700, 0.000089), ref=false, 'name': 'Cube (3)'}, {'pos': Vector3(16.699997, 3.289878, -31.399992), ref=false, 'dir': Vector3(0.000337, 0.000771, 0.000051), ref=false, 'name': 'Cube (9)'}, {'pos': Vector3(1.200001, 3.289877, -27.000004), ref=false, 'dir': Vector3(-0.000156, -0.000333, 0.000025), ref=false, 'name': 'Cube (18)'}, {'pos': Vector3(14.126685, 3.328034, -33.714973), ref=false, 'dir': Vector3(357.061340, 358.366364, 0.057382), ref=false, 'name': 'Cube (8)'}]
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:33 796] - Role[54]::onEntitiesEnabled: Client id:54, utype:3, component=client[0], addr: 10.82.25.163:53724..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:33 816] - Role[54]::onClientGetCell: Client id:54, utype:3, component=client[0], addr: 10.82.25.163:53724..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:33 817] - Role[54]::onGetCell: Cell id:54, utype:3, component=cellapp[8001], addr: 10.82.25.163:52560..
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:38 317] - EntityApp::createEntity: new Arrow 56
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:38 338] - Arrow[56]::onGetCell: Cell id:56, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:40 138] - EntityApp::createEntity: new Arrow 57
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:40 138] - EntityApp::createEntity: new Arrow 58
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:40 139] - EntityApp::createEntity: new Arrow 59
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:40 139] - EntityApp::createEntity: new Arrow 60
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:40 140] - EntityApp::createEntity: new Arrow 61
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:40 156] - Arrow[57]::onGetCell: Cell id:57, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:40 156] - Arrow[58]::onGetCell: Cell id:58, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:40 157] - Arrow[59]::onGetCell: Cell id:59, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:40 157] - Arrow[60]::onGetCell: Cell id:60, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:40 157] - Arrow[61]::onGetCell: Cell id:61, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:41 537] - Baseapp::onBackupEntityCellData: Arrow(56), 91 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:41 537] - Arrow[56]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:41 538] - Arrow[56]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:46:41 538] - Arrow::~Arrow(): 56
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:43 356] - Baseapp::onBackupEntityCellData: Arrow(60), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:43 356] - Arrow[60]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:43 356] - Arrow[60]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:46:43 356] - Arrow::~Arrow(): 60
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:43 356] - Baseapp::onBackupEntityCellData: Arrow(59), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:43 357] - Arrow[59]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:43 357] - Arrow[59]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:46:43 357] - Arrow::~Arrow(): 59
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:43 357] - Baseapp::onBackupEntityCellData: Arrow(58), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:43 357] - Arrow[58]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:43 357] - Arrow[58]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:46:43 357] - Arrow::~Arrow(): 58
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:43 357] - Baseapp::onBackupEntityCellData: Arrow(61), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:43 358] - Arrow[61]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:43 358] - Arrow[61]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:46:43 358] - Arrow::~Arrow(): 61
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:43 358] - Baseapp::onBackupEntityCellData: Arrow(57), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:43 358] - Arrow[57]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:43 358] - Arrow[57]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:46:43 358] - Arrow::~Arrow(): 57
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:45 656] - EntityApp::createEntity: new Arrow 62
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:45 676] - Arrow[62]::onGetCell: Cell id:62, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:46 156] - Baseapp::onBackupEntityCellData: Arrow(62), 91 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:46 157] - Arrow[62]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:46 157] - Arrow[62]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:46:46 157] - Arrow::~Arrow(): 62
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:47 776] - EntityApp::createEntity: new Arrow 63
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:47 777] - EntityApp::createEntity: new Arrow 64
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:47 777] - EntityApp::createEntity: new Arrow 65
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:47 777] - EntityApp::createEntity: new Arrow 66
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:47 778] - EntityApp::createEntity: new Arrow 67
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:47 796] - Arrow[63]::onGetCell: Cell id:63, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:47 796] - Arrow[64]::onGetCell: Cell id:64, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:47 796] - Arrow[65]::onGetCell: Cell id:65, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:47 796] - Arrow[66]::onGetCell: Cell id:66, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:47 797] - Arrow[67]::onGetCell: Cell id:67, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:48 336] - Baseapp::onBackupEntityCellData: Arrow(63), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:48 336] - Arrow[63]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:48 336] - Arrow[63]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:46:48 336] - Arrow::~Arrow(): 63
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:48 336] - Baseapp::onBackupEntityCellData: Arrow(65), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:48 337] - Arrow[65]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:48 337] - Arrow[65]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:46:48 337] - Arrow::~Arrow(): 65
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:50 995] - Baseapp::onBackupEntityCellData: Arrow(64), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:50 996] - Arrow[64]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:50 996] - Arrow[64]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:46:50 996] - Arrow::~Arrow(): 64
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:50 996] - Baseapp::onBackupEntityCellData: Arrow(67), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:51 000] - Arrow[67]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:51 001] - Arrow[67]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:46:51 001] - Arrow::~Arrow(): 67
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:51 001] - Baseapp::onBackupEntityCellData: Arrow(66), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:51 001] - Arrow[66]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:51 001] - Arrow[66]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:46:51 001] - Arrow::~Arrow(): 66
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:51 402] - EntityApp::createEntity: new Arrow 68
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:51 417] - Arrow[68]::onGetCell: Cell id:68, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:54 616] - Baseapp::onBackupEntityCellData: Arrow(68), 91 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:54 616] - Arrow[68]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:54 616] - Arrow[68]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:46:54 616] - Arrow::~Arrow(): 68
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:54 636] - Baseapp::onBackupEntityCellData: MoveObj(15), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:57 536] - EntityApp::createEntity: new Arrow 69
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:57 536] - EntityApp::createEntity: new Arrow 70
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:57 537] - EntityApp::createEntity: new Arrow 71
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:57 537] - EntityApp::createEntity: new Arrow 72
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:57 537] - EntityApp::createEntity: new Arrow 73
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:57 555] - Arrow[69]::onGetCell: Cell id:69, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:57 556] - Arrow[70]::onGetCell: Cell id:70, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:57 556] - Arrow[71]::onGetCell: Cell id:71, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:57 556] - Arrow[72]::onGetCell: Cell id:72, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:57 557] - Arrow[73]::onGetCell: Cell id:73, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:58 035] - Baseapp::onBackupEntityCellData: Arrow(69), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:58 036] - Arrow[69]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:58 036] - Arrow[69]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:46:58 036] - Arrow::~Arrow(): 69
+    INFO    baseapp01 1 7001  [2018-01-28 23:46:58 055] - Baseapp::onBackupEntityCellData: Arrow(71), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:58 055] - Arrow[71]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:46:58 055] - Arrow[71]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:46:58 055] - Arrow::~Arrow(): 71
+    INFO    baseapp01 1 7001  [2018-01-28 23:47:00 755] - Baseapp::onBackupEntityCellData: Arrow(72), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:47:00 755] - Arrow[72]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:47:00 755] - Arrow[72]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:47:00 755] - Arrow::~Arrow(): 72
+    INFO    baseapp01 1 7001  [2018-01-28 23:47:00 756] - Baseapp::onBackupEntityCellData: Arrow(73), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:47:00 756] - Arrow[73]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:47:00 756] - Arrow[73]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:47:00 756] - Arrow::~Arrow(): 73
+    INFO    baseapp01 1 7001  [2018-01-28 23:47:00 756] - Baseapp::onBackupEntityCellData: Arrow(70), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:47:00 756] - Arrow[70]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:47:00 757] - Arrow[70]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:47:00 757] - Arrow::~Arrow(): 70
+    INFO    baseapp01 1 7001  [2018-01-28 23:47:02 456] - EntityApp::createEntity: new Arrow 74
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:47:02 480] - Arrow[74]::onGetCell: Cell id:74, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+    INFO    baseapp01 1 7001  [2018-01-28 23:47:02 935] - Baseapp::onBackupEntityCellData: Arrow(74), 91 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:47:02 935] - Arrow[74]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:47:02 935] - Arrow[74]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:47:02 935] - Arrow::~Arrow(): 74
+    INFO    baseapp01 1 7001  [2018-01-28 23:47:20 375] - Baseapp::onBackupEntityCellData: MoveObj(12), 1 bytes.
+ WARNING    baseapp01 1 7001  [2018-01-28 23:47:24 941] - TCPPacketReceiver::processPendingEvents(10.82.25.163:53724): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:47:24 941] - Role::onClientDeath: 54.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:47:24 941] - Role[54]::onClientDeath.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:47:25 936] - Role[54]::onTimer: tid:1, arg:1.
+    INFO    baseapp01 1 7001  [2018-01-28 23:47:25 955] - Baseapp::onBackupEntityCellData: Role(54), 103 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:47:25 955] - Role[54]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:47:25 955] - SceneAlloc[55]::onDestroy.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:47:25 955] - SceneAlloc::~SceneAlloc(): 55
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:47:25 955] - Account::onDestroy: 53.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:47:25 955] - Account::~Account(): 53
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:47:25 956] - Role[54]::onLoseCell.
+ WARNING    baseapp01 1 7001  [2018-01-28 23:47:26 261] - TCPPacketReceiver::processPendingEvents(10.82.25.163:53708): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:47:26 261] - Role::onClientDeath: 43.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:47:26 262] - Role[43]::onClientDeath.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:47:27 255] - Role[43]::onTimer: tid:1, arg:1.
+    INFO    baseapp01 1 7001  [2018-01-28 23:47:27 275] - Baseapp::onBackupEntityCellData: Role(43), 103 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:47:27 275] - Role[43]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:47:27 276] - SceneAlloc[44]::onDestroy.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:47:27 276] - SceneAlloc::~SceneAlloc(): 44
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:47:27 276] - Account::onDestroy: 42.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:47:27 276] - Account::~Account(): 42
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:47:27 277] - Role[43]::onLoseCell.
+    INFO    baseapp01 1 7001  [2018-01-28 23:47:55 934] - Baseapp::onBackupEntityCellData: MoveObj(16), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:48:34 394] - Baseapp::onBackupEntityCellData: MoveObj(9), 1 bytes.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:49:01 453] - PendingLoginMgr::add: a, size=1.
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:01 634] - ServerApp::onHello: verInfo=1.1.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:10.82.25.163:53741/0/0/0
+ WARNING    baseapp01 1 7001  [2018-01-28 23:49:01 634] - Baseapp::onHello: client is not encrypted, addr=10.82.25.163:53741/0/0/0
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:01 733] - Baseapp::loginBaseapp: new user[a], channel[10.82.25.163:53741/0/0/0].
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:49:01 773] - PendingLoginMgr::remove: a, size=0.
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:01 773] - EntityApp::createEntity: new Account 75
+  S_INFO    baseapp01 1 7001  [2018-01-28 23:49:01 774] - account[75] entities enable. mailbox:Client id:75, utype:1, component=client[0], addr: 10.82.25.163:53741.
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:01 774] - Baseapp::onQueryAccountCBFromDbmgr: user=a, uuid=6516129136573349888, entityID=75, flags=0, deadline=0.
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:04 153] - EntityApp::createEntity: new Role 76
+ WARNING    baseapp01 1 7001  [2018-01-28 23:49:04 154] - SceneAlloc::createCellData: do not create cellData, cannot find the cellapp script(SceneAlloc)!
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:04 154] - EntityApp::createEntity: new SceneAlloc 77
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:04 154] - SceneAlloc[77]::onEntitiesEnabled: Client id:77, utype:4, component=client[0], addr: 10.82.25.163:53741..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:04 354] - SceneAlloc[77]::reqMoveObjsSync: [{'pos': Vector3(-1.400000, 3.289876, -26.500011), ref=false, 'dir': Vector3(0.000104, -0.001143, -0.000061), ref=false, 'name': 'Cube (11)'}, {'pos': Vector3(12.799993, 3.289877, -31.299978), ref=false, 'dir': Vector3(0.000938, 0.001857, 0.000157), ref=false, 'name': 'Cube (4)'}, {'pos': Vector3(-0.375659, 3.325986, -32.814529), ref=false, 'dir': Vector3(357.302917, 358.399384, 0.049010), ref=false, 'name': 'Cube (13)'}, {'pos': Vector3(1.699992, 3.289878, -33.599976), ref=false, 'dir': Vector3(0.000966, 0.001909, 0.000182), ref=false, 'name': 'Cube (19)'}, {'pos': Vector3(13.199992, 3.289876, -27.399979), ref=false, 'dir': Vector3(0.000943, 0.001857, 0.000157), ref=false, 'name': 'Cube (10)'}, {'pos': Vector3(-1.800007, 3.289877, -30.299978), ref=false, 'dir': Vector3(0.000933, 0.001845, 0.000187), ref=false, 'name': 'Cube (20)'}, {'pos': Vector3(16.199993, 3.289878, -34.499977), ref=false, 'dir': Vector3(0.000956, 0.001922, 0.000225), ref=false, 'name': 'Cube (2)'}, {'pos': Vector3(2.099954, 3.289880, -30.499996), ref=false, 'dir': Vector3(0.004509, -0.000241, -0.000445), ref=false, 'name': 'Cube (12)'}, {'pos': Vector3(15.799993, 3.289876, -27.999979), ref=false, 'dir': Vector3(0.000946, 0.001859, 0.000162), ref=false, 'name': 'Cube (3)'}, {'pos': Vector3(16.699993, 3.289877, -31.399977), ref=false, 'dir': Vector3(0.000958, 0.001838, 0.000119), ref=false, 'name': 'Cube (9)'}, {'pos': Vector3(1.200008, 3.289877, -27.000015), ref=false, 'dir': Vector3(-0.000810, -0.001528, 0.000095), ref=false, 'name': 'Cube (18)'}, {'pos': Vector3(14.124340, 3.325986, -33.714531), ref=false, 'dir': Vector3(357.303040, 358.399323, 0.048998), ref=false, 'name': 'Cube (8)'}]
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:04 354] - Role[76]::onEntitiesEnabled: Client id:76, utype:3, component=client[0], addr: 10.82.25.163:53741..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:04 373] - Role[76]::onClientGetCell: Client id:76, utype:3, component=client[0], addr: 10.82.25.163:53741..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:04 374] - Role[76]::onGetCell: Cell id:76, utype:3, component=cellapp[8001], addr: 10.82.25.163:52560..
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:06 454] - EntityApp::createEntity: new Arrow 78
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:06 473] - Arrow[78]::onGetCell: Cell id:78, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:08 973] - EntityApp::createEntity: new Arrow 79
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:08 974] - EntityApp::createEntity: new Arrow 80
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:08 974] - EntityApp::createEntity: new Arrow 81
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:08 974] - EntityApp::createEntity: new Arrow 82
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:08 975] - EntityApp::createEntity: new Arrow 83
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:08 993] - Arrow[79]::onGetCell: Cell id:79, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:08 993] - Arrow[80]::onGetCell: Cell id:80, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:08 994] - Arrow[81]::onGetCell: Cell id:81, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:08 994] - Arrow[82]::onGetCell: Cell id:82, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:08 994] - Arrow[83]::onGetCell: Cell id:83, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:09 674] - Baseapp::onBackupEntityCellData: Arrow(78), 91 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:09 674] - Arrow[78]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:09 674] - Arrow[78]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:49:09 674] - Arrow::~Arrow(): 78
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:10 433] - Baseapp::onBackupEntityCellData: MoveObj(14), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:11 193] - Baseapp::onBackupEntityCellData: Arrow(80), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:11 193] - Arrow[80]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:11 193] - Arrow[80]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:49:11 193] - Arrow::~Arrow(): 80
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:12 193] - Baseapp::onBackupEntityCellData: Arrow(82), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:12 193] - Arrow[82]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:12 193] - Arrow[82]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:49:12 193] - Arrow::~Arrow(): 82
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:12 194] - Baseapp::onBackupEntityCellData: Arrow(79), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:12 194] - Arrow[79]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:12 194] - Arrow[79]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:49:12 194] - Arrow::~Arrow(): 79
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:12 194] - Baseapp::onBackupEntityCellData: Arrow(83), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:12 194] - Arrow[83]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:12 195] - Arrow[83]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:49:12 195] - Arrow::~Arrow(): 83
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:12 195] - Baseapp::onBackupEntityCellData: Arrow(81), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:12 195] - Arrow[81]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:12 195] - Arrow[81]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:49:12 195] - Arrow::~Arrow(): 81
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:16 316] - EntityApp::createEntity: new Arrow 84
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:16 333] - Arrow[84]::onGetCell: Cell id:84, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:18 115] - EntityApp::createEntity: new Arrow 85
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:18 116] - EntityApp::createEntity: new Arrow 86
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:18 116] - EntityApp::createEntity: new Arrow 87
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:18 116] - EntityApp::createEntity: new Arrow 88
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:18 117] - EntityApp::createEntity: new Arrow 89
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:18 133] - Arrow[85]::onGetCell: Cell id:85, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:18 133] - Arrow[86]::onGetCell: Cell id:86, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:18 133] - Arrow[87]::onGetCell: Cell id:87, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:18 133] - Arrow[88]::onGetCell: Cell id:88, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:18 134] - Arrow[89]::onGetCell: Cell id:89, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:19 233] - Baseapp::onBackupEntityCellData: Arrow(88), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:19 233] - Arrow[88]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:19 233] - Arrow[88]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:49:19 234] - Arrow::~Arrow(): 88
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:19 533] - Baseapp::onBackupEntityCellData: Arrow(84), 91 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:19 533] - Arrow[84]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:19 533] - Arrow[84]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:49:19 533] - Arrow::~Arrow(): 84
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:19 873] - Baseapp::onBackupEntityCellData: Arrow(86), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:19 873] - Arrow[86]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:19 873] - Arrow[86]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:49:19 873] - Arrow::~Arrow(): 86
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:21 332] - Baseapp::onBackupEntityCellData: Arrow(85), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:21 333] - Arrow[85]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:21 333] - Arrow[85]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:49:21 333] - Arrow::~Arrow(): 85
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:21 333] - Baseapp::onBackupEntityCellData: Arrow(89), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:21 333] - Arrow[89]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:21 333] - Arrow[89]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:49:21 333] - Arrow::~Arrow(): 89
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:21 334] - Baseapp::onBackupEntityCellData: Arrow(87), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:21 334] - Arrow[87]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:21 334] - Arrow[87]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:49:21 334] - Arrow::~Arrow(): 87
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:25 633] - Space[1]::controllObjByRole: Role object at 0x066E8B78.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:26 973] - Space[1]::controllObjByRole: Role object at 0x066E8B78.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:28 433] - Space[1]::controllObjByRole: Role object at 0x066E8B78.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:29 013] - Space[1]::controllObjByRole: Role object at 0x066E8B78.
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:40 212] - Baseapp::onBackupEntityCellData: MoveObj(11), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:57 313] - EntityApp::createEntity: new Arrow 90
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:57 313] - EntityApp::createEntity: new Arrow 91
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:57 314] - EntityApp::createEntity: new Arrow 92
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:57 314] - EntityApp::createEntity: new Arrow 93
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:57 314] - EntityApp::createEntity: new Arrow 94
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:57 334] - Arrow[90]::onGetCell: Cell id:90, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:57 334] - Arrow[91]::onGetCell: Cell id:91, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:57 335] - Arrow[92]::onGetCell: Cell id:92, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:57 335] - Arrow[93]::onGetCell: Cell id:93, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:57 336] - Arrow[94]::onGetCell: Cell id:94, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:58 452] - Baseapp::onBackupEntityCellData: Arrow(90), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:58 452] - Arrow[90]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:58 452] - Arrow[90]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:49:58 452] - Arrow::~Arrow(): 90
+    INFO    baseapp01 1 7001  [2018-01-28 23:49:58 472] - Baseapp::onBackupEntityCellData: Arrow(92), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:58 472] - Arrow[92]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:49:58 472] - Arrow[92]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:49:58 472] - Arrow::~Arrow(): 92
+    INFO    baseapp01 1 7001  [2018-01-28 23:50:00 533] - Baseapp::onBackupEntityCellData: Arrow(94), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:50:00 533] - Arrow[94]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:50:00 533] - Arrow[94]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:50:00 534] - Arrow::~Arrow(): 94
+    INFO    baseapp01 1 7001  [2018-01-28 23:50:00 534] - Baseapp::onBackupEntityCellData: Arrow(91), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:50:00 534] - Arrow[91]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:50:00 534] - Arrow[91]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:50:00 535] - Arrow::~Arrow(): 91
+    INFO    baseapp01 1 7001  [2018-01-28 23:50:00 535] - Baseapp::onBackupEntityCellData: Arrow(93), 98 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:50:00 535] - Arrow[93]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:50:00 535] - Arrow[93]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:50:00 535] - Arrow::~Arrow(): 93
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:50:03 092] - Space[1]::controllObjByRole: Role object at 0x066E8B78.
+    INFO    baseapp01 1 7001  [2018-01-28 23:50:10 713] - Baseapp::onBackupEntityCellData: MoveObj(5), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:50:41 952] - Baseapp::onBackupEntityCellData: MoveObj(10), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:51:10 993] - EntityApp::createEntity: new Arrow 95
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:51:11 011] - Arrow[95]::onGetCell: Cell id:95, utype:5, component=cellapp[8001], addr: 10.82.25.163:52560..
+    INFO    baseapp01 1 7001  [2018-01-28 23:51:13 071] - Baseapp::onBackupEntityCellData: MoveObj(6), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:51:14 210] - Baseapp::onBackupEntityCellData: Arrow(95), 91 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:51:14 211] - Arrow[95]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:51:14 211] - Arrow[95]::onLoseCell.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:51:14 211] - Arrow::~Arrow(): 95
+ WARNING    baseapp01 1 7001  [2018-01-28 23:51:35 698] - TCPPacketReceiver::processPendingEvents(10.82.25.163:53741): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:51:35 699] - Role::onClientDeath: 76.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:51:35 699] - Role[76]::onClientDeath.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:51:36 691] - Role[76]::onTimer: tid:1, arg:1.
+    INFO    baseapp01 1 7001  [2018-01-28 23:51:36 711] - Baseapp::onBackupEntityCellData: Role(76), 103 bytes.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:51:36 713] - Role[76]::onDestroy.
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:51:36 714] - SceneAlloc[77]::onDestroy.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:51:36 714] - SceneAlloc::~SceneAlloc(): 77
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:51:36 715] - Account::onDestroy: 75.
+   DEBUG    baseapp01 1 7001  [2018-01-28 23:51:36 716] - Account::~Account(): 75
+   S_DBG    baseapp01 1 7001  [2018-01-28 23:51:36 717] - Role[76]::onLoseCell.
+    INFO    baseapp01 1 7001  [2018-01-28 23:51:45 990] - Baseapp::onBackupEntityCellData: MoveObj(9), 1 bytes.
+ WARNING    baseapp01 1 7001  [2018-01-28 23:51:57 867] - baseapp.cpp:513: Profile gameTick took 0.02 seconds
+ WARNING    baseapp01 1 7001  [2018-01-28 23:51:57 883] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+ WARNING    baseapp01 1 7001  [2018-01-28 23:51:57 890] - EntityApp::checkTickPeriod: tick took 290% (0.29 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:51:58 175] - EntityApp::checkTickPeriod: tick took 210% (0.21 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:51:58 286] - baseapp.cpp:513: Profile gameTick took 0.12 seconds
+ WARNING    baseapp01 1 7001  [2018-01-28 23:51:58 310] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.15 seconds
+ WARNING    baseapp01 1 7001  [2018-01-28 23:51:58 313] - EntityApp::checkTickPeriod: tick took 690% (0.69 seconds)!
+    INFO    baseapp01 1 7001  [2018-01-28 23:52:24 450] - Baseapp::onBackupEntityCellData: MoveObj(16), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:53:02 909] - Baseapp::onBackupEntityCellData: MoveObj(13), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:53:41 369] - Baseapp::onBackupEntityCellData: MoveObj(10), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:54:19 847] - Baseapp::onBackupEntityCellData: MoveObj(7), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:54:58 307] - Baseapp::onBackupEntityCellData: MoveObj(12), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:55:36 767] - Baseapp::onBackupEntityCellData: Space(1), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:56:15 245] - Baseapp::onBackupEntityCellData: MoveObj(8), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:56:53 705] - Baseapp::onBackupEntityCellData: MoveObj(11), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:57:32 145] - Baseapp::onBackupEntityCellData: MoveObj(5), 1 bytes.
+    INFO    baseapp01 1 7001  [2018-01-28 23:58:10 604] - Baseapp::onBackupEntityCellData: MoveObj(15), 1 bytes.
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:12 637] - EntityApp::checkTickPeriod: tick took 260% (0.26 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:39 783] - EntityApp::checkTickPeriod: tick took 400% (0.40 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:39 866] - EntityApp::checkTickPeriod: tick took 320% (0.32 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:41 159] - EntityApp::checkTickPeriod: tick took 280% (0.28 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:41 370] - EntityApp::checkTickPeriod: tick took 285% (0.28 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:41 380] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.02 seconds
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:42 346] - EntityApp::checkTickPeriod: tick took 215% (0.22 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:43 168] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:43 184] - EntityApp::checkTickPeriod: tick took 305% (0.31 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:43 215] - baseapp.cpp:513: Profile gameTick took 0.03 seconds
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:43 217] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:44 282] - EntityApp::checkTickPeriod: tick took 300% (0.30 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:44 304] - baseapp.cpp:513: Profile gameTick took 0.02 seconds
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:44 323] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:44 759] - EntityApp::checkTickPeriod: tick took 280% (0.28 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:45 263] - EntityApp::checkTickPeriod: tick took 205% (0.20 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:45 376] - EntityApp::checkTickPeriod: tick took 265% (0.26 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:46 243] - EntityApp::checkTickPeriod: tick took 295% (0.29 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:46 264] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.02 seconds
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:46 450] - EntityApp::checkTickPeriod: tick took 235% (0.23 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:47 293] - EntityApp::checkTickPeriod: tick took 295% (0.29 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:48 228] - EntityApp::checkTickPeriod: tick took 210% (0.21 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:48 626] - EntityApp::checkTickPeriod: tick took 315% (0.31 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:48 825] - EntityApp::checkTickPeriod: tick took 210% (0.21 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:48 845] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.02 seconds
+    INFO    baseapp01 1 7001  [2018-01-28 23:58:49 062] - Baseapp::onBackupEntityCellData: MoveObj(14), 1 bytes.
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:49 104] - EntityApp::checkTickPeriod: tick took 210% (0.21 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:50 521] - EntityApp::checkTickPeriod: tick took 290% (0.29 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:50 568] - baseapp.cpp:513: Profile gameTick took 0.05 seconds
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:50 569] - EntityApp::checkTickPeriod: tick took 235% (0.23 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:50 569] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:50 635] - EntityApp::checkTickPeriod: tick took 245% (0.25 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:51 792] - EntityApp::checkTickPeriod: tick took 245% (0.25 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:51 821] - baseapp.cpp:513: Profile gameTick took 0.03 seconds
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:51 839] - EntityApp::checkTickPeriod: tick took 230% (0.23 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:51 839] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:51 922] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:52 007] - EntityApp::checkTickPeriod: tick took 225% (0.22 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:53 647] - EntityApp::checkTickPeriod: tick took 225% (0.22 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:53 683] - baseapp.cpp:513: Profile gameTick took 0.04 seconds
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:53 683] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:54 565] - EntityApp::checkTickPeriod: tick took 215% (0.22 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:55 332] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.02 seconds
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:55 375] - EntityApp::checkTickPeriod: tick took 355% (0.35 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:56 371] - EntityApp::checkTickPeriod: tick took 345% (0.34 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:56 397] - baseapp.cpp:513: Profile gameTick took 0.03 seconds
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:56 399] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:56 834] - EntityApp::checkTickPeriod: tick took 260% (0.26 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:58:57 366] - EntityApp::checkTickPeriod: tick took 280% (0.28 seconds)!
+    INFO    baseapp01 1 7001  [2018-01-28 23:59:27 521] - Baseapp::onBackupEntityCellData: MoveObj(6), 1 bytes.
+ WARNING    baseapp01 1 7001  [2018-01-28 23:59:29 025] - EntityApp::checkTickPeriod: tick took 515% (0.51 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:59:29 047] - baseapp.cpp:513: Profile gameTick took 0.02 seconds
+ WARNING    baseapp01 1 7001  [2018-01-28 23:59:29 052] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
+ WARNING    baseapp01 1 7001  [2018-01-28 23:59:30 170] - EntityApp::checkTickPeriod: tick took 205% (0.20 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:59:30 505] - EntityApp::checkTickPeriod: tick took 215% (0.22 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:59:31 344] - EntityApp::checkTickPeriod: tick took 210% (0.21 seconds)!
+ WARNING    baseapp01 1 7001  [2018-01-28 23:59:31 364] - baseapp.cpp:513: Profile gameTick took 0.02 seconds
+ WARNING    baseapp01 1 7001  [2018-01-28 23:59:31 365] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.02 seconds
+ WARNING    baseapp01 1 7001  [2018-01-28 23:59:32 345] - EntityApp::checkTickPeriod: tick took 315% (0.31 seconds)!

@@ -7,7 +7,8 @@ from GlobeConst import *
 
 class CombatProps:
 	def __init__(self):
-		self.recover_timer = self.addTimer(1, Delta_Time, TIMER_TYPE_RECOVER_3P)
+		self.recover_Timer = self.addTimer(1, Delta_Time, TIMER_TYPE_RECOVER_3P)
+		self.frozen_Timer = 0
 		self.speed_Timer = 0
 		pass
 
@@ -28,16 +29,18 @@ class CombatProps:
 
 	def reqBeAttack(self, exposed, attackType, damage):
 		self.HP = self.cutValue(self.HP, damage, 0.0)
-		#if self.HP == 0.0 : self.delTimer(self.recover_timer)
+		#if self.HP == 0.0 : self.delTimer(self.recover_Timer)
 
 		if attackType == AttackType.Frozen:
 			self.moveSpeed = Frozen_Speed
 			if self.speed_Timer > 0:
 				self.delTimer(self.speed_Timer)
 				self.speed_Timer = 0
-			self.addTimer(Frozen_Time, 0, TIMER_TYPE_FROZEN_RELIEF)
+			self.frozen_Timer = self.addTimer(Frozen_Time, 0, TIMER_TYPE_FROZEN_RELIEF)
 		elif attackType == AttackType.Strong:
 			self.addTimer(Sleep_Time, 0, TIMER_TYPE_SLEEP_RELIEF)
+		elif attackType == AttackType.Shadow:
+			self.addTimer(Mess_Time, 0, TIMER_TYPE_MESS_RELIEF)
 
 		self.allClients.recAttack(attackType, damage)
 
@@ -66,6 +69,17 @@ class CombatProps:
 		self.speed_Timer = self.addTimer(SpeedUp_Time, 0, TIMER_TYPE_SPEEDUP_RELIEF)
 		self.allClients.recSpeedUp(speed)
 
+	def reqTeleportBeg(self, exposed, speed, needMP):
+		self.moveSpeed = speed
+		self.MP = self.cutValue(self.MP, needMP, 0)
+		self.allClients.recTeleport()
+
+	def reqTeleportEnd(self, exposed):
+		if self.frozen_Timer > 0:
+			self.moveSpeed = Frozen_Speed
+		else:
+			self.moveSpeed = Normal_Speed
+
 	#--------------------------------------------------------------------------------------------
 	#                              Callbacks
 	#--------------------------------------------------------------------------------------------
@@ -84,6 +98,7 @@ class CombatProps:
 		elif userArg == TIMER_TYPE_FROZEN_RELIEF:
 			self.moveSpeed = Normal_Speed
 			self.allClients.recRelief(ReliefType.Frozen)
+			self.frozen_Timer = 0
 
 		elif userArg == TIMER_TYPE_SPEEDUP_RELIEF:
 			self.moveSpeed = Normal_Speed
@@ -91,6 +106,9 @@ class CombatProps:
 
 		elif userArg == TIMER_TYPE_SLEEP_RELIEF:
 			self.allClients.recRelief(ReliefType.Sleep)
+
+		elif userArg == TIMER_TYPE_MESS_RELIEF:
+			self.allClients.recRelief(ReliefType.Mess)
 
 		elif userArg == TIMER_TYPE_START_RELIVE:
 			self.position = MathEx.calcRandomPos(Relive_Center, Relive_Radius)

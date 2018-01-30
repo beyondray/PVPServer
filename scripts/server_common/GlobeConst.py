@@ -5,6 +5,7 @@ Delta_Time 											= 0.1 #间隔时间
 Frozen_Time											= 5 #冰冻持续时间
 Sleep_Time											= 3 #睡眠持续时间
 SpeedUp_Time										= 3 #神速持续时间
+Mess_Time											= 3 #混乱持续时间
 Relive_Time											= 2 #等待重生时间
 
 Frozen_Speed										= 3.5 #冰冻时的速度

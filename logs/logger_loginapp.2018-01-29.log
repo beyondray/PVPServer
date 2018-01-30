@@ -1,0 +1,225 @@
+    INFO   loginapp01 1 9000  [2018-01-29 00:02:31 781] - ServerApp::onHello: verInfo=1.1.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:53836/0/0/0
+ WARNING   loginapp01 1 9000  [2018-01-29 00:02:31 781] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:53836/0/0/0
+  S_INFO   loginapp01 1 9000  [2018-01-29 00:02:31 881] - onRequestLogin() loginName=a, clientType=2
+   DEBUG   loginapp01 1 9000  [2018-01-29 00:02:31 881] - PendingLoginMgr::add: a, size=1.
+    INFO   loginapp01 1 9000  [2018-01-29 00:02:31 881] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=a, datas=login test!!.
+  S_INFO   loginapp01 1 9000  [2018-01-29 00:02:31 941] - onLoginCallbackFromDB() loginName=a, accountName=a, errorno=0
+   DEBUG   loginapp01 1 9000  [2018-01-29 00:02:31 980] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=a, addr=10.82.25.163:20015.
+   DEBUG   loginapp01 1 9000  [2018-01-29 00:02:31 980] - PendingLoginMgr::remove: a, size=0.
+ WARNING   loginapp01 1 9000  [2018-01-29 00:02:32 054] - TCPPacketReceiver::processPendingEvents(127.0.0.1:53836): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+    INFO   loginapp-1 1 9000  [2018-01-29 13:20:58 544] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 1 9000  [2018-01-29 13:20:58 544] - Resmgr::initialize: KBE_ROOT=G:/GitHub/kbengine/
+    INFO   loginapp-1 1 9000  [2018-01-29 13:20:58 545] - Resmgr::initialize: KBE_RES_PATH=G:/GitHub/kbengine/kbe/res/;G:/GitHub/kbengine/newgame-assets/;G:/GitHub/kbengine/newgame-assets/scripts/;G:/GitHub/kbengine/newgame-assets/res/
+    INFO   loginapp-1 1 9000  [2018-01-29 13:20:58 545] - Resmgr::initialize: KBE_BIN_PATH=G:/GitHub/kbengine/kbe/bin/server/
+    INFO   loginapp-1 1 9000  [2018-01-29 13:20:58 548] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 10.82.25.163 ( 10.82.25.163:20013 )
+    INFO   loginapp-1 1 9000  [2018-01-29 13:20:58 548] - NetworkInterface::initialize(EXTERNAL): address 10.82.25.163:20013, SOMAXCONN=128.
+    INFO   loginapp-1 1 9000  [2018-01-29 13:20:58 549] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 10.82.25.163 ( 10.82.25.163:57437 )
+    INFO   loginapp-1 1 9000  [2018-01-29 13:20:58 549] - NetworkInterface::initialize(INTERNAL): address 10.82.25.163:57437, SOMAXCONN=128.
+    INFO   loginapp-1 1 9000  [2018-01-29 13:20:58 550] - server-configs:
+    INFO   loginapp-1 1 9000  [2018-01-29 13:20:58 550] - 	internalAddr : 10.82.25.163:57437
+    INFO   loginapp-1 1 9000  [2018-01-29 13:20:58 550] - 	externalAddr : 10.82.25.163:20013
+    INFO   loginapp-1 1 9000  [2018-01-29 13:20:58 550] - 	componentID : 9000
+    INFO   loginapp-1 1 9000  [2018-01-29 13:20:58 900] - Components::findLogger: found logger, addr:10.82.25.163:57418
+    INFO   loginapp-1 1 9000  [2018-01-29 13:20:58 900] - Components::addComponent: reset orderLog, uid=1!
+    INFO   loginapp-1 1 9000  [2018-01-29 13:20:58 900] - Components::addComponent[logger], uid=1, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 1 9000  [2018-01-29 13:20:58 904] - ---- loginapp Version: 1.1.0. ScriptVersion: 0.1.0. Protocol: A16A7477E55D6AEDCD48345D2B50A665. Config: Debug X86. Built: 23:59:38 Dec  1 2017. AppID: 9000. UID: 1. PID: 8536 ----
+    INFO   loginapp-1 1 9000  [2018-01-29 13:20:58 905] - Server : Intel(R) Core(TM) i5-4210H CPU @ 2.90GHz with 2097151kB RAM
+    INFO   loginapp-1 1 9000  [2018-01-29 13:20:58 905] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 1 9000  [2018-01-29 13:20:58 905] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG   loginapp-1 1 9000  [2018-01-29 13:20:59 088] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG   loginapp-1 1 9000  [2018-01-29 13:20:59 089] - Script::install_py_dlls(): PyInit__socket
+   DEBUG   loginapp-1 1 9000  [2018-01-29 13:20:59 090] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG   loginapp-1 1 9000  [2018-01-29 13:20:59 097] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG   loginapp-1 1 9000  [2018-01-29 13:20:59 097] - Script::install_py_dlls(): PyInit_select
+   DEBUG   loginapp-1 1 9000  [2018-01-29 13:20:59 098] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG   loginapp-1 1 9000  [2018-01-29 13:20:59 101] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG   loginapp-1 1 9000  [2018-01-29 13:20:59 171] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO   loginapp-1 1 9000  [2018-01-29 13:20:59 241] - Script::install(): is successfully, Python=(3.4.2 (default, Dec  1 2017, 23:59:35) [MSC v.1900 32 bit (Intel)])!
+    INFO   loginapp-1 1 9000  [2018-01-29 13:20:59 242] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 1 9000  [2018-01-29 13:20:59 246] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 1 9000  [2018-01-29 13:20:59 246] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 1 9000  [2018-01-29 13:21:00 065] - ---- loginapp is running ----
+   DEBUG   loginapp-1 1 9000  [2018-01-29 13:21:00 065] - Components::process(): Request for the process of identity...
+ WARNING   loginapp-1 1 9000  [2018-01-29 13:21:06 463] - serverapp.cpp:271: Profile callScriptTimers took 0.02 seconds
+ WARNING   loginapp-1 1 9000  [2018-01-29 13:21:06 522] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.24 seconds
+ WARNING   loginapp-1 1 9000  [2018-01-29 13:21:06 576] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+    INFO   loginapp-1 1 9000  [2018-01-29 13:21:07 525] - Components::findComponents: find dbmgr(1)...
+    INFO   loginapp-1 1 9000  [2018-01-29 13:21:07 637] - Components::findComponents: found dbmgr, addr:10.82.25.163:57424
+    INFO   loginapp-1 1 9000  [2018-01-29 13:21:07 637] - Components::addComponent: reset orderLog, uid=1!
+    INFO   loginapp-1 1 9000  [2018-01-29 13:21:07 637] - Components::addComponent[dbmgr], uid=1, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 1 9000  [2018-01-29 13:21:07 637] - Components::findComponents: found dbmgr, addr:10.82.25.163:57424
+    INFO   loginapp-1 1 9000  [2018-01-29 13:21:09 644] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 1 9000  [2018-01-29 13:21:09 715] - Components::findComponents: found baseappmgr, addr:10.82.25.163:57426
+    INFO   loginapp-1 1 9000  [2018-01-29 13:21:09 715] - Components::addComponent[baseappmgr], uid=1, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 1 9000  [2018-01-29 13:21:09 718] - Components::findComponents: found baseappmgr, addr:10.82.25.163:57426
+    INFO   loginapp-1 1 9000  [2018-01-29 13:21:10 786] - ServerApp::onHello: verInfo=1.1.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:57454/0/0/0
+ WARNING   loginapp-1 1 9000  [2018-01-29 13:21:10 787] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:57454/0/0/0
+    INFO   loginapp-1 1 9000  [2018-01-29 13:21:11 010] - Loginapp::loginFailed: loginName=a login is failed. failedcode=SERVER_ERR_SRV_NO_READY, datas=.
+    INFO   loginapp-1 1 9000  [2018-01-29 13:21:11 807] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 1 9000  [2018-01-29 13:21:11 825] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 1 9000  [2018-01-29 13:21:11 837] - Components::process(): Found all the components!
+ WARNING   loginapp-1 1 9000  [2018-01-29 13:21:12 290] - TCPPacketReceiver::processPendingEvents(127.0.0.1:57454): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+    INFO   loginapp-1 1 9000  [2018-01-29 13:21:12 405] - ServerApp::onHello: verInfo=1.1.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:57459/0/0/0
+ WARNING   loginapp-1 1 9000  [2018-01-29 13:21:12 405] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:57459/0/0/0
+    INFO   loginapp-1 1 9000  [2018-01-29 13:21:12 505] - Loginapp::loginFailed: loginName=a login is failed. failedcode=SERVER_ERR_SRV_STARTING, datas=initProgress: 0.
+ WARNING   loginapp-1 1 9000  [2018-01-29 13:21:13 495] - TCPPacketReceiver::processPendingEvents(127.0.0.1:57459): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+    INFO   loginapp-1 1 9000  [2018-01-29 13:21:13 625] - ServerApp::onHello: verInfo=1.1.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:57460/0/0/0
+ WARNING   loginapp-1 1 9000  [2018-01-29 13:21:13 625] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:57460/0/0/0
+    INFO   loginapp-1 1 9000  [2018-01-29 13:21:13 724] - Loginapp::loginFailed: loginName=a login is failed. failedcode=SERVER_ERR_SRV_STARTING, datas=initProgress: 0.
+ WARNING   loginapp-1 1 9000  [2018-01-29 13:21:14 805] - TCPPacketReceiver::processPendingEvents(127.0.0.1:57460): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+    INFO   loginapp-1 1 9000  [2018-01-29 13:21:14 924] - ServerApp::onHello: verInfo=1.1.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:57468/0/0/0
+ WARNING   loginapp-1 1 9000  [2018-01-29 13:21:14 925] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:57468/0/0/0
+    INFO   loginapp-1 1 9000  [2018-01-29 13:21:15 024] - Loginapp::loginFailed: loginName=a login is failed. failedcode=SERVER_ERR_SRV_STARTING, datas=initProgress: 0.
+ WARNING   loginapp-1 1 9000  [2018-01-29 13:21:15 913] - TCPPacketReceiver::processPendingEvents(127.0.0.1:57468): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+    INFO   loginapp-1 1 9000  [2018-01-29 13:21:16 024] - ServerApp::onHello: verInfo=1.1.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:57469/0/0/0
+ WARNING   loginapp-1 1 9000  [2018-01-29 13:21:16 024] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:57469/0/0/0
+    INFO   loginapp-1 1 9000  [2018-01-29 13:21:16 125] - Loginapp::loginFailed: loginName=a login is failed. failedcode=SERVER_ERR_SRV_STARTING, datas=initProgress: 0.
+    INFO   loginapp-1 1 9000  [2018-01-29 13:21:17 224] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=3, startGroupOrder=1, digest=57558DD95799B072F451BEFAE3F0B1A7.
+    INFO   loginapp01 1 9000  [2018-01-29 13:21:18 491] - HTTPCBHandler::bind: 10.82.25.163:21103
+ WARNING   loginapp01 1 9000  [2018-01-29 13:21:18 491] - event_dispatcher.cpp:171: Profile callSystemTimers took 1.27 seconds
+ WARNING   loginapp01 1 9000  [2018-01-29 13:21:18 492] - TCPPacketReceiver::processPendingEvents(127.0.0.1:57469): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+    INFO   loginapp01 1 9000  [2018-01-29 13:21:18 504] - ServerApp::onHello: verInfo=1.1.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:57472/0/0/0
+ WARNING   loginapp01 1 9000  [2018-01-29 13:21:18 505] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:57472/0/0/0
+    INFO   loginapp01 1 9000  [2018-01-29 13:21:18 645] - Loginapp::loginFailed: loginName=a login is failed. failedcode=SERVER_ERR_SRV_STARTING, datas=initProgress: 0.
+    INFO   loginapp01 1 9000  [2018-01-29 13:21:19 324] - Loginapp::onBaseappInitProgress: progress=1.
+ WARNING   loginapp01 1 9000  [2018-01-29 13:21:19 732] - TCPPacketReceiver::processPendingEvents(127.0.0.1:57472): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+    INFO   loginapp01 1 9000  [2018-01-29 13:21:19 844] - ServerApp::onHello: verInfo=1.1.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:57474/0/0/0
+ WARNING   loginapp01 1 9000  [2018-01-29 13:21:19 845] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:57474/0/0/0
+  S_INFO   loginapp01 1 9000  [2018-01-29 13:21:19 944] - onRequestLogin() loginName=a, clientType=2
+   DEBUG   loginapp01 1 9000  [2018-01-29 13:21:19 945] - PendingLoginMgr::add: a, size=1.
+    INFO   loginapp01 1 9000  [2018-01-29 13:21:20 008] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=a, datas=login test!!.
+ WARNING   loginapp01 1 9000  [2018-01-29 13:21:20 008] - loginapp.cpp:973: Profile scriptCall took 0.06 seconds
+ WARNING   loginapp01 1 9000  [2018-01-29 13:21:20 008] - loginapp.cpp:841: Profile login took 0.06 seconds
+ WARNING   loginapp01 1 9000  [2018-01-29 13:21:20 008] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.06 seconds
+  S_INFO   loginapp01 1 9000  [2018-01-29 13:21:20 144] - onLoginCallbackFromDB() loginName=a, accountName=a, errorno=0
+   DEBUG   loginapp01 1 9000  [2018-01-29 13:21:20 184] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=a, addr=10.82.25.163:20015.
+   DEBUG   loginapp01 1 9000  [2018-01-29 13:21:20 184] - PendingLoginMgr::remove: a, size=0.
+ WARNING   loginapp01 1 9000  [2018-01-29 13:21:20 240] - TCPPacketReceiver::processPendingEvents(127.0.0.1:57474): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+    INFO   loginapp01 1 9000  [2018-01-29 13:21:46 123] - ServerApp::onHello: verInfo=1.1.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:57483/0/0/0
+ WARNING   loginapp01 1 9000  [2018-01-29 13:21:46 124] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:57483/0/0/0
+  S_INFO   loginapp01 1 9000  [2018-01-29 13:21:46 223] - onRequestLogin() loginName=b, clientType=2
+   DEBUG   loginapp01 1 9000  [2018-01-29 13:21:46 223] - PendingLoginMgr::add: b, size=1.
+    INFO   loginapp01 1 9000  [2018-01-29 13:21:46 223] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=b, datas=login test!!.
+  S_INFO   loginapp01 1 9000  [2018-01-29 13:21:46 281] - onLoginCallbackFromDB() loginName=b, accountName=b, errorno=0
+   DEBUG   loginapp01 1 9000  [2018-01-29 13:21:46 323] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=b, addr=10.82.25.163:20015.
+   DEBUG   loginapp01 1 9000  [2018-01-29 13:21:46 323] - PendingLoginMgr::remove: b, size=0.
+ WARNING   loginapp01 1 9000  [2018-01-29 13:21:46 413] - TCPPacketReceiver::processPendingEvents(127.0.0.1:57483): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+    INFO   loginapp01 1 9000  [2018-01-29 13:22:40 416] - ServerApp::onHello: verInfo=1.1.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:57501/0/0/0
+ WARNING   loginapp01 1 9000  [2018-01-29 13:22:40 416] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:57501/0/0/0
+  S_INFO   loginapp01 1 9000  [2018-01-29 13:22:40 536] - onRequestLogin() loginName=a, clientType=2
+   DEBUG   loginapp01 1 9000  [2018-01-29 13:22:40 536] - PendingLoginMgr::add: a, size=1.
+    INFO   loginapp01 1 9000  [2018-01-29 13:22:40 536] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=a, datas=login test!!.
+  S_INFO   loginapp01 1 9000  [2018-01-29 13:22:40 595] - onLoginCallbackFromDB() loginName=a, accountName=a, errorno=0
+   DEBUG   loginapp01 1 9000  [2018-01-29 13:22:40 636] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=a, addr=10.82.25.163:20015.
+   DEBUG   loginapp01 1 9000  [2018-01-29 13:22:40 636] - PendingLoginMgr::remove: a, size=0.
+ WARNING   loginapp01 1 9000  [2018-01-29 13:22:40 709] - TCPPacketReceiver::processPendingEvents(127.0.0.1:57501): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+    INFO   loginapp01 1 9000  [2018-01-29 13:24:32 365] - ServerApp::onHello: verInfo=1.1.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:57530/0/0/0
+ WARNING   loginapp01 1 9000  [2018-01-29 13:24:32 365] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:57530/0/0/0
+  S_INFO   loginapp01 1 9000  [2018-01-29 13:24:32 465] - onRequestLogin() loginName=a, clientType=2
+   DEBUG   loginapp01 1 9000  [2018-01-29 13:24:32 465] - PendingLoginMgr::add: a, size=1.
+    INFO   loginapp01 1 9000  [2018-01-29 13:24:32 465] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=a, datas=login test!!.
+  S_INFO   loginapp01 1 9000  [2018-01-29 13:24:32 523] - onLoginCallbackFromDB() loginName=a, accountName=a, errorno=0
+   DEBUG   loginapp01 1 9000  [2018-01-29 13:24:32 565] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=a, addr=10.82.25.163:20015.
+   DEBUG   loginapp01 1 9000  [2018-01-29 13:24:32 565] - PendingLoginMgr::remove: a, size=0.
+ WARNING   loginapp01 1 9000  [2018-01-29 13:24:32 652] - TCPPacketReceiver::processPendingEvents(127.0.0.1:57530): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+    INFO   loginapp01 1 9000  [2018-01-29 13:24:46 182] - ServerApp::onHello: verInfo=1.1.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:57536/0/0/0
+ WARNING   loginapp01 1 9000  [2018-01-29 13:24:46 182] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:57536/0/0/0
+  S_INFO   loginapp01 1 9000  [2018-01-29 13:24:46 282] - onRequestLogin() loginName=b, clientType=2
+   DEBUG   loginapp01 1 9000  [2018-01-29 13:24:46 282] - PendingLoginMgr::add: b, size=1.
+    INFO   loginapp01 1 9000  [2018-01-29 13:24:46 282] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=b, datas=login test!!.
+  S_INFO   loginapp01 1 9000  [2018-01-29 13:24:46 362] - onLoginCallbackFromDB() loginName=b, accountName=b, errorno=0
+   DEBUG   loginapp01 1 9000  [2018-01-29 13:24:46 402] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=b, addr=10.82.25.163:20015.
+   DEBUG   loginapp01 1 9000  [2018-01-29 13:24:46 402] - PendingLoginMgr::remove: b, size=0.
+ WARNING   loginapp01 1 9000  [2018-01-29 13:24:46 464] - TCPPacketReceiver::processPendingEvents(127.0.0.1:57536): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+    INFO   loginapp01 1 9000  [2018-01-29 13:36:24 368] - ServerApp::onHello: verInfo=1.1.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:58035/0/0/0
+ WARNING   loginapp01 1 9000  [2018-01-29 13:36:24 368] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:58035/0/0/0
+  S_INFO   loginapp01 1 9000  [2018-01-29 13:36:24 472] - onRequestLogin() loginName=a, clientType=2
+   DEBUG   loginapp01 1 9000  [2018-01-29 13:36:24 472] - PendingLoginMgr::add: a, size=1.
+    INFO   loginapp01 1 9000  [2018-01-29 13:36:24 472] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=a, datas=login test!!.
+  S_INFO   loginapp01 1 9000  [2018-01-29 13:36:24 527] - onLoginCallbackFromDB() loginName=a, accountName=a, errorno=0
+   DEBUG   loginapp01 1 9000  [2018-01-29 13:36:24 568] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=a, addr=10.82.25.163:20015.
+   DEBUG   loginapp01 1 9000  [2018-01-29 13:36:24 568] - PendingLoginMgr::remove: a, size=0.
+ WARNING   loginapp01 1 9000  [2018-01-29 13:36:24 660] - TCPPacketReceiver::processPendingEvents(127.0.0.1:58035): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:09 824] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:09 825] - Resmgr::initialize: KBE_ROOT=G:/GitHub/kbengine/
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:09 825] - Resmgr::initialize: KBE_RES_PATH=G:/GitHub/kbengine/kbe/res/;G:/GitHub/kbengine/newgame-assets/;G:/GitHub/kbengine/newgame-assets/scripts/;G:/GitHub/kbengine/newgame-assets/res/
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:09 825] - Resmgr::initialize: KBE_BIN_PATH=G:/GitHub/kbengine/kbe/bin/server/
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:09 911] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 10.82.25.163 ( 10.82.25.163:20013 )
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:09 911] - NetworkInterface::initialize(EXTERNAL): address 10.82.25.163:20013, SOMAXCONN=128.
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:09 914] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 10.82.25.163 ( 10.82.25.163:58788 )
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:09 914] - NetworkInterface::initialize(INTERNAL): address 10.82.25.163:58788, SOMAXCONN=128.
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:09 914] - server-configs:
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:09 914] - 	internalAddr : 10.82.25.163:58788
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:09 914] - 	externalAddr : 10.82.25.163:20013
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:09 915] - 	componentID : 9000
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:10 415] - Components::findLogger: found logger, addr:10.82.25.163:58784
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:10 415] - Components::addComponent: reset orderLog, uid=1!
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:10 415] - Components::addComponent[logger], uid=1, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:10 422] - ---- loginapp Version: 1.1.0. ScriptVersion: 0.1.0. Protocol: A16A7477E55D6AEDCD48345D2B50A665. Config: Debug X86. Built: 23:59:38 Dec  1 2017. AppID: 9000. UID: 1. PID: 1860 ----
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:10 423] - Server : Intel(R) Core(TM) i5-4210H CPU @ 2.90GHz with 2097151kB RAM
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:10 423] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:10 423] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG   loginapp-1 1 9000  [2018-01-29 13:50:10 578] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG   loginapp-1 1 9000  [2018-01-29 13:50:10 579] - Script::install_py_dlls(): PyInit__socket
+   DEBUG   loginapp-1 1 9000  [2018-01-29 13:50:10 580] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG   loginapp-1 1 9000  [2018-01-29 13:50:10 588] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG   loginapp-1 1 9000  [2018-01-29 13:50:10 588] - Script::install_py_dlls(): PyInit_select
+   DEBUG   loginapp-1 1 9000  [2018-01-29 13:50:10 588] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG   loginapp-1 1 9000  [2018-01-29 13:50:10 590] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG   loginapp-1 1 9000  [2018-01-29 13:50:10 665] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:10 709] - Script::install(): is successfully, Python=(3.4.2 (default, Dec  1 2017, 23:59:35) [MSC v.1900 32 bit (Intel)])!
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:10 710] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 1 9000  [2018-01-29 13:50:10 712] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:10 713] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:11 096] - ---- loginapp is running ----
+   DEBUG   loginapp-1 1 9000  [2018-01-29 13:50:11 097] - Components::process(): Request for the process of identity...
+ WARNING   loginapp-1 1 9000  [2018-01-29 13:50:17 227] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:18 232] - Components::findComponents: find dbmgr(1)...
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:18 330] - Components::findComponents: found dbmgr, addr:10.82.25.163:58781
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:18 330] - Components::addComponent: reset orderLog, uid=1!
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:18 330] - Components::addComponent[dbmgr], uid=1, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:18 333] - Components::findComponents: found dbmgr, addr:10.82.25.163:58781
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:20 353] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:20 459] - Components::findComponents: found baseappmgr, addr:10.82.25.163:58782
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:20 459] - Components::addComponent[baseappmgr], uid=1, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:20 461] - Components::findComponents: found baseappmgr, addr:10.82.25.163:58782
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:22 492] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:22 507] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:22 512] - Components::process(): Found all the components!
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:25 352] - ServerApp::onHello: verInfo=1.1.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:58817/0/0/0
+ WARNING   loginapp-1 1 9000  [2018-01-29 13:50:25 353] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:58817/0/0/0
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:25 556] - Loginapp::loginFailed: loginName=a login is failed. failedcode=SERVER_ERR_SRV_STARTING, datas=initProgress: 0.
+ WARNING   loginapp-1 1 9000  [2018-01-29 13:50:26 639] - TCPPacketReceiver::processPendingEvents(127.0.0.1:58817): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:26 752] - ServerApp::onHello: verInfo=1.1.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:58826/0/0/0
+ WARNING   loginapp-1 1 9000  [2018-01-29 13:50:26 752] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:58826/0/0/0
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:26 852] - Loginapp::loginFailed: loginName=a login is failed. failedcode=SERVER_ERR_SRV_STARTING, datas=initProgress: 0.
+ WARNING   loginapp-1 1 9000  [2018-01-29 13:50:27 547] - TCPPacketReceiver::processPendingEvents(127.0.0.1:58826): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:27 652] - ServerApp::onHello: verInfo=1.1.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:58827/0/0/0
+ WARNING   loginapp-1 1 9000  [2018-01-29 13:50:27 652] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:58827/0/0/0
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:27 772] - Loginapp::loginFailed: loginName=a login is failed. failedcode=SERVER_ERR_SRV_STARTING, datas=initProgress: 0.
+ WARNING   loginapp-1 1 9000  [2018-01-29 13:50:28 353] - TCPPacketReceiver::processPendingEvents(127.0.0.1:58827): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:28 472] - ServerApp::onHello: verInfo=1.1.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:58829/0/0/0
+ WARNING   loginapp-1 1 9000  [2018-01-29 13:50:28 473] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:58829/0/0/0
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:28 572] - Loginapp::loginFailed: loginName=a login is failed. failedcode=SERVER_ERR_SRV_STARTING, datas=initProgress: 0.
+ WARNING   loginapp-1 1 9000  [2018-01-29 13:50:29 158] - TCPPacketReceiver::processPendingEvents(127.0.0.1:58829): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+    INFO   loginapp-1 1 9000  [2018-01-29 13:50:29 172] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=1, startGroupOrder=1, digest=57558DD95799B072F451BEFAE3F0B1A7.
+    INFO   loginapp01 1 9000  [2018-01-29 13:50:30 384] - HTTPCBHandler::bind: 10.82.25.163:21103
+ WARNING   loginapp01 1 9000  [2018-01-29 13:50:30 384] - event_dispatcher.cpp:171: Profile callSystemTimers took 1.21 seconds
+    INFO   loginapp01 1 9000  [2018-01-29 13:50:30 385] - ServerApp::onHello: verInfo=1.1.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:58830/0/0/0
+ WARNING   loginapp01 1 9000  [2018-01-29 13:50:30 385] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:58830/0/0/0
+    INFO   loginapp01 1 9000  [2018-01-29 13:50:30 573] - Loginapp::loginFailed: loginName=a login is failed. failedcode=SERVER_ERR_SRV_STARTING, datas=initProgress: 0.
+    INFO   loginapp01 1 9000  [2018-01-29 13:50:31 252] - Loginapp::onBaseappInitProgress: progress=1.
+ WARNING   loginapp01 1 9000  [2018-01-29 13:50:31 573] - TCPPacketReceiver::processPendingEvents(127.0.0.1:58830): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+    INFO   loginapp01 1 9000  [2018-01-29 13:50:31 692] - ServerApp::onHello: verInfo=1.1.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:58832/0/0/0
+ WARNING   loginapp01 1 9000  [2018-01-29 13:50:31 692] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:58832/0/0/0
+  S_INFO   loginapp01 1 9000  [2018-01-29 13:50:31 792] - onRequestLogin() loginName=a, clientType=2
+   DEBUG   loginapp01 1 9000  [2018-01-29 13:50:31 792] - PendingLoginMgr::add: a, size=1.
+    INFO   loginapp01 1 9000  [2018-01-29 13:50:31 792] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=a, datas=login test!!.
+  S_INFO   loginapp01 1 9000  [2018-01-29 13:50:31 852] - onLoginCallbackFromDB() loginName=a, accountName=a, errorno=0
+   DEBUG   loginapp01 1 9000  [2018-01-29 13:50:31 892] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=a, addr=10.82.25.163:20015.
+   DEBUG   loginapp01 1 9000  [2018-01-29 13:50:31 892] - PendingLoginMgr::remove: a, size=0.
+ WARNING   loginapp01 1 9000  [2018-01-29 13:50:31 978] - TCPPacketReceiver::processPendingEvents(127.0.0.1:58832): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET

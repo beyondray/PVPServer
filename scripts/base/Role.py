@@ -97,9 +97,13 @@ class Role(KBEngine.Proxy, ComBehavior):
 		def strongShot() :
 			KBEngine.createBaseLocally("Arrow", params)
 
+		def shadowShot() :
+			KBEngine.createBaseLocally("Arrow", params)		
+
 		result = {
 			AttackType.Strong : strongShot,
 			AttackType.Frozen : spreadShot,
+			AttackType.Shadow : shadowShot,
 		}[attackType]()
 
 

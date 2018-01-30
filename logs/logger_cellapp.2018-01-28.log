@@ -1,0 +1,1190 @@
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:37 604] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:37 605] - Resmgr::initialize: KBE_ROOT=G:/GitHub/kbengine/
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:37 635] - Resmgr::initialize: KBE_RES_PATH=G:/GitHub/kbengine/kbe/res/;G:/GitHub/kbengine/newgame-assets/;G:/GitHub/kbengine/newgame-assets/scripts/;G:/GitHub/kbengine/newgame-assets/res/
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:37 635] - Resmgr::initialize: KBE_BIN_PATH=G:/GitHub/kbengine/kbe/bin/server/
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:37 716] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 10.82.25.163 ( 10.82.25.163:52560 )
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:37 716] - NetworkInterface::initialize(INTERNAL): address 10.82.25.163:52560, SOMAXCONN=5.
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:37 717] - server-configs:
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:37 717] - 	gameUpdateHertz : 50
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:37 717] - 	defaultAoIRadius : 80
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:37 717] - 	defaultAoIHysteresisArea : 5
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:37 717] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:37 718] - 	internalAddr : 10.82.25.163:52560
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:37 718] - 	componentID : 8001
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:39 229] - ---- cellapp Version: 1.1.0. ScriptVersion: 0.1.0. Protocol: D25B4E16028C33EB467B7BE2F3500426. Config: Debug X86. Built: 00:01:35 Dec  2 2017. AppID: 8001. UID: 1. PID: 11324 ----
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:39 236] - Server : Intel(R) Core(TM) i5-4210H CPU @ 2.90GHz with 2097151kB RAM
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:39 257] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:39 257] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    cellapp-1 1 8001  [2018-01-28 23:09:39 539] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    cellapp-1 1 8001  [2018-01-28 23:09:39 540] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    cellapp-1 1 8001  [2018-01-28 23:09:39 540] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    cellapp-1 1 8001  [2018-01-28 23:09:39 546] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    cellapp-1 1 8001  [2018-01-28 23:09:39 547] - Script::install_py_dlls(): PyInit_select
+   DEBUG    cellapp-1 1 8001  [2018-01-28 23:09:39 547] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    cellapp-1 1 8001  [2018-01-28 23:09:39 548] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    cellapp-1 1 8001  [2018-01-28 23:09:39 676] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:39 775] - Script::install(): is successfully, Python=(3.4.2 (default, Dec  2 2017, 00:00:20) [MSC v.1900 32 bit (Intel)])!
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:39 780] - Script::install(): KBExtra is successfully!
+   DEBUG    cellapp-1 1 8001  [2018-01-28 23:09:39 952] - loaded script:MoveObj(2).
+   DEBUG    cellapp-1 1 8001  [2018-01-28 23:09:40 037] - loaded script:Role(3).
+   DEBUG    cellapp-1 1 8001  [2018-01-28 23:09:40 086] - loaded script:Arrow(5).
+   DEBUG    cellapp-1 1 8001  [2018-01-28 23:09:40 088] - loaded script:Space(6).
+   DEBUG    cellapp-1 1 8001  [2018-01-28 23:09:40 090] - loaded script:SpawnPoint(7).
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:40 091] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:41 126] - ---- cellapp is running ----
+   DEBUG    cellapp-1 1 8001  [2018-01-28 23:09:41 127] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 1 8001  [2018-01-28 23:09:47 297] - EntityApp::checkTickPeriod: tick took 30855% (30.85 seconds)!
+ WARNING    cellapp-1 1 8001  [2018-01-28 23:09:47 316] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.02 seconds
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:48 326] - Components::findComponents: find logger(1)...
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:48 335] - Components::findComponents: found logger, addr:10.82.25.163:52554
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:48 336] - Components::addComponent: reset orderLog, uid=1!
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:48 336] - Components::addComponent[logger], uid=1, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:48 338] - Components::findComponents: find dbmgr(2)...
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:48 440] - Components::findComponents: found dbmgr, addr:10.82.25.163:52558
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:48 440] - Components::addComponent: reset orderLog, uid=1!
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:48 441] - Components::addComponent[dbmgr], uid=1, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:48 441] - Components::findComponents: found dbmgr, addr:10.82.25.163:52558
+ WARNING    cellapp-1 1 8001  [2018-01-28 23:09:49 443] - EntityApp::checkTickPeriod: tick took 5675% (5.68 seconds)!
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:50 446] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:50 514] - Components::findComponents: found cellappmgr, addr:10.82.25.163:52552
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:50 515] - Components::addComponent[cellappmgr], uid=1, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:50 516] - Components::findComponents: found cellappmgr, addr:10.82.25.163:52552
+ WARNING    cellapp-1 1 8001  [2018-01-28 23:09:51 516] - EntityApp::checkTickPeriod: tick took 5450% (5.45 seconds)!
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:52 526] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:52 549] - Components::findComponents: found baseappmgr, addr:10.82.25.163:52557
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:52 549] - Components::addComponent[baseappmgr], uid=1, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:52 549] - Components::findComponents: found baseappmgr, addr:10.82.25.163:52557
+ WARNING    cellapp-1 1 8001  [2018-01-28 23:09:53 550] - EntityApp::checkTickPeriod: tick took 5220% (5.22 seconds)!
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:54 586] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:54 606] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:54 612] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:54 617] - Components::process(): Found all the components!
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:54 626] - ServerApp::onRegisterNewApp: uid:1, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:10.82.25.163, intport:52555, extaddr:10.82.25.163, extport:20015,  from 10.82.25.163:52596/0/0/0.
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:54 626] - Components::addComponent[baseapp], uid=1, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:54 626] - ServerApp::onRegisterNewApp: uid:1, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:10.82.25.163, intport:52555, extaddr:10.82.25.163, extport:20015,  from 10.82.25.163:52596/0/0/0.
+    INFO    cellapp-1 1 8001  [2018-01-28 23:09:57 626] - EntityApp::onDbmgrInitCompleted: entityID alloc(2001-4001), startGlobalOrder=5, startGroupOrder=1, digest=57558DD95799B072F451BEFAE3F0B1A7.
+    INFO    cellapp01 1 8001  [2018-01-28 23:09:57 626] - IDClient::onAddRange: number of ids increased from 2001 to 4001.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:09:58 832] - onInit::isReload:0
+ WARNING    cellapp01 1 8001  [2018-01-28 23:09:58 832] - G:\GitHub\kbengine\kbe\src\lib\server/entity_app.h:764: Profile processRecvMessages took 1.21 seconds
+ WARNING    cellapp01 1 8001  [2018-01-28 23:09:58 832] - cellapp.cpp:260: Profile gameTick took 1.21 seconds
+ WARNING    cellapp01 1 8001  [2018-01-28 23:09:58 832] - event_dispatcher.cpp:171: Profile callSystemTimers took 1.21 seconds
+ WARNING    cellapp01 1 8001  [2018-01-28 23:09:58 832] - EntityApp::checkTickPeriod: tick took 6030% (6.03 seconds)!
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:09:58 846] - InitProgressHandler::~InitProgressHandler()
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:09:59 346] - Spaces::createNewSpace: new space(Space) 1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:09:59 347] - EntityApp::createEntity: new Space 1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:09:59 347] - Space::cell is created: 1
+    INFO    cellapp01 1 8001  [2018-01-28 23:09:59 347] - KBEngine::addSpaceGeometryMapping: spaceID=1, respath=spaces/newgame_space_data, shouldLoadOnServer=1!
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:09:59 348] - onGlobalData: Space
+    INFO    cellapp01 1 8001  [2018-01-28 23:09:59 366] - KBEngine::onLoadedSpaceGeometryMapping: spaceID=1, respath=spaces/newgame_space_data!
+    INFO    cellapp01 1 8001  [2018-01-28 23:10:08 606] - EntityApp::createEntity: new MoveObj 5
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:08 606] - MoveObj::cell is created: 5
+    INFO    cellapp01 1 8001  [2018-01-28 23:10:08 606] - EntityApp::createEntity: new MoveObj 6
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:08 607] - MoveObj::cell is created: 6
+    INFO    cellapp01 1 8001  [2018-01-28 23:10:08 607] - EntityApp::createEntity: new MoveObj 7
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:08 608] - MoveObj::cell is created: 7
+    INFO    cellapp01 1 8001  [2018-01-28 23:10:08 609] - EntityApp::createEntity: new MoveObj 8
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:08 609] - MoveObj::cell is created: 8
+    INFO    cellapp01 1 8001  [2018-01-28 23:10:08 609] - EntityApp::createEntity: new MoveObj 9
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:08 609] - MoveObj::cell is created: 9
+    INFO    cellapp01 1 8001  [2018-01-28 23:10:08 609] - EntityApp::createEntity: new MoveObj 10
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:08 610] - MoveObj::cell is created: 10
+    INFO    cellapp01 1 8001  [2018-01-28 23:10:08 610] - EntityApp::createEntity: new MoveObj 11
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:08 610] - MoveObj::cell is created: 11
+    INFO    cellapp01 1 8001  [2018-01-28 23:10:08 610] - EntityApp::createEntity: new MoveObj 12
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:08 610] - MoveObj::cell is created: 12
+    INFO    cellapp01 1 8001  [2018-01-28 23:10:08 611] - EntityApp::createEntity: new MoveObj 13
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:08 611] - MoveObj::cell is created: 13
+    INFO    cellapp01 1 8001  [2018-01-28 23:10:08 611] - EntityApp::createEntity: new MoveObj 14
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:08 611] - MoveObj::cell is created: 14
+    INFO    cellapp01 1 8001  [2018-01-28 23:10:08 611] - EntityApp::createEntity: new MoveObj 15
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:08 612] - MoveObj::cell is created: 15
+    INFO    cellapp01 1 8001  [2018-01-28 23:10:08 612] - EntityApp::createEntity: new MoveObj 16
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:08 612] - MoveObj::cell is created: 16
+    INFO    cellapp01 1 8001  [2018-01-28 23:10:08 614] - EntityApp::createEntity: new Role 3
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:08 614] - Role::cell is created: 3
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:08 615] - MoveObj::onWitnessed: 5 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:08 618] - MoveObj::onWitnessed: 15 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:08 618] - MoveObj::onWitnessed: 9 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:08 618] - MoveObj::onWitnessed: 13 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:08 618] - MoveObj::onWitnessed: 10 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:08 618] - MoveObj::onWitnessed: 12 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:08 618] - MoveObj::onWitnessed: 6 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:08 618] - MoveObj::onWitnessed: 14 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:08 619] - MoveObj::onWitnessed: 7 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:08 619] - MoveObj::onWitnessed: 8 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:08 619] - MoveObj::onWitnessed: 16 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:08 619] - MoveObj::onWitnessed: 11 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:08 619] - Role::onGetWitness: 3.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:09 946] - Role[3]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:11 747] - Role[3]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+    INFO    cellapp01 1 8001  [2018-01-28 23:10:24 986] - EntityApp::createEntity: new Role 18
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:24 987] - Role::cell is created: 18
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:24 987] - Role::onWitnessed: 18 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:24 988] - Role::onWitnessed: 3 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:24 988] - Role::onGetWitness: 18.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:26 166] - Role[18]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:30 407] - Role[18]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:31 766] - Role[3]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:34 746] - Role[3]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 2}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:34 928] - Role[3]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 2}
+    INFO    cellapp01 1 8001  [2018-01-28 23:10:35 208] - EntityApp::createEntity: new Arrow 20
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:35 209] - Arrow::cell is created: 20
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:35 209] - Arrow::onWitnessed: 20 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:10:35 210] - EntityApp::createEntity: new Arrow 21
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:35 210] - Arrow::cell is created: 21
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:35 210] - Arrow::onWitnessed: 21 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:10:35 211] - EntityApp::createEntity: new Arrow 22
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:35 213] - Arrow::cell is created: 22
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:35 214] - Arrow::onWitnessed: 22 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:10:35 214] - EntityApp::createEntity: new Arrow 23
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:35 214] - Arrow::cell is created: 23
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:35 215] - Arrow::onWitnessed: 23 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:10:35 215] - EntityApp::createEntity: new Arrow 24
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:35 216] - Arrow::cell is created: 24
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:35 216] - Arrow::onWitnessed: 24 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:35 347] - Role[3].reqActiveArrows: timestamp =1517152235.195947
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:35 412] - Role[3]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:35 413] - Role[3]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:35 447] - Role[18].reqBeAttack: attackType =1.000000, damage=200.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:35 447] - Arrow::reqDestroySelf: 20
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:35 448] - Role[18].reqBeAttack: attackType =1.000000, damage=200.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:35 448] - Arrow::reqDestroySelf: 22
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:35 646] - Arrow::onTimer: 20, tid:2, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:35 647] - Arrow::onDestroy: 20.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:35 647] - Arrow::destroy: 20
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:35 647] - Arrow::onTimer: 22, tid:2, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:35 648] - Arrow::onDestroy: 22.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:35 648] - Arrow::destroy: 22
+ WARNING    cellapp01 1 8001  [2018-01-28 23:10:35 648] - Cellapp::onRemoteCallMethodFromClient: not found entityID:20, srcEntityID:18.
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:10:35 648] - Arrow::~Arrow(): 20
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:10:35 648] - Arrow::~Arrow(): 22
+ WARNING    cellapp01 1 8001  [2018-01-28 23:10:35 711] - Cellapp::onRemoteCallMethodFromClient: not found entityID:22, srcEntityID:18.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:37 511] - Role[3]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 1}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:37 811] - Role[3]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 1}
+    INFO    cellapp01 1 8001  [2018-01-28 23:10:37 926] - EntityApp::createEntity: new Arrow 25
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:37 927] - Arrow::cell is created: 25
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:37 928] - Arrow::onWitnessed: 25 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:37 967] - Role[3]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:38 066] - Role[3].reqActiveArrows: timestamp =1517152237.915855
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:38 187] - Role[18].reqBeAttack: attackType =2.000000, damage=300.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:38 187] - Arrow::reqDestroySelf: 25
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:38 346] - Arrow::reqDestroySelf: 21
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:38 346] - Arrow::reqDestroySelf: 23
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:38 346] - Arrow::reqDestroySelf: 24
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:38 346] - Arrow::reqDestroySelf: 25
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:38 386] - Arrow::onTimer: 25, tid:2, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:38 387] - Arrow::onDestroy: 25.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:38 387] - Arrow::destroy: 25
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:10:38 388] - Arrow::~Arrow(): 25
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:38 409] - Arrow::onTimer: 24, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:38 410] - Arrow::onDestroy: 24.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:38 410] - Arrow::destroy: 24
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:38 410] - Arrow::onTimer: 23, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:38 411] - Arrow::onDestroy: 23.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:38 411] - Arrow::destroy: 23
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:38 412] - Arrow::onTimer: 21, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:38 412] - Arrow::onDestroy: 21.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:38 412] - Arrow::destroy: 21
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:10:38 414] - Arrow::~Arrow(): 24
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:10:38 414] - Arrow::~Arrow(): 23
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:10:38 414] - Arrow::~Arrow(): 21
+   ERROR    cellapp01 1 8001  [2018-01-28 23:10:38 427] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 21!
+   ERROR    cellapp01 1 8001  [2018-01-28 23:10:38 428] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 23!
+   ERROR    cellapp01 1 8001  [2018-01-28 23:10:38 429] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 24!
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:38 811] - Role[3]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:40 446] - Role::onTimer: 18, tid:2, arg:4
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:40 447] - Role::onTimer: 18, tid:3, arg:4
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:40 766] - Role[3]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:40 787] - Role[3]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:41 087] - Role[3]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 2}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:41 187] - Role::onTimer: 18, tid:4, arg:7
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:41 487] - Role[3]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 2}
+    INFO    cellapp01 1 8001  [2018-01-28 23:10:41 546] - EntityApp::createEntity: new Arrow 26
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:41 547] - Arrow::cell is created: 26
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:41 547] - Arrow::onWitnessed: 26 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:10:41 547] - EntityApp::createEntity: new Arrow 27
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:41 547] - Arrow::cell is created: 27
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:41 547] - Arrow::onWitnessed: 27 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:10:41 548] - EntityApp::createEntity: new Arrow 28
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:41 548] - Arrow::cell is created: 28
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:41 548] - Arrow::onWitnessed: 28 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:10:41 548] - EntityApp::createEntity: new Arrow 29
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:41 549] - Arrow::cell is created: 29
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:41 549] - Arrow::onWitnessed: 29 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:10:41 549] - EntityApp::createEntity: new Arrow 30
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:41 550] - Arrow::cell is created: 30
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:41 550] - Arrow::onWitnessed: 30 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:41 710] - Role[3].reqActiveArrows: timestamp =1517152241.535962
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:41 710] - Role[3]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:41 910] - Role[18].reqBeAttack: attackType =1.000000, damage=200.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:41 910] - Arrow::reqDestroySelf: 28
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:41 967] - Role[3]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:42 108] - Arrow::onTimer: 28, tid:2, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:42 109] - Arrow::onDestroy: 28.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:42 110] - Arrow::destroy: 28
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:10:42 111] - Arrow::~Arrow(): 28
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:42 709] - Role[3]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:42 808] - Role[3]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:43 227] - Role[3]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 2}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:43 566] - Role[3]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 2}
+    INFO    cellapp01 1 8001  [2018-01-28 23:10:43 666] - EntityApp::createEntity: new Arrow 31
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:43 666] - Arrow::cell is created: 31
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:43 666] - Arrow::onWitnessed: 31 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:10:43 667] - EntityApp::createEntity: new Arrow 32
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:43 667] - Arrow::cell is created: 32
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:43 667] - Arrow::onWitnessed: 32 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:10:43 667] - EntityApp::createEntity: new Arrow 33
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:43 668] - Arrow::cell is created: 33
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:43 668] - Arrow::onWitnessed: 33 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:10:43 668] - EntityApp::createEntity: new Arrow 34
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:43 668] - Arrow::cell is created: 34
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:43 668] - Arrow::onWitnessed: 34 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:10:43 668] - EntityApp::createEntity: new Arrow 35
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:43 669] - Arrow::cell is created: 35
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:43 669] - Arrow::onWitnessed: 35 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:43 809] - Role[3].reqActiveArrows: timestamp =1517152243.658771
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:43 891] - Role[3]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:43 947] - Role[18].reqBeAttack: attackType =1.000000, damage=200.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:43 947] - Arrow::reqDestroySelf: 33
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:43 991] - Role[18].reqBeAttack: attackType =1.000000, damage=200.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:43 992] - Arrow::reqDestroySelf: 31
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:44 066] - Role[18]::reqSyncAniState: {'run': 0, 'die': 1, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:44 146] - Arrow::onTimer: 33, tid:2, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:44 146] - Arrow::onDestroy: 33.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:44 147] - Arrow::destroy: 33
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:10:44 147] - Arrow::~Arrow(): 33
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:44 186] - Arrow::onTimer: 31, tid:2, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:44 187] - Arrow::onDestroy: 31.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:44 190] - Arrow::destroy: 31
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:10:44 192] - Arrow::~Arrow(): 31
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:44 346] - Role[3]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:44 708] - Arrow::reqDestroySelf: 26
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:44 708] - Arrow::reqDestroySelf: 27
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:44 708] - Arrow::reqDestroySelf: 29
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:44 708] - Arrow::reqDestroySelf: 30
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:44 746] - Arrow::onTimer: 29, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:44 746] - Arrow::onDestroy: 29.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:44 746] - Arrow::destroy: 29
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:44 747] - Arrow::onTimer: 26, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:44 747] - Arrow::onDestroy: 26.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:44 748] - Arrow::destroy: 26
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:44 748] - Arrow::onTimer: 27, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:44 749] - Arrow::onDestroy: 27.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:44 749] - Arrow::destroy: 27
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:44 749] - Arrow::onTimer: 30, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:44 749] - Arrow::onDestroy: 30.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:44 750] - Arrow::destroy: 30
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:10:44 750] - Arrow::~Arrow(): 29
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:10:44 750] - Arrow::~Arrow(): 26
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:10:44 750] - Arrow::~Arrow(): 27
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:10:44 750] - Arrow::~Arrow(): 30
+   ERROR    cellapp01 1 8001  [2018-01-28 23:10:44 766] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 26!
+   ERROR    cellapp01 1 8001  [2018-01-28 23:10:44 766] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 27!
+   ERROR    cellapp01 1 8001  [2018-01-28 23:10:44 767] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 29!
+   ERROR    cellapp01 1 8001  [2018-01-28 23:10:44 767] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 30!
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:46 227] - Role[18].reqRelive: HP =0.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:46 808] - Arrow::reqDestroySelf: 32
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:46 808] - Arrow::reqDestroySelf: 34
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:46 808] - Arrow::reqDestroySelf: 35
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:46 866] - Arrow::onTimer: 34, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:46 867] - Arrow::onDestroy: 34.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:46 867] - Arrow::destroy: 34
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:46 867] - Arrow::onTimer: 32, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:46 868] - Arrow::onDestroy: 32.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:46 868] - Arrow::destroy: 32
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:46 868] - Arrow::onTimer: 35, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:46 868] - Arrow::onDestroy: 35.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:46 868] - Arrow::destroy: 35
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:10:46 869] - Arrow::~Arrow(): 34
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:10:46 870] - Arrow::~Arrow(): 32
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:10:46 872] - Arrow::~Arrow(): 35
+   ERROR    cellapp01 1 8001  [2018-01-28 23:10:46 891] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 32!
+   ERROR    cellapp01 1 8001  [2018-01-28 23:10:46 895] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 34!
+   ERROR    cellapp01 1 8001  [2018-01-28 23:10:46 896] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 35!
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:46 908] - Role::onTimer: 18, tid:2, arg:4
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:46 927] - Role[3]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:48 227] - Role::onTimer: 18, tid:5, arg:8
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:48 290] - Role[18]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:48 947] - Role::onTimer: 18, tid:3, arg:4
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:48 990] - Role::onTimer: 18, tid:4, arg:4
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:49 126] - Role[3]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:52 207] - Role[3]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:52 788] - Role::onTimer: 3, tid:2, arg:5
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:52 867] - Role[3]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:53 570] - Role[3]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:53 571] - Role[3]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:57 387] - Role[3]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:58 869] - Role[3]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:10:58 907] - Role::onTimer: 3, tid:2, arg:5
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:11:00 651] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:01 407] - Role[3].reqBeAttack: attackType =1.000000, damage=500.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:02 751] - Role[3].reqBeCure: cureType =0.000000, hp=500.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:04 151] - Role[3]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:05 667] - Role[3].reqBeAttack: attackType =1.000000, damage=500.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:06 407] - Role::onTimer: 3, tid:2, arg:4
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:09 507] - Role[18]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:10 667] - Role::onTimer: 3, tid:3, arg:4
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:13 249] - Role[18]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:13 606] - Role[18]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 1}
+    INFO    cellapp01 1 8001  [2018-01-28 23:11:14 027] - EntityApp::createEntity: new Arrow 36
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:14 030] - Arrow::cell is created: 36
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:14 030] - Arrow::onWitnessed: 36 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:14 147] - Role[18]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:14 166] - Role[18].reqActiveArrows: timestamp =1517152274.015400
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:15 207] - Role[18]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:15 487] - Role[18]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:15 531] - Role[18]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:16 030] - Role[18]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 1}
+    INFO    cellapp01 1 8001  [2018-01-28 23:11:16 447] - EntityApp::createEntity: new Arrow 37
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:16 447] - Arrow::cell is created: 37
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:16 448] - Arrow::onWitnessed: 37 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:16 467] - Role[18]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:16 547] - Role[18].reqActiveArrows: timestamp =1517152276.435443
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:16 687] - Role[3].reqBeAttack: attackType =2.000000, damage=300.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:16 687] - Arrow::reqDestroySelf: 37
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:16 886] - Arrow::onTimer: 37, tid:2, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:16 886] - Arrow::onDestroy: 37.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:16 887] - Arrow::destroy: 37
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:11:16 887] - Arrow::~Arrow(): 37
+ WARNING    cellapp01 1 8001  [2018-01-28 23:11:16 946] - Cellapp::onRemoteCallMethodFromClient: not found entityID:37, srcEntityID:3.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:17 166] - Arrow::reqDestroySelf: 36
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:17 229] - Arrow::onTimer: 36, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:17 230] - Arrow::onDestroy: 36.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:17 230] - Arrow::destroy: 36
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:11:17 230] - Arrow::~Arrow(): 36
+   ERROR    cellapp01 1 8001  [2018-01-28 23:11:17 248] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 36!
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:19 686] - Role::onTimer: 3, tid:2, arg:7
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:20 746] - Role[3].reqBeCure: cureType =0.000000, hp=500.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:21 507] - Role[3]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:25 546] - Role[3]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:11:31 887] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:40 489] - Role[3]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:41 189] - Role[3]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:41 208] - Role[3]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:42 967] - Role[3]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:44 688] - Role[3].reqBeAttack: attackType =1.000000, damage=500.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:46 247] - Role[3].reqBeCure: cureType =0.000000, hp=500.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:47 627] - Role[3].reqBeAttack: attackType =1.000000, damage=500.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:48 969] - Role[3].reqBeCure: cureType =0.000000, hp=500.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:49 687] - Role::onTimer: 3, tid:2, arg:4
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:11:52 626] - Role::onTimer: 3, tid:3, arg:4
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:17:09 665] - Role::onWriteToDB(): 3.
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:18:24 665] - Role::onWriteToDB(): 18.
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:20:54 647] - Role::onWriteToDB(): 3.
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:24:39 646] - Role::onWriteToDB(): 18.
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:25:54 645] - Role::onWriteToDB(): 18.
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:27:09 645] - Role::onWriteToDB(): 3.
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:30:54 645] - Role::onWriteToDB(): 18.
+ WARNING    cellapp01 1 8001  [2018-01-28 23:30:55 828] - EntityApp::checkTickPeriod: tick took 210% (0.21 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:30:55 848] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.02 seconds
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:33:24 645] - Role::onWriteToDB(): 3.
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:37:09 645] - Role::onWriteToDB(): 18.
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:39:39 625] - Role::onWriteToDB(): 3.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:39:56 665] - Role::onDestroy: 3.
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:39:56 667] - Role::~Role(): 3
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:39:58 445] - Role::onDestroy: 18.
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:39:58 447] - Role::~Role(): 18
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:40:11 666] - MoveObj::onWitnessed: 5 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:40:11 666] - MoveObj::onWitnessed: 6 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:40:11 666] - MoveObj::onWitnessed: 7 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:40:11 666] - MoveObj::onWitnessed: 8 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:40:11 666] - MoveObj::onWitnessed: 9 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:40:11 667] - MoveObj::onWitnessed: 10 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:40:11 667] - MoveObj::onWitnessed: 11 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:40:11 667] - MoveObj::onWitnessed: 12 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:40:11 667] - MoveObj::onWitnessed: 13 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:40:11 667] - MoveObj::onWitnessed: 14 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:40:11 667] - MoveObj::onWitnessed: 15 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:40:11 667] - MoveObj::onWitnessed: 16 isWitnessed=0.
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:40:11 667] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+    INFO    cellapp01 1 8001  [2018-01-28 23:41:23 985] - EntityApp::createEntity: new Role 39
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:23 985] - Role::cell is created: 39
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:23 986] - MoveObj::onWitnessed: 5 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:23 986] - MoveObj::onWitnessed: 15 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:23 986] - MoveObj::onWitnessed: 9 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:23 986] - MoveObj::onWitnessed: 13 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:23 986] - MoveObj::onWitnessed: 10 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:23 986] - MoveObj::onWitnessed: 12 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:23 986] - MoveObj::onWitnessed: 6 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:23 986] - MoveObj::onWitnessed: 14 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:23 986] - MoveObj::onWitnessed: 7 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:23 987] - MoveObj::onWitnessed: 8 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:23 987] - MoveObj::onWitnessed: 16 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:23 987] - MoveObj::onWitnessed: 11 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:23 987] - Role::onGetWitness: 39.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:25 545] - Role[39]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:26 885] - Role[39]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:26 905] - Role[39]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:27 265] - Role[39]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 1}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:27 705] - Role[39]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+    INFO    cellapp01 1 8001  [2018-01-28 23:41:27 705] - EntityApp::createEntity: new Arrow 41
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:27 706] - Arrow::cell is created: 41
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:27 706] - Arrow::onWitnessed: 41 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:27 845] - Role[39].reqActiveArrows: timestamp =1517154087.701796
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:30 845] - Arrow::reqDestroySelf: 41
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:30 905] - Arrow::onTimer: 41, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:30 905] - Arrow::onDestroy: 41.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:30 907] - Arrow::destroy: 41
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:41:30 908] - Arrow::~Arrow(): 41
+   ERROR    cellapp01 1 8001  [2018-01-28 23:41:30 925] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 41!
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:33 045] - Role[39]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:33 325] - Role[39]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:34 386] - Role[39]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:36 705] - Role[39]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:37 386] - Role[39]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:41:45 907] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:41:50 725] - Role::onDestroy: 39.
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:41:50 726] - Role::~Role(): 39
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:42:05 726] - MoveObj::onWitnessed: 5 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:42:05 727] - MoveObj::onWitnessed: 6 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:42:05 727] - MoveObj::onWitnessed: 7 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:42:05 727] - MoveObj::onWitnessed: 8 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:42:05 727] - MoveObj::onWitnessed: 9 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:42:05 727] - MoveObj::onWitnessed: 10 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:42:05 727] - MoveObj::onWitnessed: 11 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:42:05 728] - MoveObj::onWitnessed: 12 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:42:05 728] - MoveObj::onWitnessed: 13 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:42:05 728] - MoveObj::onWitnessed: 14 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:42:05 728] - MoveObj::onWitnessed: 15 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:42:05 728] - MoveObj::onWitnessed: 16 isWitnessed=0.
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:42:05 728] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+    INFO    cellapp01 1 8001  [2018-01-28 23:44:51 665] - EntityApp::createEntity: new Role 43
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:44:51 665] - Role::cell is created: 43
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:44:51 666] - MoveObj::onWitnessed: 5 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:44:51 666] - MoveObj::onWitnessed: 15 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:44:51 666] - MoveObj::onWitnessed: 9 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:44:51 666] - MoveObj::onWitnessed: 13 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:44:51 666] - MoveObj::onWitnessed: 10 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:44:51 666] - MoveObj::onWitnessed: 12 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:44:51 666] - MoveObj::onWitnessed: 6 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:44:51 666] - MoveObj::onWitnessed: 14 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:44:51 666] - MoveObj::onWitnessed: 7 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:44:51 667] - MoveObj::onWitnessed: 8 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:44:51 667] - MoveObj::onWitnessed: 16 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:44:51 667] - MoveObj::onWitnessed: 11 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:44:51 667] - Role::onGetWitness: 43.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:44:52 625] - Role[43]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:44:55 405] - Role[43].reqBeAttack: attackType =1.000000, damage=500.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:44:58 625] - Role[43].reqBeCure: cureType =0.000000, hp=250.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:00 405] - Role::onTimer: 43, tid:2, arg:4
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:04 625] - Role::onTimer: 43, tid:2, arg:5
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:04 645] - Role[43].reqBeCure: cureType =0.000000, hp=250.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:10 885] - Role[43]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 1}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:11 225] - Role[43]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 1}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:11 324] - Role[43]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+    INFO    cellapp01 1 8001  [2018-01-28 23:45:11 345] - EntityApp::createEntity: new Arrow 45
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:11 345] - Arrow::cell is created: 45
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:11 345] - Arrow::onWitnessed: 45 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:11 485] - Role[43].reqActiveArrows: timestamp =1517154311.337180
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:11 905] - Role[43]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:14 484] - Arrow::reqDestroySelf: 45
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:14 544] - Arrow::onTimer: 45, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:14 545] - Arrow::onDestroy: 45.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:14 546] - Arrow::destroy: 45
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:45:14 547] - Arrow::~Arrow(): 45
+   ERROR    cellapp01 1 8001  [2018-01-28 23:45:14 567] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 45!
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:19 925] - Role::onTimer: 43, tid:2, arg:5
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:45:29 546] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:35 465] - Role::onTimer: 43, tid:2, arg:5
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:45 787] - Role::onTimer: 43, tid:2, arg:5
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:51 405] - Role[43]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 1}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:51 825] - Role[43]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 1}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:51 845] - Role[43]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+    INFO    cellapp01 1 8001  [2018-01-28 23:45:51 866] - EntityApp::createEntity: new Arrow 46
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:51 867] - Arrow::cell is created: 46
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:51 868] - Arrow::onWitnessed: 46 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:51 965] - Role[43].reqActiveArrows: timestamp =1517154351.856655
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:52 286] - Role[43]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:53 325] - Role[43].reqBeCure: cureType =0.000000, hp=250.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:54 985] - Arrow::reqDestroySelf: 46
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:55 065] - Arrow::onTimer: 46, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:55 066] - Arrow::onDestroy: 46.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:55 068] - Arrow::destroy: 46
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:45:55 069] - Arrow::~Arrow(): 46
+   ERROR    cellapp01 1 8001  [2018-01-28 23:45:55 085] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 46!
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:57 045] - Role[43]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 1}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:57 445] - Role[43]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 1}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:57 485] - Role[43]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+    INFO    cellapp01 1 8001  [2018-01-28 23:45:57 485] - EntityApp::createEntity: new Arrow 47
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:57 485] - Arrow::cell is created: 47
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:57 485] - Arrow::onWitnessed: 47 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:57 605] - Role[43].reqActiveArrows: timestamp =1517154357.477198
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:57 785] - Role[43]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:59 025] - Role[43]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 2}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:59 385] - Role[43]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 2}
+    INFO    cellapp01 1 8001  [2018-01-28 23:45:59 504] - EntityApp::createEntity: new Arrow 48
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:59 505] - Arrow::cell is created: 48
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:59 505] - Arrow::onWitnessed: 48 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:45:59 505] - EntityApp::createEntity: new Arrow 49
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:59 506] - Arrow::cell is created: 49
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:59 506] - Arrow::onWitnessed: 49 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:45:59 506] - EntityApp::createEntity: new Arrow 50
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:59 506] - Arrow::cell is created: 50
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:59 507] - Arrow::onWitnessed: 50 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:45:59 507] - EntityApp::createEntity: new Arrow 51
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:59 507] - Arrow::cell is created: 51
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:59 507] - Arrow::onWitnessed: 51 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:45:59 507] - EntityApp::createEntity: new Arrow 52
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:59 508] - Arrow::cell is created: 52
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:59 508] - Arrow::onWitnessed: 52 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:59 625] - Role[43].reqActiveArrows: timestamp =1517154359.496469
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:45:59 667] - Role[43]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:00 085] - Arrow::reqDestroySelf: 48
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:00 225] - Arrow::reqDestroySelf: 52
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:00 284] - Arrow::onTimer: 48, tid:2, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:00 285] - Arrow::onDestroy: 48.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:00 285] - Arrow::destroy: 48
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:00 285] - Arrow::reqDestroySelf: 50
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:46:00 285] - Arrow::~Arrow(): 48
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:00 425] - Arrow::onTimer: 52, tid:2, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:00 425] - Arrow::onDestroy: 52.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:00 426] - Arrow::destroy: 52
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:46:00 426] - Arrow::~Arrow(): 52
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:00 485] - Arrow::onTimer: 50, tid:2, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:00 485] - Arrow::onDestroy: 50.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:00 486] - Arrow::destroy: 50
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:46:00 486] - Arrow::~Arrow(): 50
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:00 624] - Arrow::reqDestroySelf: 47
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:00 685] - Arrow::onTimer: 47, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:00 685] - Arrow::onDestroy: 47.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:00 686] - Arrow::destroy: 47
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:46:00 686] - Arrow::~Arrow(): 47
+   ERROR    cellapp01 1 8001  [2018-01-28 23:46:00 705] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 47!
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:02 624] - Arrow::reqDestroySelf: 49
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:02 625] - Arrow::reqDestroySelf: 51
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:02 704] - Arrow::onTimer: 51, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:02 705] - Arrow::onDestroy: 51.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:02 705] - Arrow::destroy: 51
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:02 706] - Arrow::onTimer: 49, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:02 706] - Arrow::onDestroy: 49.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:02 706] - Arrow::destroy: 49
+   ERROR    cellapp01 1 8001  [2018-01-28 23:46:02 707] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 49!
+   ERROR    cellapp01 1 8001  [2018-01-28 23:46:02 716] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 51!
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:46:02 717] - Arrow::~Arrow(): 51
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:46:02 717] - Arrow::~Arrow(): 49
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:13 147] - Role[43].reqBeAttack: attackType =1.000000, damage=500.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:13 546] - Role[43].reqBeAttack: attackType =1.000000, damage=500.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:13 846] - Role[43].reqBeAttack: attackType =1.000000, damage=500.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:13 905] - Role[43]::reqSyncAniState: {'run': 0, 'die': 1, 'atk': 0}
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:46:15 067] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:16 066] - Role[43].reqRelive: HP =0.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:18 065] - Role::onTimer: 43, tid:5, arg:8
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:18 105] - Role[43]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:18 145] - Role::onTimer: 43, tid:2, arg:4
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:18 545] - Role::onTimer: 43, tid:3, arg:4
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:18 845] - Role::onTimer: 43, tid:4, arg:4
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:19 185] - Role[43]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:20 185] - Role[43].reqBeCure: cureType =0.000000, hp=250.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:23 085] - Role[43]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+    INFO    cellapp01 1 8001  [2018-01-28 23:46:33 805] - EntityApp::createEntity: new Role 54
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:33 806] - Role::cell is created: 54
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:33 807] - Role::onWitnessed: 54 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:33 807] - Role::onWitnessed: 43 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:33 808] - Role::onGetWitness: 54.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:34 790] - Role[54]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:37 865] - Role[54]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 1}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:38 325] - Role[54]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+    INFO    cellapp01 1 8001  [2018-01-28 23:46:38 325] - EntityApp::createEntity: new Arrow 56
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:38 326] - Arrow::cell is created: 56
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:38 326] - Arrow::onWitnessed: 56 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:38 366] - Role[54]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:38 465] - Role[54].reqActiveArrows: timestamp =1517154398.316256
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:38 645] - Role[54]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:39 206] - Role::onTimer: 54, tid:2, arg:5
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:39 745] - Role[54]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 2}
+    INFO    cellapp01 1 8001  [2018-01-28 23:46:40 145] - EntityApp::createEntity: new Arrow 57
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:40 145] - Arrow::cell is created: 57
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:40 146] - Arrow::onWitnessed: 57 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:46:40 146] - EntityApp::createEntity: new Arrow 58
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:40 146] - Arrow::cell is created: 58
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:40 146] - Arrow::onWitnessed: 58 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:46:40 147] - EntityApp::createEntity: new Arrow 59
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:40 147] - Arrow::cell is created: 59
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:40 147] - Arrow::onWitnessed: 59 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:46:40 147] - EntityApp::createEntity: new Arrow 60
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:40 147] - Arrow::cell is created: 60
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:40 147] - Arrow::onWitnessed: 60 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:46:40 148] - EntityApp::createEntity: new Arrow 61
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:40 148] - Arrow::cell is created: 61
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:40 148] - Arrow::onWitnessed: 61 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:40 287] - Role[54].reqActiveArrows: timestamp =1517154400.137180
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:40 388] - Role[54]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:40 925] - Role[54]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:41 469] - Role[54]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:41 469] - Arrow::reqDestroySelf: 56
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:41 524] - Arrow::onTimer: 56, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:41 525] - Arrow::onDestroy: 56.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:41 525] - Arrow::destroy: 56
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:46:41 525] - Arrow::~Arrow(): 56
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:43 287] - Arrow::reqDestroySelf: 57
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:43 287] - Arrow::reqDestroySelf: 58
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:43 287] - Arrow::reqDestroySelf: 59
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:43 287] - Arrow::reqDestroySelf: 60
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:43 288] - Arrow::reqDestroySelf: 61
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:43 345] - Arrow::onTimer: 60, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:43 345] - Arrow::onDestroy: 60.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:43 346] - Arrow::destroy: 60
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:43 346] - Arrow::onTimer: 59, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:43 346] - Arrow::onDestroy: 59.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:43 346] - Arrow::destroy: 59
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:43 346] - Arrow::onTimer: 58, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:43 347] - Arrow::onDestroy: 58.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:43 347] - Arrow::destroy: 58
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:43 347] - Arrow::onTimer: 61, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:43 347] - Arrow::onDestroy: 61.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:43 347] - Arrow::destroy: 61
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:43 348] - Arrow::onTimer: 57, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:43 348] - Arrow::onDestroy: 57.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:43 348] - Arrow::destroy: 57
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:46:43 351] - Arrow::~Arrow(): 60
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:46:43 352] - Arrow::~Arrow(): 59
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:46:43 352] - Arrow::~Arrow(): 58
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:46:43 352] - Arrow::~Arrow(): 61
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:46:43 352] - Arrow::~Arrow(): 57
+   ERROR    cellapp01 1 8001  [2018-01-28 23:46:43 370] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 57!
+   ERROR    cellapp01 1 8001  [2018-01-28 23:46:43 371] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 58!
+   ERROR    cellapp01 1 8001  [2018-01-28 23:46:43 374] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 59!
+   ERROR    cellapp01 1 8001  [2018-01-28 23:46:43 375] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 60!
+   ERROR    cellapp01 1 8001  [2018-01-28 23:46:43 375] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 61!
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:45 224] - Role[54]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 1}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:45 469] - Role[54]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 1}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:45 669] - Role[54]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+    INFO    cellapp01 1 8001  [2018-01-28 23:46:45 670] - EntityApp::createEntity: new Arrow 62
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:45 670] - Arrow::cell is created: 62
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:45 670] - Arrow::onWitnessed: 62 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:45 786] - Role[54].reqActiveArrows: timestamp =1517154405.655692
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:45 946] - Role[43].reqBeAttack: attackType =2.000000, damage=300.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:45 946] - Arrow::reqDestroySelf: 62
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:46 069] - Role[54]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:46 145] - Arrow::onTimer: 62, tid:2, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:46 145] - Arrow::onDestroy: 62.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:46 146] - Arrow::destroy: 62
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:46:46 146] - Arrow::~Arrow(): 62
+ WARNING    cellapp01 1 8001  [2018-01-28 23:46:46 185] - Cellapp::onRemoteCallMethodFromClient: not found entityID:62, srcEntityID:43.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:46 545] - Role[54]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:46 545] - Role[54]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:47 045] - Role[54]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:47 045] - Role[54]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:47 285] - Role[54]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 2}
+    INFO    cellapp01 1 8001  [2018-01-28 23:46:47 785] - EntityApp::createEntity: new Arrow 63
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:47 785] - Arrow::cell is created: 63
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:47 786] - Arrow::onWitnessed: 63 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:46:47 786] - EntityApp::createEntity: new Arrow 64
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:47 786] - Arrow::cell is created: 64
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:47 787] - Arrow::onWitnessed: 64 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:46:47 787] - EntityApp::createEntity: new Arrow 65
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:47 787] - Arrow::cell is created: 65
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:47 788] - Arrow::onWitnessed: 65 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:46:47 788] - EntityApp::createEntity: new Arrow 66
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:47 788] - Arrow::cell is created: 66
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:47 789] - Arrow::onWitnessed: 66 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:46:47 789] - EntityApp::createEntity: new Arrow 67
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:47 789] - Arrow::cell is created: 67
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:47 789] - Arrow::onWitnessed: 67 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:47 790] - Role[54]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 2}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:47 905] - Role[54].reqActiveArrows: timestamp =1517154407.775629
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:47 945] - Role[54]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:48 045] - Role[54]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:48 126] - Role[43].reqBeAttack: attackType =1.000000, damage=200.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:48 126] - Arrow::reqDestroySelf: 65
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:48 127] - Role[43].reqBeAttack: attackType =1.000000, damage=200.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:48 127] - Arrow::reqDestroySelf: 63
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:48 325] - Arrow::onTimer: 63, tid:2, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:48 325] - Arrow::onDestroy: 63.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:48 325] - Arrow::destroy: 63
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:48 325] - Arrow::onTimer: 65, tid:2, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:48 326] - Arrow::onDestroy: 65.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:48 326] - Arrow::destroy: 65
+ WARNING    cellapp01 1 8001  [2018-01-28 23:46:48 326] - Cellapp::onRemoteCallMethodFromClient: not found entityID:63, srcEntityID:43.
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:46:48 326] - Arrow::~Arrow(): 63
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:46:48 327] - Arrow::~Arrow(): 65
+ WARNING    cellapp01 1 8001  [2018-01-28 23:46:48 344] - Cellapp::onRemoteCallMethodFromClient: not found entityID:65, srcEntityID:43.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:48 945] - Role::onTimer: 43, tid:2, arg:7
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:50 925] - Arrow::reqDestroySelf: 64
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:50 925] - Arrow::reqDestroySelf: 66
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:50 925] - Arrow::reqDestroySelf: 67
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:50 945] - Role[54]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 1}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:50 985] - Arrow::onTimer: 64, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:50 985] - Arrow::onDestroy: 64.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:50 986] - Arrow::destroy: 64
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:50 986] - Arrow::onTimer: 67, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:50 986] - Arrow::onDestroy: 67.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:50 987] - Arrow::destroy: 67
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:50 987] - Arrow::onTimer: 66, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:50 987] - Arrow::onDestroy: 66.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:50 988] - Arrow::destroy: 66
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:46:50 988] - Arrow::~Arrow(): 64
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:46:50 988] - Arrow::~Arrow(): 67
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:46:50 988] - Arrow::~Arrow(): 66
+   ERROR    cellapp01 1 8001  [2018-01-28 23:46:51 006] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 64!
+   ERROR    cellapp01 1 8001  [2018-01-28 23:46:51 006] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 66!
+   ERROR    cellapp01 1 8001  [2018-01-28 23:46:51 007] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 67!
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:51 225] - Role[54]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 1}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:51 406] - Role[54]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+    INFO    cellapp01 1 8001  [2018-01-28 23:46:51 406] - EntityApp::createEntity: new Arrow 68
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:51 406] - Arrow::cell is created: 68
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:51 407] - Arrow::onWitnessed: 68 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:51 525] - Role[54]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:51 526] - Role[54].reqActiveArrows: timestamp =1517154411.395610
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:53 125] - Role::onTimer: 43, tid:4, arg:4
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:53 126] - Role::onTimer: 43, tid:3, arg:4
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:54 245] - Role[54]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:54 525] - Arrow::reqDestroySelf: 68
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:54 605] - Arrow::onTimer: 68, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:54 605] - Arrow::onDestroy: 68.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:54 606] - Arrow::destroy: 68
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:46:54 606] - Arrow::~Arrow(): 68
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:54 967] - Role[54]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:55 849] - Role[54]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:55 850] - Role[54]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:56 549] - Role[54]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:57 106] - Role[54]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 2}
+    INFO    cellapp01 1 8001  [2018-01-28 23:46:57 548] - EntityApp::createEntity: new Arrow 69
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:57 548] - Arrow::cell is created: 69
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:57 549] - Arrow::onWitnessed: 69 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:46:57 549] - EntityApp::createEntity: new Arrow 70
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:57 549] - Arrow::cell is created: 70
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:57 550] - Arrow::onWitnessed: 70 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:46:57 550] - EntityApp::createEntity: new Arrow 71
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:57 550] - Arrow::cell is created: 71
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:57 551] - Arrow::onWitnessed: 71 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:46:57 551] - EntityApp::createEntity: new Arrow 72
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:57 551] - Arrow::cell is created: 72
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:57 551] - Arrow::onWitnessed: 72 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:46:57 551] - EntityApp::createEntity: new Arrow 73
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:57 552] - Arrow::cell is created: 73
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:57 552] - Arrow::onWitnessed: 73 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:57 666] - Role[54].reqActiveArrows: timestamp =1517154417.535213
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:57 685] - Role[54]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:57 825] - Role[43].reqBeAttack: attackType =1.000000, damage=200.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:57 825] - Arrow::reqDestroySelf: 69
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:57 850] - Role[43].reqBeAttack: attackType =1.000000, damage=200.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:57 850] - Arrow::reqDestroySelf: 71
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:58 025] - Arrow::onTimer: 69, tid:2, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:58 025] - Arrow::onDestroy: 69.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:58 026] - Arrow::destroy: 69
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:46:58 026] - Arrow::~Arrow(): 69
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:58 047] - Arrow::onTimer: 71, tid:2, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:58 048] - Arrow::onDestroy: 71.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:58 049] - Arrow::destroy: 71
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:46:58 049] - Arrow::~Arrow(): 71
+ WARNING    cellapp01 1 8001  [2018-01-28 23:46:58 066] - Cellapp::onRemoteCallMethodFromClient: not found entityID:69, srcEntityID:43.
+ WARNING    cellapp01 1 8001  [2018-01-28 23:46:58 085] - Cellapp::onRemoteCallMethodFromClient: not found entityID:71, srcEntityID:43.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:46:59 649] - Role[54]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:00 185] - Role[54]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:00 685] - Arrow::reqDestroySelf: 70
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:00 685] - Arrow::reqDestroySelf: 72
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:00 685] - Arrow::reqDestroySelf: 73
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:00 747] - Arrow::onTimer: 72, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:00 747] - Arrow::onDestroy: 72.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:00 748] - Arrow::destroy: 72
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:00 748] - Arrow::onTimer: 73, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:00 748] - Arrow::onDestroy: 73.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:00 749] - Arrow::destroy: 73
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:00 749] - Arrow::onTimer: 70, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:00 749] - Arrow::onDestroy: 70.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:00 750] - Arrow::destroy: 70
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:47:00 750] - Arrow::~Arrow(): 72
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:47:00 750] - Arrow::~Arrow(): 73
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:47:00 750] - Arrow::~Arrow(): 70
+   ERROR    cellapp01 1 8001  [2018-01-28 23:47:00 766] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 70!
+   ERROR    cellapp01 1 8001  [2018-01-28 23:47:00 768] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 72!
+   ERROR    cellapp01 1 8001  [2018-01-28 23:47:00 769] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 73!
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:00 905] - Role[54]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:01 524] - Role[54]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:01 547] - Role[54]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:02 024] - Role[54]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 1}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:02 206] - Role[54]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 1}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:02 466] - Role[54]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+    INFO    cellapp01 1 8001  [2018-01-28 23:47:02 466] - EntityApp::createEntity: new Arrow 74
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:02 466] - Arrow::cell is created: 74
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:02 467] - Arrow::onWitnessed: 74 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:02 585] - Role[54].reqActiveArrows: timestamp =1517154422.455558
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:02 666] - Role[54]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:02 730] - Role[43].reqBeAttack: attackType =2.000000, damage=300.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:02 730] - Arrow::reqDestroySelf: 74
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:02 805] - Role[43]::reqSyncAniState: {'run': 0, 'die': 1, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:02 825] - Role::onTimer: 43, tid:2, arg:4
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:02 847] - Role::onTimer: 43, tid:3, arg:4
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:02 925] - Arrow::onTimer: 74, tid:2, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:02 929] - Arrow::onDestroy: 74.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:02 930] - Arrow::destroy: 74
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:47:02 930] - Arrow::~Arrow(): 74
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:03 930] - Role[54]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:04 265] - Role[54]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:04 965] - Role[43].reqRelive: HP =0.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:05 546] - Role[54]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:05 728] - Role::onTimer: 43, tid:4, arg:7
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:05 929] - Role[54]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:06 305] - Role[54]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:06 965] - Role::onTimer: 43, tid:2, arg:8
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:07 028] - Role[43]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:07 828] - Role[54]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:10 927] - Role[54]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:47:16 525] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:25 945] - Role::onDestroy: 54.
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:47:25 946] - Role::~Role(): 54
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:27 265] - Role::onDestroy: 43.
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:47:27 267] - Role::~Role(): 43
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:40 947] - MoveObj::onWitnessed: 5 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:40 947] - MoveObj::onWitnessed: 6 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:40 947] - MoveObj::onWitnessed: 7 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:40 947] - MoveObj::onWitnessed: 8 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:40 948] - MoveObj::onWitnessed: 9 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:40 948] - MoveObj::onWitnessed: 10 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:40 948] - MoveObj::onWitnessed: 11 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:40 948] - MoveObj::onWitnessed: 12 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:40 949] - MoveObj::onWitnessed: 13 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:40 949] - MoveObj::onWitnessed: 14 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:40 949] - MoveObj::onWitnessed: 15 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:47:40 949] - MoveObj::onWitnessed: 16 isWitnessed=0.
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:47:40 950] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+    INFO    cellapp01 1 8001  [2018-01-28 23:49:04 364] - EntityApp::createEntity: new Role 76
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:04 365] - Role::cell is created: 76
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:04 365] - MoveObj::onWitnessed: 5 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:04 365] - MoveObj::onWitnessed: 15 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:04 366] - MoveObj::onWitnessed: 9 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:04 366] - MoveObj::onWitnessed: 13 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:04 366] - MoveObj::onWitnessed: 10 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:04 366] - MoveObj::onWitnessed: 12 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:04 366] - MoveObj::onWitnessed: 6 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:04 366] - MoveObj::onWitnessed: 14 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:04 366] - MoveObj::onWitnessed: 7 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:04 366] - MoveObj::onWitnessed: 8 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:04 366] - MoveObj::onWitnessed: 16 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:04 366] - MoveObj::onWitnessed: 11 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:04 367] - Role::onGetWitness: 76.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:05 045] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:06 045] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 1}
+    INFO    cellapp01 1 8001  [2018-01-28 23:49:06 465] - EntityApp::createEntity: new Arrow 78
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:06 466] - Arrow::cell is created: 78
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:06 466] - Arrow::onWitnessed: 78 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:06 486] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:06 605] - Role[76].reqActiveArrows: timestamp =1517154546.453694
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:08 504] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 2}
+    INFO    cellapp01 1 8001  [2018-01-28 23:49:08 984] - EntityApp::createEntity: new Arrow 79
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:08 985] - Arrow::cell is created: 79
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:08 985] - Arrow::onWitnessed: 79 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:49:08 985] - EntityApp::createEntity: new Arrow 80
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:08 985] - Arrow::cell is created: 80
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:08 985] - Arrow::onWitnessed: 80 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:49:08 986] - EntityApp::createEntity: new Arrow 81
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:08 986] - Arrow::cell is created: 81
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:08 986] - Arrow::onWitnessed: 81 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:49:08 986] - EntityApp::createEntity: new Arrow 82
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:08 986] - Arrow::cell is created: 82
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:08 986] - Arrow::onWitnessed: 82 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:49:08 987] - EntityApp::createEntity: new Arrow 83
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:08 987] - Arrow::cell is created: 83
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:08 987] - Arrow::onWitnessed: 83 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:09 105] - Role[76].reqActiveArrows: timestamp =1517154548.972994
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:09 165] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:09 584] - Arrow::reqDestroySelf: 78
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:09 664] - Arrow::onTimer: 78, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:09 665] - Arrow::onDestroy: 78.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:09 667] - Arrow::destroy: 78
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:49:09 668] - Arrow::~Arrow(): 78
+   ERROR    cellapp01 1 8001  [2018-01-28 23:49:09 685] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 78!
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:10 984] - Arrow::reqDestroySelf: 80
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:11 184] - Arrow::onTimer: 80, tid:2, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:11 185] - Arrow::onDestroy: 80.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:11 185] - Arrow::destroy: 80
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:49:11 185] - Arrow::~Arrow(): 80
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:12 105] - Arrow::reqDestroySelf: 79
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:12 105] - Arrow::reqDestroySelf: 81
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:12 105] - Arrow::reqDestroySelf: 82
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:12 105] - Arrow::reqDestroySelf: 83
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:12 184] - Arrow::onTimer: 82, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:12 185] - Arrow::onDestroy: 82.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:12 185] - Arrow::destroy: 82
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:12 185] - Arrow::onTimer: 79, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:12 186] - Arrow::onDestroy: 79.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:12 186] - Arrow::destroy: 79
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:12 186] - Arrow::onTimer: 83, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:12 186] - Arrow::onDestroy: 83.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:12 187] - Arrow::destroy: 83
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:12 187] - Arrow::onTimer: 81, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:12 187] - Arrow::onDestroy: 81.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:12 187] - Arrow::destroy: 81
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:49:12 187] - Arrow::~Arrow(): 82
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:49:12 188] - Arrow::~Arrow(): 79
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:49:12 188] - Arrow::~Arrow(): 83
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:49:12 188] - Arrow::~Arrow(): 81
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:12 985] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:13 144] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:13 566] - Role::onTimer: 76, tid:2, arg:5
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:13 984] - Role[76].reqBeCure: cureType =0.000000, hp=250.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:14 385] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:14 625] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:15 866] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 1}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:16 325] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+    INFO    cellapp01 1 8001  [2018-01-28 23:49:16 325] - EntityApp::createEntity: new Arrow 84
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:16 325] - Arrow::cell is created: 84
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:16 325] - Arrow::onWitnessed: 84 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:16 366] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:16 444] - Role[76].reqActiveArrows: timestamp =1517154556.315369
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:16 524] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:17 684] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 2}
+    INFO    cellapp01 1 8001  [2018-01-28 23:49:18 124] - EntityApp::createEntity: new Arrow 85
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:18 125] - Arrow::cell is created: 85
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:18 125] - Arrow::onWitnessed: 85 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:49:18 125] - EntityApp::createEntity: new Arrow 86
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:18 125] - Arrow::cell is created: 86
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:18 125] - Arrow::onWitnessed: 86 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:49:18 126] - EntityApp::createEntity: new Arrow 87
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:18 126] - Arrow::cell is created: 87
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:18 126] - Arrow::onWitnessed: 87 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:49:18 126] - EntityApp::createEntity: new Arrow 88
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:18 126] - Arrow::cell is created: 88
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:18 127] - Arrow::onWitnessed: 88 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:49:18 127] - EntityApp::createEntity: new Arrow 89
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:18 127] - Arrow::cell is created: 89
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:18 127] - Arrow::onWitnessed: 89 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:18 244] - Role[76].reqActiveArrows: timestamp =1517154558.113994
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:18 345] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:19 024] - Arrow::reqDestroySelf: 88
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:19 225] - Arrow::onTimer: 88, tid:2, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:19 225] - Arrow::onDestroy: 88.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:19 225] - Arrow::destroy: 88
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:49:19 226] - Arrow::~Arrow(): 88
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:19 444] - Arrow::reqDestroySelf: 84
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:19 524] - Arrow::onTimer: 84, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:19 525] - Arrow::onDestroy: 84.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:19 525] - Arrow::destroy: 84
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:49:19 525] - Arrow::~Arrow(): 84
+   ERROR    cellapp01 1 8001  [2018-01-28 23:49:19 545] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 84!
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:19 665] - Arrow::reqDestroySelf: 86
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:19 864] - Arrow::onTimer: 86, tid:2, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:19 865] - Arrow::onDestroy: 86.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:19 866] - Arrow::destroy: 86
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:49:19 866] - Arrow::~Arrow(): 86
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:21 246] - Arrow::reqDestroySelf: 85
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:21 246] - Arrow::reqDestroySelf: 87
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:21 246] - Arrow::reqDestroySelf: 89
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:21 324] - Arrow::onTimer: 85, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:21 324] - Arrow::onDestroy: 85.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:21 325] - Arrow::destroy: 85
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:21 325] - Arrow::onTimer: 89, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:21 325] - Arrow::onDestroy: 89.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:21 325] - Arrow::destroy: 89
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:21 325] - Arrow::onTimer: 87, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:21 326] - Arrow::onDestroy: 87.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:21 326] - Arrow::destroy: 87
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:49:21 326] - Arrow::~Arrow(): 85
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:49:21 326] - Arrow::~Arrow(): 89
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:49:21 326] - Arrow::~Arrow(): 87
+   ERROR    cellapp01 1 8001  [2018-01-28 23:49:21 345] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 85!
+   ERROR    cellapp01 1 8001  [2018-01-28 23:49:21 347] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 87!
+   ERROR    cellapp01 1 8001  [2018-01-28 23:49:21 348] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 89!
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:22 885] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:23 724] - Role::onTimer: 76, tid:2, arg:5
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:25 005] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:26 066] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:26 225] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:30 526] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:31 165] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:49:34 666] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:35 385] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:35 465] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:36 285] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:36 784] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:38 004] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:38 465] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:39 325] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:45 665] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:52 687] - Role::onTimer: 76, tid:2, arg:5
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:56 905] - Role::onTimer: 76, tid:2, arg:5
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:56 925] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 2}
+    INFO    cellapp01 1 8001  [2018-01-28 23:49:57 325] - EntityApp::createEntity: new Arrow 90
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:57 325] - Arrow::cell is created: 90
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:57 325] - Arrow::onWitnessed: 90 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:49:57 326] - EntityApp::createEntity: new Arrow 91
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:57 326] - Arrow::cell is created: 91
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:57 326] - Arrow::onWitnessed: 91 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:49:57 326] - EntityApp::createEntity: new Arrow 92
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:57 326] - Arrow::cell is created: 92
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:57 326] - Arrow::onWitnessed: 92 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:49:57 327] - EntityApp::createEntity: new Arrow 93
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:57 327] - Arrow::cell is created: 93
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:57 327] - Arrow::onWitnessed: 93 isWitnessed=1.
+    INFO    cellapp01 1 8001  [2018-01-28 23:49:57 327] - EntityApp::createEntity: new Arrow 94
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:57 327] - Arrow::cell is created: 94
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:57 327] - Arrow::onWitnessed: 94 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:57 365] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 2}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:57 444] - Role[76].reqActiveArrows: timestamp =1517154597.312310
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:57 565] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:57 644] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:58 244] - Arrow::reqDestroySelf: 90
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:58 267] - Arrow::reqDestroySelf: 92
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:58 444] - Arrow::onTimer: 90, tid:2, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:58 444] - Arrow::onDestroy: 90.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:58 445] - Arrow::destroy: 90
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:49:58 445] - Arrow::~Arrow(): 90
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:58 464] - Arrow::onTimer: 92, tid:2, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:58 464] - Arrow::onDestroy: 92.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:49:58 465] - Arrow::destroy: 92
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:49:58 468] - Arrow::~Arrow(): 92
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:00 467] - Arrow::reqDestroySelf: 91
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:00 467] - Arrow::reqDestroySelf: 93
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:00 467] - Arrow::reqDestroySelf: 94
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:00 524] - Arrow::onTimer: 94, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:00 525] - Arrow::onDestroy: 94.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:00 525] - Arrow::destroy: 94
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:00 525] - Arrow::onTimer: 91, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:00 525] - Arrow::onDestroy: 91.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:00 525] - Arrow::destroy: 91
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:00 526] - Arrow::onTimer: 93, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:00 526] - Arrow::onDestroy: 93.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:00 526] - Arrow::destroy: 93
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:50:00 526] - Arrow::~Arrow(): 94
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:50:00 526] - Arrow::~Arrow(): 91
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:50:00 526] - Arrow::~Arrow(): 93
+   ERROR    cellapp01 1 8001  [2018-01-28 23:50:00 545] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 91!
+   ERROR    cellapp01 1 8001  [2018-01-28 23:50:00 545] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 93!
+   ERROR    cellapp01 1 8001  [2018-01-28 23:50:00 546] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 94!
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:01 405] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:01 425] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:04 345] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:05 105] - Role[76].reqBeCure: cureType =0.000000, hp=250.000000
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:50:13 446] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:17 384] - Role[76].reqBeCure: cureType =0.000000, hp=250.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:18 645] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:20 226] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:22 026] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:23 944] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:25 385] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:26 984] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:28 944] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:29 965] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:30 665] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:32 484] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:32 906] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:35 184] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:35 905] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:36 565] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:37 865] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:39 165] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:40 285] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:41 065] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:42 225] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:43 205] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:44 166] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:46 766] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:47 985] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:48 067] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:48 067] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:50 704] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:53 125] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:53 644] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:54 624] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:54 766] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:54 845] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:58 224] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:50:59 784] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:01 204] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:01 646] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:02 465] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:02 805] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:03 845] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:04 165] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:05 125] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:05 525] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:07 485] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:07 745] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:07 844] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:09 144] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:09 526] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:10 526] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 1}
+    INFO    cellapp01 1 8001  [2018-01-28 23:51:11 004] - EntityApp::createEntity: new Arrow 95
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:11 005] - Arrow::cell is created: 95
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:11 005] - Arrow::onWitnessed: 95 isWitnessed=1.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:11 084] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:11 126] - Role[76].reqActiveArrows: timestamp =1517154670.992917
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:13 325] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:13 645] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:14 124] - Arrow::reqDestroySelf: 95
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:14 204] - Arrow::onTimer: 95, tid:1, arg:1
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:14 205] - Arrow::onDestroy: 95.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:14 205] - Arrow::destroy: 95
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:51:14 206] - Arrow::~Arrow(): 95
+   ERROR    cellapp01 1 8001  [2018-01-28 23:51:14 226] - Cellapp::onUpdateDataFromClientForControlledEntity: not found entity 95!
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:15 085] - Role::onTimer: 76, tid:2, arg:5
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:15 665] - Role[76].reqBeCure: cureType =0.000000, hp=250.000000
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:16 807] - Role[76]::reqSyncAniState: {'run': 1, 'die': 0, 'atk': 0}
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:17 965] - Role[76]::reqSyncAniState: {'run': 0, 'die': 0, 'atk': 0}
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:51:29 206] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:36 705] - Role::onDestroy: 76.
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:51:36 710] - Role::~Role(): 76
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:51 708] - MoveObj::onWitnessed: 5 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:51 708] - MoveObj::onWitnessed: 6 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:51 708] - MoveObj::onWitnessed: 7 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:51 708] - MoveObj::onWitnessed: 8 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:51 708] - MoveObj::onWitnessed: 9 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:51 708] - MoveObj::onWitnessed: 10 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:51 708] - MoveObj::onWitnessed: 11 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:51 709] - MoveObj::onWitnessed: 12 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:51 709] - MoveObj::onWitnessed: 13 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:51 709] - MoveObj::onWitnessed: 14 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:51 709] - MoveObj::onWitnessed: 15 isWitnessed=0.
+   S_DBG    cellapp01 1 8001  [2018-01-28 23:51:51 709] - MoveObj::onWitnessed: 16 isWitnessed=0.
+   DEBUG    cellapp01 1 8001  [2018-01-28 23:51:51 709] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:12 637] - EntityApp::checkTickPeriod: tick took 260% (0.26 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:39 783] - EntityApp::checkTickPeriod: tick took 390% (0.39 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:39 867] - EntityApp::checkTickPeriod: tick took 310% (0.31 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:41 160] - EntityApp::checkTickPeriod: tick took 275% (0.28 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:41 370] - EntityApp::checkTickPeriod: tick took 330% (0.33 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:41 959] - EntityApp::checkTickPeriod: tick took 275% (0.28 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:42 020] - cellapp.cpp:260: Profile gameTick took 0.06 seconds
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:42 021] - EntityApp::checkTickPeriod: tick took 305% (0.31 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:42 021] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.06 seconds
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:42 347] - EntityApp::checkTickPeriod: tick took 210% (0.21 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:43 171] - EntityApp::checkTickPeriod: tick took 235% (0.23 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:44 283] - EntityApp::checkTickPeriod: tick took 295% (0.29 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:44 305] - cellapp.cpp:260: Profile gameTick took 0.02 seconds
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:44 306] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.02 seconds
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:44 761] - EntityApp::checkTickPeriod: tick took 275% (0.28 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:44 806] - cellapp.cpp:260: Profile gameTick took 0.04 seconds
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:44 806] - EntityApp::checkTickPeriod: tick took 225% (0.22 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:44 806] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:45 263] - EntityApp::checkTickPeriod: tick took 295% (0.29 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:45 376] - EntityApp::checkTickPeriod: tick took 230% (0.23 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:46 243] - EntityApp::checkTickPeriod: tick took 295% (0.29 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:46 450] - cellapp.cpp:260: Profile gameTick took 0.05 seconds
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:46 471] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.07 seconds
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:46 500] - EntityApp::checkTickPeriod: tick took 475% (0.47 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:47 032] - EntityApp::checkTickPeriod: tick took 240% (0.24 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:47 069] - cellapp.cpp:260: Profile gameTick took 0.04 seconds
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:47 069] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:47 293] - EntityApp::checkTickPeriod: tick took 285% (0.28 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:48 228] - EntityApp::checkTickPeriod: tick took 210% (0.21 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:48 626] - EntityApp::checkTickPeriod: tick took 310% (0.31 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:48 825] - EntityApp::checkTickPeriod: tick took 205% (0.20 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:48 845] - cellapp.cpp:260: Profile gameTick took 0.02 seconds
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:48 845] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.02 seconds
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:50 521] - EntityApp::checkTickPeriod: tick took 285% (0.28 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:50 541] - cellapp.cpp:260: Profile gameTick took 0.02 seconds
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:50 542] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.02 seconds
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:50 635] - EntityApp::checkTickPeriod: tick took 235% (0.23 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:51 792] - EntityApp::checkTickPeriod: tick took 240% (0.24 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:51 821] - cellapp.cpp:260: Profile gameTick took 0.03 seconds
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:51 832] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:52 008] - EntityApp::checkTickPeriod: tick took 215% (0.22 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:53 647] - EntityApp::checkTickPeriod: tick took 215% (0.22 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:53 685] - cellapp.cpp:260: Profile gameTick took 0.04 seconds
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:53 685] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:54 565] - EntityApp::checkTickPeriod: tick took 205% (0.20 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:56 371] - EntityApp::checkTickPeriod: tick took 335% (0.34 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:56 398] - cellapp.cpp:260: Profile gameTick took 0.03 seconds
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:56 400] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:56 845] - EntityApp::checkTickPeriod: tick took 250% (0.25 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:56 854] - cellapp.cpp:260: Profile gameTick took 0.02 seconds
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:56 855] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.02 seconds
+ WARNING    cellapp01 1 8001  [2018-01-28 23:58:57 366] - EntityApp::checkTickPeriod: tick took 280% (0.28 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:59:29 026] - EntityApp::checkTickPeriod: tick took 510% (0.51 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:59:30 170] - EntityApp::checkTickPeriod: tick took 205% (0.20 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:59:30 193] - cellapp.cpp:260: Profile gameTick took 0.02 seconds
+ WARNING    cellapp01 1 8001  [2018-01-28 23:59:30 195] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.02 seconds
+ WARNING    cellapp01 1 8001  [2018-01-28 23:59:30 505] - EntityApp::checkTickPeriod: tick took 205% (0.20 seconds)!
+ WARNING    cellapp01 1 8001  [2018-01-28 23:59:32 345] - EntityApp::checkTickPeriod: tick took 305% (0.31 seconds)!

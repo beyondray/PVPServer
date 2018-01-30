@@ -1,0 +1,45 @@
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:37 439] - -----------------------------------------------------------------------------------------
+
+
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:37 440] - Resmgr::initialize: KBE_ROOT=G:/GitHub/kbengine/
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:37 441] - Resmgr::initialize: KBE_RES_PATH=G:/GitHub/kbengine/kbe/res/;G:/GitHub/kbengine/newgame-assets/;G:/GitHub/kbengine/newgame-assets/scripts/;G:/GitHub/kbengine/newgame-assets/res/
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:37 441] - Resmgr::initialize: KBE_BIN_PATH=G:/GitHub/kbengine/kbe/bin/server/
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:37 447] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 10.82.25.163 ( 10.82.25.163:52552 )
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:37 447] - NetworkInterface::initialize(INTERNAL): address 10.82.25.163:52552, SOMAXCONN=5.
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:37 447] - server-configs:
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:37 447] - 	internalAddr : 10.82.25.163:52552
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:37 447] - 	componentID : 6000
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:38 956] - ---- cellappmgr Version: 1.1.0. ScriptVersion: 0.1.0. Protocol: 4DB355AF7E9E5C64AC2350017EABAC22. Config: Debug X86. Built: 23:58:58 Dec  1 2017. AppID: 6000. UID: 1. PID: 10600 ----
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:38 956] - Server : Intel(R) Core(TM) i5-4210H CPU @ 2.90GHz with 2097151kB RAM
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:38 957] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:38 957] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:39 859] - ---- cellappmgr is running ----
+   DEBUG cellappmgr-1 1 6000  [2018-01-28 23:09:39 867] - Components::process(): Request for the process of identity...
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:47 259] - Components::findComponents: find logger(1)...
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:47 299] - Components::findComponents: found logger, addr:10.82.25.163:52554
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:47 299] - Components::addComponent: reset orderLog, uid=1!
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:47 299] - Components::addComponent[logger], uid=1, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:47 303] - Components::findComponents: find dbmgr(2)...
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:47 308] - Components::findComponents: found logger, addr:10.82.25.163:52554
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:47 410] - Components::findComponents: found dbmgr, addr:10.82.25.163:52558
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:47 410] - Components::addComponent: reset orderLog, uid=1!
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:47 410] - Components::addComponent[dbmgr], uid=1, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:47 411] - Components::findComponents: found dbmgr, addr:10.82.25.163:52558
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:49 417] - Components::findComponents: find baseappmgr(1)...
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:49 469] - Components::findComponents: found baseappmgr, addr:10.82.25.163:52557
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:49 470] - Components::addComponent[baseappmgr], uid=1, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:49 471] - Components::findComponents: found baseappmgr, addr:10.82.25.163:52557
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:51 498] - Components::findComponents: register self to dbmgr...
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:51 518] - Components::findComponents: register self to baseappmgr...
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:51 537] - Components::process(): Found all the components!
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:51 778] - ServerApp::onRegisterNewApp: uid:1, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:10.82.25.163, intport:52557, extaddr:nonsupport, extport:0,  from 10.82.25.163:52584/0/0/0.
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:53 298] - ServerApp::onRegisterNewApp: uid:1, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:10.82.25.163, intport:52555, extaddr:10.82.25.163, extport:20015,  from 10.82.25.163:52590/0/0/0.
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:53 298] - Components::addComponent[baseapp], uid=1, componentID=7001, globalorderid=3, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:54 618] - ServerApp::onRegisterNewApp: uid:1, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:10.82.25.163, intport:52560, extaddr:nonsupport, extport:0,  from 10.82.25.163:52594/0/0/0.
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:54 618] - Components::addComponent[cellapp], uid=1, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:54 618] - Cellappmgr::getCellapp: added new cellapp(8001).
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:09:58 857] - Cellappmgr::onCellappInitProgress: cid=8001, progress=1.
+   DEBUG cellappmgr-1 1 6000  [2018-01-28 23:09:58 857] - Cellappmgr::addCellappComponentID: cellapp component id 8001, group order id 1
+   DEBUG cellappmgr-1 1 6000  [2018-01-28 23:09:59 338] - Cellappmgr::reqCreateInNewSpace: entityType=Space, entityID=1, componentID=7001, cellapp(cid=8001, load=0.402784, numEntities=0).
+    INFO cellappmgr-1 1 6000  [2018-01-28 23:10:51 521] - ServerApp::onChannelTimeOut: Channel 10.82.25.163:52557/0/0/0 timed out.
+ WARNING cellappmgr-1 1 6000  [2018-01-28 23:51:57 868] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds

@@ -1,4 +1,4 @@
-M instruction sets the Base Image for subsequent instructions.
+# The FROM instruction sets the Base Image for subsequent instructions.
 # Using Nginx as Base Image
 FROM ubuntu:16.04
 MAINTAINER beyondray <yangzhilei01@corp.netease.com>

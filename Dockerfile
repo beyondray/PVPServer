@@ -1,16 +1,17 @@
-# The FROM instruction sets the Base Image for subsequent instructions.
-# Using Nginx as Base Image
-FROM ubuntu:16.04
+FROM beyondray/kbengine-mysql
 MAINTAINER beyondray <yangzhilei01@corp.netease.com>
 
-# The RUN instruction will execute any commands
-# Adding HelloWorld page into Nginx server
-RUN echo "Hello World DaoCloud!" > /usr/share/nginx/html/index.html
+ENV USERNAME=beyondray
+ENV MYSQL_ALLOW_EMPTY_PASSWORD yes
+WORKDIR ~/kbengine-1.1.0/assets/
 
-# The EXPOSE instruction informs Docker that the container listens on the specified network ports at runtime
-EXPOSE 80
+COPY  ./schema.sql .
+COPY  ./res .
+COPY  ./scripts .
 
-# The CMD instruction provides default execution command for an container
-# Start Nginx and keep it from running background
-CMD ["nginx", "-g", "daemon off;"]
+RUN service mysql start && \
+mysql < ./schema.sql && \
+echo service mysql status
+
+CMD ["sh", "./start_server.sh"]
 

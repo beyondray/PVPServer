@@ -6,12 +6,12 @@ ENV MYSQL_ALLOW_EMPTY_PASSWORD yes
 WORKDIR /kbengine/assets
 
 COPY  ./schema.sql .
+COPY  ./config.sh .
 COPY  ./res ./res
 COPY  ./scripts ./scripts
 
-RUN service mysql start && \
-mysql < ./schema.sql && \
-echo service mysql status 
+EXPOSE 20013
+EXPOSE 20015
 
-ENTRYPOINT ["sh", "./start_server.sh"] 
+ENTRYPOINT ["sh", "./config.sh"]
 CMD [""] 

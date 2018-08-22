@@ -5,3 +5,6 @@ service mysql status
 
 sh ./start_server.sh
 sh -c "$*" 
+
+tail -f /dev/null
+

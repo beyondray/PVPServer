@@ -14,4 +14,4 @@ EXPOSE 20013
 EXPOSE 20015
 
 ENTRYPOINT ["sh", "./config.sh"]
-CMD [""] 
+CMD ["/bin/bash"] 

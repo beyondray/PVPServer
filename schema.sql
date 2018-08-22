@@ -3,7 +3,7 @@ use mysql;
 delete from user where user=''; 
 FLUSH PRIVILEGES; 
 
-create database new_game; 
+create database if not exists new_game; 
 use new_game; 
 
 grant all privileges on *.* to beyondray@'%' identified by 'beyondray';

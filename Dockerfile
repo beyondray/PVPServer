@@ -10,6 +10,8 @@ COPY  ./config.sh .
 COPY  ./res ./res
 COPY  ./scripts ./scripts
 
+RUN apt-get install -y iproute iproute-doc
+
 EXPOSE 20013
 EXPOSE 20015
 

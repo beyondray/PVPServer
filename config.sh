@@ -3,8 +3,10 @@ service mysql start
 mysql < ./schema.sql 
 service mysql status 
 
-myip=$(curl ipconfig.me)
-sed -i "s/<externalAddress>.*<\/externalAddress>/<externalAddress>$myip<\/externalAddress>/g" ./res/server/kbengine.xml 
+apt-get install -y iproute iproute-doc
+myip=$(/sbin/ip route|awk '/default/ { print $3 }')
+echo "ip:"${myip}
+sed -i "s|<externalAddress>.*<\/externalAddress>|<externalAddress>${myip}<\/externalAddress>|g" ./res/server/kbengine.xml 
 
 sh ./start_server.sh
 sh -c "$*" 

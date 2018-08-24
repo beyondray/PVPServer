@@ -3,6 +3,7 @@ MAINTAINER beyondray <yangzhilei01@corp.netease.com>
 
 ENV USERNAME=beyondray
 ENV MYSQL_ALLOW_EMPTY_PASSWORD yes
+ENV LOCALHOST false
 WORKDIR /kbengine/assets
 
 COPY  ./schema.sql .

@@ -1,6 +1,18 @@
 PVPServer help
 ===============
-<1>.Compilation and Installation
+<1>.Docker Auto-Build and Run
+-------------
+1.已支持Docker自动化部署，详情参考Dockerfile
+
+2.Docker镜像构建命令
+
+	docker build -t pvpserver .
+	
+2.Docker容器运行命令(容器内部会自动配置kbengine的ip,但需要自己映射端口)
+
+	docker run --name kbe -p 20013:20013 -p 20015:20015 -it pvpserver
+	
+<2>.Manual Compilation and Installation
 -------------
 1.编译kbe源码并配置开发环境
 	http://kbengine.org/cn/docs/installation.html
@@ -15,9 +27,7 @@ PVPServer help
 
 4.启动start_server.bat/sh 运行server
 
-
-
-<2>.Support
+<3>.Support
 -----------
 * `支持注册，登陆，绑定邮箱，修改密码，找回密码
 

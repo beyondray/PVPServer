@@ -6,7 +6,7 @@ PVPServer help
 
 2.Docker镜像构建命令
 
-	 bash ./build-pvpdocker.sh 或 docker build -t pvpserver .
+	bash ./build-pvpdocker.sh 或 docker build -t pvpserver .
 	
 3.Docker容器运行命令(容器内部会自动配置kbengine的ip,但需要自己映射端口)
 

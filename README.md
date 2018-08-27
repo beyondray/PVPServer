@@ -4,15 +4,15 @@ PVPServer help
 -------------
 1.已支持Docker自动化部署，详情参考Dockerfile
 
-2.Docker镜像构建命令
+2.Docker镜像构建命令(linux 或 windows)
 
-	bash ./build-pvpdocker.sh 或 docker build -t pvpserver .
+	bash ./build-pvpdocker.sh 或 ./build.pvpdocker.bat
 	
-3.Docker容器运行命令(容器内部会自动配置kbengine的ip,但需要自己映射端口)
+3.Docker容器运行命令(linux 或 windows)
 
-	bash ./run-pvpdocker.sh 或 docker run --name kbe -p 20013:20013 -p 20015:20015 -it pvpserver
-	
-	
+	bash ./run-pvpdocker.sh 或 ./run-pvpdocker.bat	[以上命令记为CMD]
+	CMD -h 或 CMD --help 				[查看帮助]
+	CMD -l 或 CMD --localhost 			[以localhost运行容器]
 	
 <2>.Manual Compilation and Installation
 -------------

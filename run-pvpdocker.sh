@@ -16,5 +16,9 @@ if [ -n "$1" ]; then
 fi
 
 dockername=pvp
-docker rm $dockername 
+dockerid=$(docker ps -f "name=$dockername" -q)
+if [ ! -n "$dockerid" ]; then
+  docker rm $dockername 
+fi
+
 docker run --name $dockername -e "LOCALHOST=$localhost" -p 20013:20013 -p 20015:20015 -it pvpserver
